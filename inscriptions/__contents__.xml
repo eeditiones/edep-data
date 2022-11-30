@@ -1,0 +1,27 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/edep/data/inscriptions" version="1" owner="edep" group="tei" mode="755" created="2022-11-18T12:00:19.018Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="foo.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-18T12:00:19.019Z" modified="2022-11-18T12:00:19.019Z" filename="foo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000001.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-18T12:00:19.02Z" modified="2022-11-18T12:00:19.02Z" filename="E0000001.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000002.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-18T12:14:47.037Z" modified="2022-11-18T12:14:47.037Z" filename="E0000002.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000003.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-21T18:27:38.574Z" modified="2022-11-21T18:27:38.574Z" filename="E0000003.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000004.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-22T09:48:50.259Z" modified="2022-11-23T16:44:47.564Z" filename="E0000004.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000005.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-22T10:59:37.902Z" modified="2022-11-22T11:11:31.246Z" filename="E0000005.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000006.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-22T13:51:09.468Z" modified="2022-11-24T08:51:17.632Z" filename="E0000006.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="E0000007.xml" skip="no" owner="edep" group="tei" mode="644" created="2022-11-24T08:57:40.633Z" modified="2022-11-24T08:57:40.633Z" filename="E0000007.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

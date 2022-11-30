@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- zusätzlich 0) freie Eingabe Textfeld -->
+                <title>Versuch</title>
+                <!-- 44) Bearbeiter der Inschriftenedition -->
+                <editor/>
+                <!-- 45) Bearbeiter des Datensatzes -->
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- 3) EDEp ID -->
+                        <idno type="EDEp">E0000007</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <!-- 16a) Inschriftträger -->
+                                    <objectType ref=""/>
+                                    <!-- 18) Material -->
+                                    <material ref=""/>
+                                    <!-- 16b) Beschreibung Inschriftträger -->
+                                    <note/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <!--
+                                26) und 27) Datierung (zusammenfassen?)
+
+                                @when-custom - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
+                                @notBefore-custom - wie @when aber gemeint als "nach"
+                                @notAfter-custom - wie @when aber gemeint als "vor"
+                                Im Content - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
+                                @datingMethod - fixes Attribut, hier immer Julianisch
+                            -->
+                            <origDate when-custom="" notBefore-custom="" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                        </origin>
+                    </history>
+                    <!-- msPart ist als Ganzes wiederholbar -->
+                    <!-- @xml:id erforderlich für Referenzierung unten -->
+                    <msPart xml:id="ae41fa70-f15d-45b3-81fa-70f15d35b3af"><msIdentifier>
+                            <!-- 12a) Aufbewahrung -->
+                            <repository/>
+                            <!-- 4) TM-Nummer - manuelle Eingabe -->
+                            <idno type="TM"/>
+                        </msIdentifier><msContents>
+                            <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
+                            <!-- TODO: 12e) Datum der Verifizierung -->
+                            <!-- 15) Inschriftengattung in @class -->
+                            <msItem class="">
+                                <!-- 25) Sprache -->
+                                <!-- TODO: Metrik logisch hierhin -->
+                                <textLang mainLang=""/>
+                                <!-- 35b) Bibliographie-->
+                                <listBibl type="bibliography">
+                                    <!-- Einträge wiederholbar -->
+                                </listBibl>
+
+                                <!-- 12c) Überlieferung -->
+                                <listBibl type="transmission">
+                                    <!-- Einträge wiederholbar -->
+                                </listBibl>
+                                <!-- 35a) Ältere Editionen -->
+                                <listBibl type="previousEditions">
+                                    <!-- Einträge wiederholbar - optional -->
+                                </listBibl>
+                                <!-- 35c) Bilder: Verweis auf Literatur, in der Abbildung vorhanden -->
+                                <listBibl type="images">
+                                    <!-- Einträge wiederholbar - optional -->
+                                </listBibl>
+                                <note type="verification" subtype="">
+                                    <date when=""/>
+                                </note>
+                            </msItem>
+                        </msContents><physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <!-- 19) Inschriftträger: Breite -->
+                                            <width/>
+                                            <!-- 38) Inschriftträger: Höhe -->
+                                            <height/>
+                                            <!-- 20) Inschriftträger: Tiefe -->
+                                            <depth/>
+                                        </dimensions>
+                                        <!-- 14) Dekor -->
+                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                                    </support>
+                                    <!-- 13) Erhaltung -->
+                                    <condition>complete</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <dimensions>
+                                            <!-- 21) Inschriftfeld: Höhe -->
+                                            <height/>
+                                            <!-- 22) Inschriftfeld: Breite -->
+                                            <width/>
+                                        </dimensions>
+                                        <!-- 34) Paläographie: kontrolliertes Vokabular -->
+                                        <rs type="palaeography" ref=""/>
+                                        <!-- 24) Metrik -->
+                                        <rs type="metric">no</rs>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <dimensions type="letterHeight">
+                                        <!-- 23) Buchstabenhöhe -->
+                                        <height/>
+                                    </dimensions>
+                                    <!-- 39) Ligatur -->
+                                    <rs type="ligature">no</rs>
+                                </handNote>
+                            </handDesc>
+                        </physDesc><history>
+                            <origin>
+                                <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
+                                    am Ende nur hinein kopiert - siehe Kommentare -->
+                                <origPlace corresp=""/>
+                            </origin>
+                            <!--
+                                11) Fundjahr (Attribute auf <provenance>)
+
+                                @when - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
+                                @notBefore - wie @when aber gemeint als "nach"
+                                @notAfter - wie @when aber gemeint als "vor"
+                                @when-custom - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
+                            -->
+                            <provenance type="found" when="" when-custom="" notBefore="" notAfter="">
+                                <!-- 10b) Fundkontext: nicht kopiert, freie Eingabe -->
+                                <note type="context"/>
+                            </provenance>
+                            <provenance type="history"/>
+                        </history></msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <!-- Welche URI für lokale Klassifikation? -->
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <!-- 28) Religion - kontrolliertes Vokabular? -->
+                    <term ref=""/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <!-- 33) Stand der Bearbeitung in @status -->
+        <revisionDesc status="draft"><change type="created" when="2022-11-24T08:57:40.626Z" who="edep"/></revisionDesc>
+    </teiHeader><facsimile corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af">
+    </facsimile><text>
+        <body><div type="apparatus" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="translation" resp="" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"><ab>
+	D<expan>is</expan> M<expan>anibus</expan>.
+	P<expan>ublio</expan> Aelio P<expan>ubli</expan> f<expan>ilio</expan> Pal<expan>atina</expan>
+	Bassiano, IIIIvir<expan>o</expan>,					
+	marito optimo					
+5	de ⌜s⌝e bene merito
+	Allia Luperca.
+</ab></div></div><div type="commentary"/></body>
+    </text></TEI>

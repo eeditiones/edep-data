@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- zusätzlich 0) freie Eingabe Textfeld -->
+                <title>Titulus patroni collegii (EEE 29)</title>
+                <!-- 44) Bearbeiter der Inschriftenedition -->
+                <editor/>
+                <!-- 45) Bearbeiter des Datensatzes -->
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- 3) EDEp ID -->
+                        <idno type="EDEp">E0000006</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <!-- 16a) Inschriftträger -->
+                                    <objectType ref=""/>
+                                    <!-- 18) Material -->
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2"/>
+                                    <!-- 16b) Beschreibung Inschriftträger -->
+                                    <note>METELLUS: “Lapis transversus.”</note>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <!--
+                                26) und 27) Datierung (zusammenfassen?)
+
+                                @when-custom - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
+                                @notBefore-custom - wie @when aber gemeint als "nach"
+                                @notAfter-custom - wie @when aber gemeint als "vor"
+                                Im Content - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
+                                @datingMethod - fixes Attribut, hier immer Julianisch
+                            -->
+                            <origDate when-custom="" notBefore-custom="" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                        </origin>
+                    </history>
+                    <!-- msPart ist als Ganzes wiederholbar -->
+                    <!-- @xml:id erforderlich für Referenzierung unten -->
+                    <msPart xml:id="a952b884-8f58-4832-92b8-848f58f832f9"><msIdentifier>
+                            <!-- 12a) Aufbewahrung -->
+                            <repository>Latet aut periit.</repository>
+                            <!-- 4) TM-Nummer - manuelle Eingabe -->
+                            <idno type="TM">538434</idno>
+                        </msIdentifier><msContents>
+                            <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
+                            <!-- TODO: 12e) Datum der Verifizierung -->
+                            <!-- 15) Inschriftengattung in @class -->
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/69">
+                                <!-- 25) Sprache -->
+                                <!-- TODO: Metrik logisch hierhin -->
+                                <textLang mainLang="lat"/>
+                                <!-- 35b) Bibliographie-->
+                                <listBibl type="bibliography">
+                                    <!-- Einträge wiederholbar -->
+                                <bibl>
+        <ptr target="EDR155324"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="EDCS-20600379"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="WALTZING 3, 460 n. 1758"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="IONTA 97, 110-111"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="SCHILLINGER, Magna Mater 149 n. 291"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="NAVARRA 91-92 "/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="FORBIS 130 n. 97"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="CIFARELLI - COLAIACOMO, Guida 16"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="WALTZING 1, 406"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="WALTZING 4, 424 n. 101"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="WALTZING 4, 552"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="ROYDEN 216-217 n. 327"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="DUNCAN-JONES 189 n. 836"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="MROZEK, Bénéficiaires 30-54"/>
+        <note/>
+    </bibl></listBibl>
+
+                                <!-- 12c) Überlieferung -->
+                                <listBibl type="transmission">
+                                    <!-- Einträge wiederholbar -->
+                                <bibl>
+        <ptr target="Cod. Vat. Lat. 6037 f. 46"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="Cod. Vat. Lat. 6036 f. 12"/>
+        <note/>
+    </bibl></listBibl>
+                                <!-- 35a) Ältere Editionen -->
+                                <listBibl type="previousEditions">
+                                    <!-- Einträge wiederholbar - optional -->
+                                <bibl>
+        <ptr target="METELLUS, Cod. Vat. Lat. 6037 f. 46; "/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="LIGORIUS, Neap. 35, p. 206"/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="PANVINIUS, Cod. Vat. Lat. 6036 f. 12"/>
+        <note>LIGORIUS, Neap. 35, p. 206 (unde probabiliter PANVINIUS, Cod. Vat. Lat. 6036 f. 12)</note>
+    </bibl><bibl>
+        <ptr target="LAURIUS 1, 9 f. 75 = 1, 9 f. 83'"/>
+        <note>qui dedit cardinali BARBERINI</note>
+    </bibl><bibl>
+        <ptr target="FABRETTIUS 722, 436 "/>
+        <note>ex schedis Barberinis </note>
+    </bibl><bibl>
+        <ptr target="VULPIUS 4, 184 "/>
+        <note>Ex Fabrettius. 
+A MOMMSENO non laudatus</note>
+    </bibl><bibl>
+        <ptr target="GIOVARDIUS R I 12 "/>
+        <note>A MOMMSENO non laudatus</note>
+    </bibl><bibl>
+        <ptr target="TAROLLIUS ms."/>
+        <note/>
+    </bibl><bibl>
+        <ptr target="MOMMSEN, X 5968"/>
+        <note>Ex eis (= prioribus).
+Versus ad LAURIUM divisit (DE RUGGIERO 1951; DESSAU, ILS 6272).</note>
+    </bibl></listBibl>
+                                <!-- 35c) Bilder: Verweis auf Literatur, in der Abbildung vorhanden -->
+                                <listBibl type="images">
+                                    <!-- Einträge wiederholbar - optional -->
+                                </listBibl>
+                                <note type="verification" subtype="Cod. Vat. Lat. 6037 f. 46.">
+                                    <date when=""/>
+                                </note>
+                            </msItem>
+                        </msContents><physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <!-- 19) Inschriftträger: Breite -->
+                                            <width/>
+                                            <!-- 38) Inschriftträger: Höhe -->
+                                            <height/>
+                                            <!-- 20) Inschriftträger: Tiefe -->
+                                            <depth/>
+                                        </dimensions>
+                                        <!-- 14) Dekor -->
+                                        <rs type="decoration" ref="uncertain"/>
+                                    </support>
+                                    <!-- 13) Erhaltung -->
+                                    <condition>complete</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <dimensions>
+                                            <!-- 21) Inschriftfeld: Höhe -->
+                                            <height/>
+                                            <!-- 22) Inschriftfeld: Breite -->
+                                            <width/>
+                                        </dimensions>
+                                        <!-- 34) Paläographie: kontrolliertes Vokabular -->
+                                        <rs type="palaeography" ref=""/>
+                                        <!-- 24) Metrik -->
+                                        <rs type="metric">no</rs>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <dimensions type="letterHeight">
+                                        <!-- 23) Buchstabenhöhe -->
+                                        <height/>
+                                    </dimensions>
+                                    <!-- 39) Ligatur -->
+                                    <rs type="ligature">no</rs>
+                                </handNote>
+                            </handDesc>
+                        </physDesc><history>
+                            <origin>
+                                <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
+                                    am Ende nur hinein kopiert - siehe Kommentare -->
+                                <origPlace corresp="Colleferro, Chiesa di S. Bruno (?)"/>
+                            </origin>
+                            <!--
+                                11) Fundjahr (Attribute auf <provenance>)
+
+                                @when - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
+                                @notBefore - wie @when aber gemeint als "nach"
+                                @notAfter - wie @when aber gemeint als "vor"
+                                @when-custom - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
+                            -->
+                            <provenance type="found" when="" when-custom="" notBefore="" notAfter="1628">
+                                <!-- 10b) Fundkontext: nicht kopiert, freie Eingabe -->
+                                <note type="context">METELLUS: “Prope scalas capelle S. Brunonis.”</note>
+                            </provenance>
+                            <provenance type="history">LIGORIUS: ”Nella chiesa di S. Maria.”
+PANVINIUS: ”Chiesia S. Maria.”
+LAURIUS: ”In occasione della nuova fabrica della cattedrale fù ritrovata una pietra, che per la sua smisurata grandezza non potè estrarsi fuori, restando infelicemente sepolta e coperta dalla base di tofo del pilastro maggiore isolato della chiesa cattedrale di S. Maria dalla parte della nave minore verso mezzo giorno presso alla cappella di S. Bruno e rincontro al campanile.”
+GIOVARDIUS: ”Trascritta da Ottavio LAURI l'anno 1628. In occasione fu ritrovato il pilastro maggiore isolato della Catedrale di Segni verso la Cappella di S. Bruno a mezzogiorno essendo ivi dentro incastrato il masso di pietra signina, in cui si vede la XXX iscrizzione.”
+IONTA: ”Il 27 Aprile del 1904, in occasione dei lavori eseguiti in detta cattedrale, quando ai pilastri si vollero porre le basi di marmo, fu scoperta e letta di nuovo dal Rev.mo Mons. Sagnori D. Giuseppe, il quale la trovò in parte mutilata.”</provenance>
+                        </history></msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <!-- Welche URI für lokale Klassifikation? -->
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <!-- 28) Religion - kontrolliertes Vokabular? -->
+                    <term ref=""/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <!-- 33) Stand der Bearbeitung in @status -->
+        <revisionDesc status="draft"><change type="created" when="2022-11-22T13:51:09.458Z" who="edep"/><change type="changed" when="2022-11-24T08:51:17.607Z" who="edep"/></revisionDesc>
+    </teiHeader><facsimile corresp="#a952b884-8f58-4832-92b8-848f58f832f9">
+    <graphic url=""/></facsimile><text>
+        <body><div type="apparatus" corresp="#a952b884-8f58-4832-92b8-848f58f832f9"/><div type="translation" resp="" corresp="#a952b884-8f58-4832-92b8-848f58f832f9"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#a952b884-8f58-4832-92b8-848f58f832f9"><ab>
+<lb n="1"/><persName key=""><name type="praenomen" nymRef="#Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name type="gentilicium" nymRef="#Iulius">Iulio</name> <name type="cognomen" nymRef="#Eutichetes">Euticheti</name></persName> <expan><abbr>patron</abbr><ex>o</ex></expan>
+<lb n="2"/>et rectori <orgName><expan><abbr>colleg</abbr><ex>ii</ex></expan>
+<lb n="3"/><expan><abbr>dend</abbr><ex>rofororum</ex></expan> <expan><abbr>Sign</abbr><ex>inorum</ex></expan></orgName> <expan><abbr>q</abbr><ex>uinq</ex><abbr>q</abbr><ex>uennali</ex></expan> ob
+<lb n="4"/>plura saepius bene
+<lb n="5" break="no"/>ficia et <expan><abbr>munificent</abbr><ex>iam</ex></expan>
+<lb n="6"/>largitionesque, que
+<lb n="7"/>circa collegium su
+<lb n="8" break="no"/>um exibuerit, dignis
+<lb n="9" break="no"/>simo ex aere colla
+<lb n="10" break="no"/>to statuam colle
+<lb n="11" break="no"/>gium <expan><abbr>dendrofor</abbr><ex>orum</ex></expan>
+<lb n="12"/>posuerunt, cuius de
+<lb n="13" break="no"/><expan><abbr>dic</abbr><ex>atione</ex></expan> dedit <expan><abbr>sing</abbr><ex>ulis</ex></expan> SS (i.e. sestertium) XXXII
+<lb n="14"/>et epulum <expan><abbr>ded</abbr><ex>it</ex></expan>.
+</ab></div></div><div type="commentary"/></body>
+    </text></TEI>
