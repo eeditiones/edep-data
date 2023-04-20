@@ -9,5 +9,6 @@
     <type>application</type>
     <target>edep-data</target>
     <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
     <permissions user="edep" group="tei" password="edep" mode="rw-rw-r--"/>
 </meta>
