@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <!-- zusätzlich 0) freie Eingabe Textfeld -->
@@ -53,12 +53,14 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="29786d55-6da0-4ee9-b86d-556da0aee94f"><msIdentifier>
+                    <msPart xml:id="29786d55-6da0-4ee9-b86d-556da0aee94f">
+                        <msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>in situ</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->
                             <idno type="TM">227747</idno>
-                        </msIdentifier><msContents>
+                        </msIdentifier>
+                        <msContents>
                             <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
                             <!-- TODO: 12e) Datum der Verifizierung -->
                             <!-- 15) Inschriftengattung in @class -->
@@ -87,7 +89,8 @@
                                     <date when="1996"/>
                                 </note>
                             </msItem>
-                        </msContents><physDesc>
+                        </msContents>
+                        <physDesc>
                             <objectDesc>
                                 <supportDesc>
                                     <support>
@@ -130,7 +133,8 @@
                                     <rs type="ligature">no</rs>
                                 </handNote>
                             </handDesc>
-                        </physDesc><history>
+                        </physDesc>
+                        <history>
                             <origin>
                                 <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
                                     am Ende nur hinein kopiert - siehe Kommentare -->
@@ -149,7 +153,8 @@
                                 <note type="context"/>
                             </provenance>
                             <provenance type="history"/>
-                        </history></msPart>
+                        </history>
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -168,15 +173,33 @@
             </textClass>
         </profileDesc>
         <!-- 33) Stand der Bearbeitung in @status -->
-        <revisionDesc status="draft"><change type="created" when="2023-04-14T10:31:23.629Z" who="edep"/><change type="changed" when="2023-04-14T15:18:58.138Z" who="edep"/></revisionDesc>
-    </teiHeader><facsimile corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">
-    <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1416487"/><graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424639"/><graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424640"/><graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424644"/></facsimile><text>
-        <body><div type="apparatus" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</div><div type="translation" resp="Feraudi" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName></div><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f"><ab>
-<foreign xml:lang="gr">
-<lb n="1"/>Ὑψίστῳ Σερά
-<lb n="2"/>-πιδι σὺν γάστ
-3 .-ρᾳ καὶ μυστα
-<lb n="4"/>-ρίοις</foreign> <persName key="P000004"><expan>G<ex>aius</ex></expan> <abbr>C</abbr> <expan>Calp<ex>urnius</ex></expan>
-<lb n="5"/>Rufinus</persName> <expan>v<ex>ir</ex></expan> <expan>c<ex>larissimus</ex></expan>
-</ab></div></div><div type="commentary"/></body>
-    </text></TEI>
+        <revisionDesc status="draft">
+            <change type="created" when="2023-04-14T10:31:23.629Z" who="edep"/>
+            <change type="changed" when="2023-04-23T16:05:44.784Z" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">
+    <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1416487"/>
+        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424639"/>
+        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424640"/>
+        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424644"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</div>
+            <div type="translation" resp="Feraudi" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName>
+            </div>
+            <div type="edition">
+                <div type="textpart" subtype="fragment" n="a" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f"><ab>
+<lb n="1"/><foreign xml:lang="gr">Ὑψίστῳ Σερά
+<lb n="2" break="no"/>πιδι σὺν γάστ
+<lb n="3" break="no"/>ρᾳ καὶ μυστα
+<lb n="4" break="no"/>ρίοις</foreign> 
+<lb n="5"/><persName key="P00004"><expan>G<ex>aius</ex></expan> <abbr>C</abbr> <expan>Calp<ex>urnius</ex></expan> 
+<lb n="6"/>Rufinus</persName> <expan>v<ex>ir</ex></expan> <expan>c<ex>larissimus</ex></expan>
+</ab></div>
+            </div>
+            <div type="commentary"/>
+        </body>
+    </text>
+</TEI>
