@@ -3,9 +3,9 @@
         <fileDesc>
             <titleStmt>
                 <!-- zusätzlich 0) freie Eingabe Textfeld -->
-                <title>Titulus sacer Herculei (EEE6)</title>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium – Köln (Germania inferior)</title>
                 <!-- 44) Bearbeiter der Inschriftenedition -->
-                <editor>Kantola/Kajava.</editor>
+                <editor/>
                 <!-- 45) Bearbeiter des Datensatzes -->
                 <author/>
             </titleStmt>
@@ -28,11 +28,11 @@
                             <supportDesc>
                                 <support>
                                     <!-- 16a) Inschriftträger -->
-                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53"/>
+                                    <objectType ref=""/>
                                     <!-- 18) Material -->
-                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2"/>
+                                    <material ref=""/>
                                     <!-- 16b) Beschreibung Inschriftträger -->
-                                    <note>Fragmentum superius basis quadratae ex lapide Tiburtino superne cymatio ornatae.</note>
+                                    <note/>
                                 </support>
                             </supportDesc>
                         </objectDesc>
@@ -48,54 +48,42 @@
                                 Im Content - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
                                 @datingMethod - fixes Attribut, hier immer Julianisch
                             -->
-                            <origDate when-custom="" notBefore-custom="-0150" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saec. II. a. Chr. n. exeuntis.</origDate>
+                            <origDate when-custom="" notBefore-custom="" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
                         </origin>
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="6fd78865-1eb3-4690-9788-651eb3d6909b"><msIdentifier>
+                    <msPart xml:id="70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
-                            <repository>Museo archeologico di Segni.</repository>
+                            <repository/>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->
-                            <idno type="TM">521283</idno>
+                            <idno type="TM"/>
                         </msIdentifier><msContents>
                             <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
                             <!-- TODO: 12e) Datum der Verifizierung -->
                             <!-- 15) Inschriftengattung in @class -->
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                            <msItem class="">
                                 <!-- 25) Sprache -->
                                 <!-- TODO: Metrik logisch hierhin -->
-                                <textLang mainLang="lat"/>
+                                <textLang mainLang=""/>
                                 <!-- 35b) Bibliographie-->
                                 <listBibl type="bibliography">
                                     <!-- Einträge wiederholbar -->
-                                <bibl>
-        <ptr target="CIFARELLI, Culto 180-186 cum im. phot. fig. 5 (AE 2000, 290).  EDR155416;  EDCS-20100063.  Cf. CIFARELLI, Giunone Moneta 117-118 (cum im. phot. fig. 105);  CIFARELLI, Nuove iscrizioni 572;  CIFARELLI, Santuari 383;  CIFARELLI - COLAIACOMO, Guida 14;  BOOS, Heiligtümer 192."/>
-        <note/>
-    </bibl></listBibl>
+                                </listBibl>
 
                                 <!-- 12c) Überlieferung -->
                                 <listBibl type="transmission">
                                     <!-- Einträge wiederholbar -->
-                                <bibl>
-        <ptr target="CIFARELLI, Culto 180-186 cum im. phot. fig. 5 (AE 2000, 290)."/>
-        <note/>
-    </bibl></listBibl>
+                                </listBibl>
                                 <!-- 35a) Ältere Editionen -->
                                 <listBibl type="previousEditions">
                                     <!-- Einträge wiederholbar - optional -->
-                                <bibl>
-        <ptr target="CIFARELLI, Culto 180-186 cum im. phot. fig. 5 (AE 2000, 290)."/>
-        <note/>
-    </bibl></listBibl>
+                                </listBibl>
                                 <!-- 35c) Bilder: Verweis auf Literatur, in der Abbildung vorhanden -->
                                 <listBibl type="images">
                                     <!-- Einträge wiederholbar - optional -->
-                                <bibl>
-            <ptr target="CIFARELLI, Culto 180-186 cum im. phot. fig. 5 (AE 2000, 290). "/>
-            <note/>
-        </bibl></listBibl>
-                                <note type="verification" subtype="photo">
+                                </listBibl>
+                                <note type="verification" subtype="">
                                     <date when=""/>
                                 </note>
                             </msItem>
@@ -105,17 +93,17 @@
                                     <support>
                                         <dimensions>
                                             <!-- 19) Inschriftträger: Breite -->
-                                            <width>28</width>
+                                            <width/>
                                             <!-- 38) Inschriftträger: Höhe -->
-                                            <height>(52)</height>
+                                            <height/>
                                             <!-- 20) Inschriftträger: Tiefe -->
-                                            <depth>28</depth>
+                                            <depth/>
                                         </dimensions>
                                         <!-- 14) Dekor -->
-                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/2000"/>
+                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                     </support>
                                     <!-- 13) Erhaltung -->
-                                    <condition>fragmentary</condition>
+                                    <condition>complete</condition>
                                 </supportDesc>
                                 <layoutDesc>
                                     <layout>
@@ -136,7 +124,7 @@
                                 <handNote>
                                     <dimensions type="letterHeight">
                                         <!-- 23) Buchstabenhöhe -->
-                                        <height>2,7-4 cm.</height>
+                                        <height/>
                                     </dimensions>
                                     <!-- 39) Ligatur -->
                                     <rs type="ligature">no</rs>
@@ -146,7 +134,7 @@
                             <origin>
                                 <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
                                     am Ende nur hinein kopiert - siehe Kommentare -->
-                                <origPlace corresp="(Signia)"/>
+                                <origPlace corresp=""/>
                             </origin>
                             <!--
                                 11) Fundjahr (Attribute auf <provenance>)
@@ -158,9 +146,9 @@
                             -->
                             <provenance type="found" when="" when-custom="" notBefore="" notAfter="">
                                 <!-- 10b) Fundkontext: nicht kopiert, freie Eingabe -->
-                                <note type="context">Rep. in via Traiana medio fere itinere inter Signiam et Colleferro in acervo soli.</note>
+                                <note type="context"/>
                             </provenance>
-                            <provenance type="history">Ex loco reperto operum quorundam publicorum extra <placeName key="">portam Maggiore</placeName> <date>a. 1975</date> perfectorum autocineto onerario translatus esse fertur (de topographia antiqua apud <placeName key="">portam Maggiore</placeName> cf. <bibl><author>CIFARELLI</author>, <title>Culto</title> <biblScope unit="page">185-186 fig. 6-7</biblScope></bibl>).</provenance>
+                            <provenance type="history"/>
                         </history></msPart>
                 </msDesc>
             </sourceDesc>
@@ -173,20 +161,30 @@
                 <!-- Welche URI für lokale Klassifikation? -->
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <!-- 28) Religion - kontrolliertes Vokabular? -->
-                    <term ref="#pagan"/>
+                    <term ref=""/>
                 </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
                 </keywords>
             </textClass>
         </profileDesc>
         <!-- 33) Stand der Bearbeitung in @status -->
-        <revisionDesc status="draft"><change type="created" when="2022-11-22T09:48:50.249Z" who="edep"/><change type="changed" when="2022-11-23T16:44:47.533Z" who="edep"/></revisionDesc>
-    </teiHeader><facsimile corresp="#6fd78865-1eb3-4690-9788-651eb3d6909b">
+        <revisionDesc status="draft"><change type="created" when="2022-11-18T12:14:47.028Z" who="edep"/></revisionDesc>
+    </teiHeader><facsimile corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc">
     </facsimile><text>
-        <body><div type="apparatus" corresp="#6fd78865-1eb3-4690-9788-651eb3d6909b">3 VAA+V+ CIFARELLI, Culto.</div><div type="translation" resp="Eibeck" corresp="#6fd78865-1eb3-4690-9788-651eb3d6909b"><persName key="">Lucio Cretario Varo(?), figlio di Gaio</persName>, dedica (questo altare) con gioia e merito ad <persName key="" type="divine">Ercole</persName>.</div><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#6fd78865-1eb3-4690-9788-651eb3d6909b"><ab>
-<lb n="1"/><persName key="" type="divine" nymRef="#Hercules">Hercole</persName>
-<lb n="2"/><persName key=""><name type="praenomen" nymRef="#Lucius'">L.</name> <name type="gentilicium" nymRef="#Cretarius">Cretarius</name> <name role="filiation" nymRef="#Caius">C.<w lemma="filius">f.</w></name></persName>
-<lb n="3"/>Vaa<gap reason="illegible" quantity="1" unit="character"/>u<unclear>s</unclear> dat
-<lb n="4"/>lub<supplied reason="lost">en</supplied>s <expan><abbr>mere</abbr><ex>to</ex></expan>.
-</ab></div></div><div type="commentary">1 De forma Hercole cf. supra n. 5. - 2 De nomine Cretarii cf. CIFARELLI, Culto 183-184. Praeterea hoc nomen rarum alibi quater Romae (VI 7061, 10286/7, 16582, 35066) ac semel Comamae in Pisidia (SEG LIV 1371 = AE 2004, 1471) occurrere videtur. - 3 "peut-être le cognomen Vaarus" M. CORBIER - M. CULLIN (AE). - Lectionem Vaaṛuṣ (Vaa[r]u[s] CIFARELLI, Nuove iscrizioni) valde probabile esse opinor, nisi forte Vaaḷuṣ legendum est. De Vaar- geminatione scripto vide VINE 277 c. adn. 28; etiam XIII 7521 = DESSAU, ILS 7473, et AE 1998, 341. Similiter de Vaal- vide VINE, ibid. c. adn. 29 (IGF 89 = I² 2280 = IG XIV 2480, ubi textus bilinguis formas Οὐᾶλος et Vaalus praebet), et SALOMIES, Vornamen 131 c. adn. 375.</div></body>
+        <body><div type="apparatus" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"/><div type="translation" resp="" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"><ab>
+<lb n="1"/><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> e<supplied reason="lost">t</supplied>
+<lb n="2"/>Matronis
+<lb n="3"/>pontem
+<lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Hedius Silva
+<lb n="5" break="no"/>nus IIIIIIvir
+<lb n="6"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
+<lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+<cb n="2"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> e<supplied reason="lost">t</supplied>
+<lb n="8"/>Matronis
+<lb n="9"/>pontem
+<lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Hedius Silv
+<lb n="11" break="no"/>anus IIIIIIvir
+<lb n="12"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
+<lb n="13"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+</ab></div></div><div type="commentary"/></body>
     </text></TEI>

@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <!-- zusätzlich 0) freie Eingabe Textfeld -->
-                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium – Köln (Germania inferior)</title>
+                <title>Versuch</title>
                 <!-- 44) Bearbeiter der Inschriftenedition -->
                 <editor/>
                 <!-- 45) Bearbeiter des Datensatzes -->
@@ -21,7 +21,7 @@
                 <msDesc>
                     <msIdentifier>
                         <!-- 3) EDEp ID -->
-                        <idno type="EDEp">E0000002</idno>
+                        <idno type="EDEp">E0000009</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"><msIdentifier>
+                    <msPart xml:id="ae41fa70-f15d-45b3-81fa-70f15d35b3af"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository/>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->
@@ -168,23 +168,15 @@
             </textClass>
         </profileDesc>
         <!-- 33) Stand der Bearbeitung in @status -->
-        <revisionDesc status="draft"><change type="created" when="2022-11-18T12:14:47.028Z" who="edep"/></revisionDesc>
-    </teiHeader><facsimile corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc">
+        <revisionDesc status="draft"><change type="created" when="2022-11-24T08:57:40.626Z" who="edep"/></revisionDesc>
+    </teiHeader><facsimile corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af">
     </facsimile><text>
-        <body><div type="apparatus" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"/><div type="translation" resp="" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"><ab>
-<lb n="1"/><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> e<supplied reason="lost">t</supplied>
-<lb n="2"/>Matronis
-<lb n="3"/>pontem
-<lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Hedius Silva
-<lb n="5" break="no"/>nus IIIIIIvir
-<lb n="6"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
-<lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
-<cb n="2"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> e<supplied reason="lost">t</supplied>
-<lb n="8"/>Matronis
-<lb n="9"/>pontem
-<lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Hedius Silv
-<lb n="11" break="no"/>anus IIIIIIvir
-<lb n="12"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
-<lb n="13"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+        <body><div type="apparatus" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="translation" resp="" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"><ab>
+	D<expan>is</expan> M<expan>anibus</expan>.
+	P<expan>ublio</expan> Aelio P<expan>ubli</expan> f<expan>ilio</expan> Pal<expan>atina</expan>
+	Bassiano, IIIIvir<expan>o</expan>,					
+	marito optimo					
+5	de ⌜s⌝e bene merito
+	Allia Luperca.
 </ab></div></div><div type="commentary"/></body>
     </text></TEI>

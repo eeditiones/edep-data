@@ -3,9 +3,9 @@
         <fileDesc>
             <titleStmt>
                 <!-- zusätzlich 0) freie Eingabe Textfeld -->
-                <title>Versuch</title>
+                <title>Titulus magistratus coloniae liberae rei publicae (EEE20)</title>
                 <!-- 44) Bearbeiter der Inschriftenedition -->
-                <editor/>
+                <editor>Kajava, Solin.</editor>
                 <!-- 45) Bearbeiter des Datensatzes -->
                 <author/>
             </titleStmt>
@@ -28,11 +28,11 @@
                             <supportDesc>
                                 <support>
                                     <!-- 16a) Inschriftträger -->
-                                    <objectType ref=""/>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53"/>
                                     <!-- 18) Material -->
-                                    <material ref=""/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/2"/>
                                     <!-- 16b) Beschreibung Inschriftträger -->
-                                    <note/>
+                                    <note>Basis quadrata superne anaglyphis Doricis exornata. (Pietra Signina)</note>
                                 </support>
                             </supportDesc>
                         </objectDesc>
@@ -48,24 +48,24 @@
                                 Im Content - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
                                 @datingMethod - fixes Attribut, hier immer Julianisch
                             -->
-                            <origDate when-custom="" notBefore-custom="" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                            <origDate when-custom="" notBefore-custom="" notAfter-custom="" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Titulus tempore liberae rei publicae sub finem aetatis coloniae inscriptus esse videtur.</origDate>
                         </origin>
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="ae41fa70-f15d-45b3-81fa-70f15d35b3af"><msIdentifier>
+                    <msPart xml:id="20316cdc-8804-4d68-b16c-dc8804fd6807"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
-                            <repository/>
+                            <repository>Porta Maggiore, Segni.</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->
-                            <idno type="TM"/>
+                            <idno type="TM">538435</idno>
                         </msIdentifier><msContents>
                             <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
                             <!-- TODO: 12e) Datum der Verifizierung -->
                             <!-- 15) Inschriftengattung in @class -->
-                            <msItem class="">
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/261">
                                 <!-- 25) Sprache -->
                                 <!-- TODO: Metrik logisch hierhin -->
-                                <textLang mainLang=""/>
+                                <textLang mainLang="lat"/>
                                 <!-- 35b) Bibliographie-->
                                 <listBibl type="bibliography">
                                     <!-- Einträge wiederholbar -->
@@ -74,17 +74,23 @@
                                 <!-- 12c) Überlieferung -->
                                 <listBibl type="transmission">
                                     <!-- Einträge wiederholbar -->
-                                </listBibl>
+                                <bibl>
+        <ptr target="LAURIUS 1, 10 f. 87; SUARESIUS, Cod. Vat. Lat. 9140 f. 312; "/>
+        <note/>
+    </bibl></listBibl>
                                 <!-- 35a) Ältere Editionen -->
                                 <listBibl type="previousEditions">
                                     <!-- Einträge wiederholbar - optional -->
-                                </listBibl>
+                                <bibl>
+        <ptr target=""/>
+        <note>LAURIUS 1, 10 f. 87; SUARESIUS, Cod. Vat. Lat. 9140 f. 312; TAROLLIUS ms.; MAROCCO 9, 91 (inde Arch. Stato EUR, AA.BB.AA. fasc. 309, 4); HENZEN 198, qui vidit (inde ORELLI 7023); RITSCHL tab. LXXV F; ex eis habuit MOMMSEN, I 1146, qui postea recognovit X 5969 (WILMANNS 44; DE RUGGIERO 1946; DESSAU, ILS 5436; DIEHL, Altlat. Inschr.⁵ 351; LOMMATZSCH, CLE I2 1504 cf. p. 1001; DEGRASSI, ILLRP II 665, qui ipse non vidit, quippe cum vel periisse vel latere diceret).</note>
+    </bibl></listBibl>
                                 <!-- 35c) Bilder: Verweis auf Literatur, in der Abbildung vorhanden -->
                                 <listBibl type="images">
                                     <!-- Einträge wiederholbar - optional -->
                                 </listBibl>
-                                <note type="verification" subtype="">
-                                    <date when=""/>
+                                <note type="verification" subtype="autopsy">
+                                    <date when="1983, 1996"/>
                                 </note>
                             </msItem>
                         </msContents><physDesc>
@@ -93,14 +99,14 @@
                                     <support>
                                         <dimensions>
                                             <!-- 19) Inschriftträger: Breite -->
-                                            <width/>
+                                            <width>40</width>
                                             <!-- 38) Inschriftträger: Höhe -->
-                                            <height/>
+                                            <height>Ca. 65-70 (altitudinem monumenti ut alte parieti inserti ex im. phot. mensi sumus).</height>
                                             <!-- 20) Inschriftträger: Tiefe -->
-                                            <depth/>
+                                            <depth>40</depth>
                                         </dimensions>
                                         <!-- 14) Dekor -->
-                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/2000"/>
                                     </support>
                                     <!-- 13) Erhaltung -->
                                     <condition>complete</condition>
@@ -114,7 +120,7 @@
                                             <width/>
                                         </dimensions>
                                         <!-- 34) Paläographie: kontrolliertes Vokabular -->
-                                        <rs type="palaeography" ref=""/>
+                                        <rs type="palaeography" ref="Puncta sunt triangularia, litterae P aperta, M hastas omnes obliquas habens, cuius angulus medius ad infimum versum perducitur."/>
                                         <!-- 24) Metrik -->
                                         <rs type="metric">no</rs>
                                     </layout>
@@ -134,7 +140,7 @@
                             <origin>
                                 <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
                                     am Ende nur hinein kopiert - siehe Kommentare -->
-                                <origPlace corresp=""/>
+                                <origPlace corresp="Signia"/>
                             </origin>
                             <!--
                                 11) Fundjahr (Attribute auf <provenance>)
@@ -146,7 +152,10 @@
                             -->
                             <provenance type="found" when="" when-custom="" notBefore="" notAfter="">
                                 <!-- 10b) Fundkontext: nicht kopiert, freie Eingabe -->
-                                <note type="context"/>
+                                <note type="context">SUARESIUS: “Extra Signiam ad portam”.
+LAURIUS: “prima di entrare la porta maggiore di Segni a mano manca in una cantonata del palazzo delli eccellentissimi Duchi;”.
+MAROCCO: “fuori della porta ad un angolo del palazzo Conti, or Cesarini” (similiter fere MOMMSEN).
+KAJAVA: “Exstat extra portam Maggiore a meridie oppidi alte in angulo muri ita inserta, ut frons tantum et latus sinistrum aspici possint.”</note>
                             </provenance>
                             <provenance type="history"/>
                         </history></msPart>
@@ -164,19 +173,17 @@
                     <term ref=""/>
                 </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
-                </keywords>
+                <term ref="#social-economic-legal-history"/><term ref="#social-economic-legal-history"/><term ref="#social-economic-legal-history"/><term ref="#social-economic-legal-history"/><term ref="#social-economic-legal-history"/></keywords>
             </textClass>
         </profileDesc>
         <!-- 33) Stand der Bearbeitung in @status -->
-        <revisionDesc status="draft"><change type="created" when="2022-11-24T08:57:40.626Z" who="edep"/></revisionDesc>
-    </teiHeader><facsimile corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af">
+        <revisionDesc status="draft"><change type="created" when="2022-11-22T10:59:37.892Z" who="edep"/><change type="changed" when="2022-11-22T11:11:31.228Z" who="edep"/></revisionDesc>
+    </teiHeader><facsimile corresp="#20316cdc-8804-4d68-b16c-dc8804fd6807">
     </facsimile><text>
-        <body><div type="apparatus" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="translation" resp="" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"/><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#ae41fa70-f15d-45b3-81fa-70f15d35b3af"><ab>
-	D<expan>is</expan> M<expan>anibus</expan>.
-	P<expan>ublio</expan> Aelio P<expan>ubli</expan> f<expan>ilio</expan> Pal<expan>atina</expan>
-	Bassiano, IIIIvir<expan>o</expan>,					
-	marito optimo					
-5	de ⌜s⌝e bene merito
-	Allia Luperca.
-</ab></div></div><div type="commentary"/></body>
+        <body><div type="apparatus" corresp="#20316cdc-8804-4d68-b16c-dc8804fd6807">1 I•MEMMIVS LAURIUS, GIOVARDIUS – M•I•MEMMIVS MAROCCO – versum om. SUARESIUS; 2 P•Q• LAURIUS, GIOVARDIUS; 4 DE PECVNIA SUARESIUS – DE SVA•PECVNIA GIOVARDIUS.</div><div type="translation" resp="Eibeck" corresp="#20316cdc-8804-4d68-b16c-dc8804fd6807">Il pretore Manio Memmio, figlio di Manio, (donò) le statue e le basi coi propri fondi.</div><div type="edition"><div type="textpart" subtype="fragment" n="a" corresp="#20316cdc-8804-4d68-b16c-dc8804fd6807"><ab>
+<lb n="1"/><persName key=""><name type="praenomen" nymRef="#Manius"><expan><abbr>M</abbr><ex>anius</ex></expan></name> <name type="gentilicium" nymRef="'Memmius">Memmius</name> <name role="filiation"><name type="praenomen" nymRef="#Manius"><expan><abbr>M</abbr><ex>ani</ex></expan></name> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></name></persName>
+<lb n="2"/><expan><abbr>pr</abbr><ex>aetor</ex></expan>
+<lb n="3"/>signa, baseis
+<lb n="4"/>de sua pecunia.
+</ab></div></div><div type="commentary">1-2 magistratuum aetatis coloniae solum M'. Memmium praetorem novimus (RE XV, 1931, col. 621 n. 16). (DEGRASSIO tamen nihil obstare visum est, quominus etiam quattuorviri vel duoviri municipii appellentur praetores, cf. I2 1504 add. p. 1001; vide praeterea infra n. 21 et 27). De gente ipsa cf. CASTRÉN 190 n. 248; D'ISANTO, Capua 170 n. 206. Praeter Memmios ordinis senatorii homines eiusdem nominis in regionibus Signiae vicinis invenias Casini (X 5263) et Tarracinae (X 6329), ubi oriundus fuit etiam L. Memmius T. f. Ouf. Tarrichinensis (I2 2266 = I. Ephesos 2285; cf. COARELLI, Santuari 134-138; SALOMIES, Senatori 87 adn. 130). - 3 quibus deorum aut dearum signa et bases praetor dederit, ignoratur; de forma baseis cf. LEUMANN 440.</div></body>
     </text></TEI>

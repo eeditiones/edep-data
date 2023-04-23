@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?teipublisher view="single"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="about">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>About</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="en">
+            <div>
+               <head>Team</head>
+               <list>
+                  <item>Marietta Horster (project lead)</item>
+                  <item>Francisca Feraudi-Gruénais (research assistant)</item>
+                  <item>David Eibeck (research assistant)</item>
+                  <item>Jörn Turner (IT, Jinntec GmbH)</item>
+                  <item>Worlgang Meier (IT, Jinntec GmbH)</item>
+               </list>
+            </div>
+            <div>
+               <head>Goals of EDEp</head>
+               <p>EDEp (editing tools for digital epigraphy) researches the possibilities and demands of digital epigraphy and
+               develops corresponding editing tools. The project is funded by the DFG from 2022 to 2024. In developing its software, EDEp adheres to the FAIR principles: the data that is generated during the project as well as the editing tools that will be available towards the end of the three-year period will be made available for subsequent use.</p>
+               
+               <p>The EDEp editor presented here as a work in progress aims at integrating an easily accessible frontend with
+               the complex technical tools necessary for encoding editions of inscriptions in an appropriately differentiated way. The editor is currently put to the test. Everyone interested is invited to participate actively in the testing.</p>
+            </div>
+         </div>
+         <div xml:lang="de">
+            <div>
+               <head>Team</head>
+               <list>
+                  <item>Marietta Horster (Leiterin)</item>
+                  <item>Francisca Feraudi-Gruénais (wiss. Mitarbeiterin)</item>
+                  <item>David Eibeck (wiss. Mitarbeiter)</item>
+                  <item>Jörn Turner (IT, Jinntec GmbH)</item>
+                  <item>Worlgang Meier (IT, Jinntec GmbH)</item>
+               </list>
+            </div>
+            <div>
+            <head>Was will EDEp?</head>
+               <p>EDEp (Editionstools für eine Digitale Epigraphik) ist ein von der DFG  gefördertes Projekt (2022-2024)
+                  zur Erforschung der Möglichkeiten und Bedarfe digitaler Epigraphik und zur Entwicklung editorischer
+                  Hilfsmittel. Die Softewarelösungen von EDEp sind den FAIR-Prinzipien verpflichtet: Die während der  Projektlaufzeit 
+                  generierten Daten sowie - zum Ende der Projektlaufzeit - auch die Editionstools selbst werden zur Nachnutzung 
+                  freigegeben.</p>
+               <p>Der hier als work in progress vorgestellte EDEp-Editor verfolgt den Anspruch, die notwendige technische
+                  Komplexität der differenzierten Kodierung von Inschrifteneditionen mit einem möglichst einfach zu
+                  bedienenden Frontend zu verbinden. Der Editor befindet sich derzeit in der Testphase. Interessierte Personen sind 
+                  ausdrücklich zum aktiven Mittesten eingeladen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
