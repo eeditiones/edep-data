@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="a952b884-8f58-4832-92b8-848f58f832f9"><msIdentifier>
+                    <msPart xml:id="a952b884-8f58-4832-92b8-848f58f832f9" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>Latet aut periit.</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->

@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc"><msIdentifier>
+                    <msPart xml:id="70aa87e4-c5c4-44d7-aa87-e4c5c494d7cc" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository/>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->

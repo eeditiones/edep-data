@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="20316cdc-8804-4d68-b16c-dc8804fd6807"><msIdentifier>
+                    <msPart xml:id="20316cdc-8804-4d68-b16c-dc8804fd6807" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>Porta Maggiore, Segni.</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->

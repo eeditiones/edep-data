@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="6fd78865-1eb3-4690-9788-651eb3d6909b"><msIdentifier>
+                    <msPart xml:id="6fd78865-1eb3-4690-9788-651eb3d6909b" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>Museo archeologico di Segni.</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->

@@ -54,7 +54,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="5cf1e956-0113-4366-b1e9-56011353668e">
+                    <msPart xml:id="5cf1e956-0113-4366-b1e9-56011353668e" type="main">
                         <msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <!-- todo: ref + value setzen -->

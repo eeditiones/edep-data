@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="d5f978e2-18fb-4bc6-b978-e218fb4bc632"><msIdentifier>
+                    <msPart xml:id="d5f978e2-18fb-4bc6-b978-e218fb4bc632" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>Mainz, Landesmuseum [TM Coll ID 1238]</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->

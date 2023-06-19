@@ -53,7 +53,7 @@
                     </history>
                     <!-- msPart ist als Ganzes wiederholbar -->
                     <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="6367e0b8-79fd-4363-a7e0-b879fd636349"><msIdentifier>
+                    <msPart xml:id="6367e0b8-79fd-4363-a7e0-b879fd636349" type="main"><msIdentifier>
                             <!-- 12a) Aufbewahrung -->
                             <repository>Museo Archeologico Comunale di Segni</repository>
                             <!-- 4) TM-Nummer - manuelle Eingabe -->
@@ -203,7 +203,7 @@
 <lb n="2"/><persName type="attested" key="P000002">Timocles</persName>
 <lb n="3"/><occupation>medicus</occupation>
 <lb n="4"/><expan>d<ex>ecuma</ex></expan> <expan>f<ex>acta</ex></expan> <expan>d<ex>onum</ex></expan> <expan>d<ex>at</ex></expan>
-</ab></div></div><div type="commentary"><listBibl><ref type="biblio" xml:id="#CifarelliCulto">CIFARELLI, Culto <citedRange unit="page">176-180</citedRange> cum im. phot. figg. <citedRange unit="figure">2-4</citedRange> (AE 2000, 289).</ref> <ref type="biblio" xml:id="#EDR">EDR<citedRange unit="number">155415</citedRange></ref>; <ref type="biblio" xml:id="#EDCS">EDCS <citedRange unit="number">20100062</citedRange></ref>.
-Cf. <bibl><ref type="biblio" xml:id="#CifarelliGiunoneMoneta">CIFARELLI, Giunone Moneta</ref> <citedRange>117-118</citedRange> cum im. phot. <citedRange>fig. 106</citedRange></bibl>; <bibl><ref type="biblio" xml:id="#CifarelliColaiacomoGuida">CIFARELLI - COLAIACOMO, Guida</ref> <citedRange>14</citedRange></bibl>; <bibl><ref type="biblio" xml:id="#BoosHeiligtümer">BOOS, Heiligtümer</ref> <citedRange>192</citedRange></bibl>.</listBibl>
-	De nomine <persName type="divine" key="P000003">Herculis</persName> in casu dativo in -e desinente cf. <bibl><ref type="biblio" xml:id="#CifarelliCulto">CIFARELLI, Culto</ref> <citedRange>178</citedRange></bibl>.</div></body>
+</ab></div></div><div type="commentary"><listBibl><ref type="biblio" target="#CifarelliCulto">CIFARELLI, Culto <citedRange unit="page">176-180</citedRange> cum im. phot. figg. <citedRange unit="figure">2-4</citedRange> (AE 2000, 289).</ref> <ref type="biblio" target="#EDR">EDR<citedRange unit="number">155415</citedRange></ref>; <ref type="biblio" target="#EDCS">EDCS <citedRange unit="number">20100062</citedRange></ref>.
+Cf. <bibl><ref type="biblio" target="#CifarelliGiunoneMoneta">CIFARELLI, Giunone Moneta</ref> <citedRange>117-118</citedRange> cum im. phot. <citedRange>fig. 106</citedRange></bibl>; <bibl><ref type="biblio" target="#CifarelliColaiacomoGuida">CIFARELLI - COLAIACOMO, Guida</ref> <citedRange>14</citedRange></bibl>; <bibl><ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> <citedRange>192</citedRange></bibl>.</listBibl>
+	De nomine <persName type="divine" key="P000003">Herculis</persName> in casu dativo in -e desinente cf. <bibl><ref type="biblio" target="#CifarelliCulto">CIFARELLI, Culto</ref> <citedRange>178</citedRange></bibl>.</div></body>
     </text></TEI>
