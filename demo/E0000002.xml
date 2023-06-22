@@ -66,7 +66,7 @@
                             <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
                             <!-- TODO: 12e) Datum der Verifizierung -->
                             <!-- 15) Inschriftengattung in @class -->
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="">
                                 <!-- 25) Sprache -->
                                 <!-- TODO: Metrik logisch hierhin -->
                                 <textLang mainLang="gre lat"/>
