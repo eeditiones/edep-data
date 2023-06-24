@@ -16,7 +16,7 @@
     "value": "https://www.eagle-network.eu/voc/typeins/lod/115"
   },
   {
-    "name": "Bau-,/Stifterinschrift",
+    "name": "Bau-/Stifterinschrift",
     "value": "https://www.eagle-network.eu/voc/typeins/lod/261"
   },
   {
@@ -24,7 +24,7 @@
     "value": "https://www.eagle-network.eu/voc/typeins/lod/109"
   },
   {
-    "name": "Besitzer-,/Herstellerinschrift",
+    "name": "Besitzer-/Herstellerinschrift",
     "value":"https://www.eagle-network.eu/voc/typeins/lod/311"
   },
   {
@@ -60,7 +60,7 @@
     "value": "https://www.eagle-network.eu/voc/typeins/lod/3"
   },
   {
-    "name": "Meilen-,/Leugenstein",
+    "name": "Meilen-/Leugenstein",
     "value": "https://www.eagle-network.eu/voc/typeins/lod/102"
   },
   {
@@ -68,11 +68,11 @@
     "value": "https://www.eagle-network.eu/voc/typeins/lod/91"
   },
   {
-    "name": "Rechtliche , Verfügung, öffentlich",
+    "name": "Rechtliche, Verfügung, öffentlich",
     "value": "https://www.eagle-network.eu/voc/typeins/lod/5"
   },
   {
-    "name": "Rechtliche , Verfügung, privat",
+    "name": "Rechtliche, Verfügung, privat",
     "value": "https://www.eagle-network.eu/voc/typeins/lod/49"
   },
   {
