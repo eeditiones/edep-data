@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="G003589"> <!-- ID automatisch vergeben -->
     <placeName type="findspot">Fragas de Panóias</placeName> <!-- Fundstelle -->
     <placeName type="modern">Vale de Nogueiras</placeName> <!-- moderner Ortsname -->
-    <placeName type="ancient">(Conventus Bracaraugustanus)</placeName> <!-- antiker Ortsname -->
+    <placeName type="ancient">Conventus Bracaraugustanus</placeName> <!-- antiker Ortsname -->
     <region type="province">HiC</region> <!-- antike Provinz -->
     <region type="modern">Norte</region> <!-- modernes Region -->
     <country>pt</country> <!-- modernes Land -->
