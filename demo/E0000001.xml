@@ -16,6 +16,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
                         <idno type="EDEp">E0000001</idno>
                     </msIdentifier>
                     <physDesc>
@@ -34,7 +35,7 @@
                             <origDate notBefore-custom="-0100" notAfter-custom="-0075" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saec I. a. Chr. n. ineuntis</origDate>
                         </origin>
                     </history>
-                    <msPart type="main" xml:id="6367e0b8-79fd-4363-a7e0-b879fd636349">
+                    <msPart type="main" xml:id="f6367e0b8-79fd-4363-a7e0-b879fd636349">
                         <msIdentifier>
                             <repository>Museo Archeologico Comunale di Segni</repository>
                             <idno type="TM">521282</idno>
@@ -149,47 +150,35 @@
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2023-04-14T07:24:53.976Z" who="edep"/>
-            <change type="changed" when="2023-10-12T09:37:32.065Z" who="edep"/>
+            <change type="changed" when="2023-10-19T08:38:09.008Z" who="edep"/>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="apparatus" corresp="#6367e0b8-79fd-4363-a7e0-b879fd636349"/>
-            <div type="translation" resp="Eibeck" corresp="#6367e0b8-79fd-4363-a7e0-b879fd636349">Il medico <persName type="attested" key="P000002">Timocle</persName>, dopo aver offerto la decima, dona (questo altare) ad <persName type="divine" key="P000003">Ercole</persName>.</div>
+            <div type="apparatus" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349"/>
+            <div type="translation" resp="Eibeck" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349"><ab>Il medico <persName type="attested" key="P000002">Timocle</persName>, dopo aver offerto la decima, dona (questo altare) ad <persName type="divine" key="P000003">Ercole</persName>.</ab></div>
             <div type="edition">
-                <div type="textpart" subtype="fragment" n="a" corresp="#6367e0b8-79fd-4363-a7e0-b879fd636349">
+                <div type="textpart" subtype="fragment" n="a" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349">
                     <ab>
-<lb n="1"/>
-                        <persName type="divine" key="P000003">Hercole</persName>
-<lb n="2"/>
-                        <persName type="attested" key="P000002">Timocles</persName>
-<lb n="3"/>
-                        <occupation>medicus</occupation>
-<lb n="4"/>
-                        <expan>d<ex>ecuma</ex>
-                        </expan> <expan>f<ex>acta</ex>
-                        </expan> <expan>d<ex>onum</ex>
-                        </expan> <expan>d<ex>at</ex>
-                        </expan>
+<lb n="1"/> <persName type="divine" key="P000003">Hercole</persName>
+<lb n="2"/> <persName type="attested" key="P000002">Timocles</persName>
+<lb n="3"/> <rs type="occupation">medicus</rs>
+<lb n="4"/> <expan>d<ex>ecuma</ex></expan> <expan>f<ex>acta</ex></expan> <expan>d<ex>onum</ex></expan> <expan>d<ex>at</ex></expan>
 </ab>
                 </div>
             </div>
             <div type="commentary">
-                <listBibl>
-                    <ref type="biblio" target="#CifarelliCulto">CIFARELLI, Culto <citedRange unit="page">176-180</citedRange> cum im. phot. figg. <citedRange unit="figure">2-4</citedRange> (AE 2000, 289).</ref> <ref type="biblio" target="#EDR">EDR<citedRange unit="number">155415</citedRange>
-                    </ref>; <ref type="biblio" target="#EDCS">EDCS <citedRange unit="number">20100062</citedRange>
-                    </ref>.
-Cf. <bibl>
-                        <ref type="biblio" target="#CifarelliGiunoneMoneta">CIFARELLI, Giunone Moneta</ref> <citedRange>117-118</citedRange> cum im. phot. <citedRange>fig. 106</citedRange>
-                    </bibl>; <bibl>
-                        <ref type="biblio" target="#CifarelliColaiacomoGuida">CIFARELLI - COLAIACOMO, Guida</ref> <citedRange>14</citedRange>
-                    </bibl>; <bibl>
-                        <ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> <citedRange>192</citedRange>
-                    </bibl>.</listBibl>
-	De nomine <persName type="divine" key="P000003">Herculis</persName> in casu dativo in -e desinente cf. <bibl>
-                    <ref type="biblio" target="#CifarelliCulto">CIFARELLI, Culto</ref> <citedRange>178</citedRange>
-                    <ptr/>
-                </bibl>.</div>
+                <p>
+                    <ref type="bibl" target="#CifarelliCulto">CIFARELLI, Culto</ref> pp. 176-180, cum im. phot.
+                    figg. 2-4 (AE 2000, 289). <ref type="bibl" target="#EDR">EDR</ref> 155415; <ref type="bibl"
+                        target="#EDCS">EDCS</ref> 20100062. Cf. <ref type="bibl"
+                            target="#CifarelliGiunoneMoneta">CIFARELLI, Giunone Moneta</ref> pp. 117-118 cum im.
+                    phot. fig. 106 ; <ref type="bibl" target="#CifarelliColaiacomoGuida">CIFARELLI - COLAIACOMO,
+                        Guida</ref> 14; <ref type="bibl" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> 192
+                    .</p>
+                <p>De nomine <persName type="divine" key="P000003">Herculis</persName> in casu dativo in -e
+                    desinente cf. <ref type="bibl" target="#CifarelliCulto">CIFARELLI, Culto</ref>, p. 178.</p>
+            </div>
         </body>
     </text>
 </TEI>
