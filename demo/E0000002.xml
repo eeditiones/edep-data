@@ -1,15 +1,11 @@
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- zusätzlich 0) freie Eingabe Textfeld -->
                 <title>Weihinschrift für Serapis aus Panóias (Conventus Bracaraugustanus, HiC)</title>
-                <!-- 44) Bearbeiter der Inschriftenedition -->
                 <editor>Feraudi</editor>
-                <!-- 45) Bearbeiter des Datensatzes -->
-                <author/>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -22,18 +18,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- 3) EDEp ID -->
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
                         <idno type="EDEp">E0000002</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <!-- 16a) Inschriftträger -->
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210"/>
-                                    <!-- 18) Material -->
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/11"/>
-                                    <!-- 16b) Beschreibung Inschriftträger -->
                                     <note>Felsblock mit ursprünglich insgesamt fünf Inschriften</note>
                                 </support>
                             </supportDesc>
@@ -41,53 +34,18 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <!--
-                                26) und 27) Datierung (zusammenfassen?)
-
-                                @when-custom - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
-                                @notBefore-custom - wie @when aber gemeint als "nach"
-                                @notAfter-custom - wie @when aber gemeint als "vor"
-                                Im Content - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
-                                @datingMethod - fixes Attribut, hier immer Julianisch
-                            -->
-                            <origDate when-custom="" notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2./3. Jh.</origDate>
+                            <origDate notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2./3. Jh.</origDate>
                         </origin>
                     </history>
-                    <!-- msPart ist als Ganzes wiederholbar -->
-                    <!-- @xml:id erforderlich für Referenzierung unten -->
-                    <msPart xml:id="29786d55-6da0-4ee9-b86d-556da0aee94f" type="main">
+                    <msPart type="main" xml:id="f29786d55-6da0-4ee9-b86d-556da0aee94f">
                         <msIdentifier>
-                            <!-- 12a) Aufbewahrung -->
                             <repository>in situ</repository>
-                            <!-- 4) TM-Nummer - manuelle Eingabe -->
                             <idno type="TM">227747</idno>
                         </msIdentifier>
                         <msContents>
-                            <!-- TODO: 12d) Verifizierungsgrundlage: Auswahlmenü: Abklatsch / nicht-gesehen -->
-                            <!-- TODO: 12e) Datum der Verifizierung -->
-                            <!-- 15) Inschriftengattung in @class -->
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="">
-                                <!-- 25) Sprache -->
-                                <!-- TODO: Metrik logisch hierhin -->
-                                <textLang mainLang="gre lat"/>
-                                <!-- 35b) Bibliographie-->
-                                <listBibl type="bibliography">
-                                    <!-- Einträge wiederholbar -->
-                                </listBibl>
-
-                                <!-- 12c) Überlieferung -->
-                                <listBibl type="transmission">
-                                    <!-- Einträge wiederholbar -->
-                                </listBibl>
-                                <!-- 35a) Ältere Editionen -->
-                                <listBibl type="previousEditions">
-                                    <!-- Einträge wiederholbar - optional -->
-                                </listBibl>
-                                <!-- 35c) Bilder: Verweis auf Literatur, in der Abbildung vorhanden -->
-                                <listBibl type="images">
-                                    <!-- Einträge wiederholbar - optional -->
-                                </listBibl>
-                                <note type="verification" subtype="Abklatsch Autopsie Foto (ALFÖLDY)">
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                                <textLang mainLang="lat" otherLangs="frc"/>
+                                <note type="verification" subtype="autopsy">
                                     <date when="1996"/>
                                 </note>
                             </msItem>
@@ -97,30 +55,17 @@
                                 <supportDesc>
                                     <support>
                                         <dimensions>
-                                            <!-- 19) Inschriftträger: Breite -->
                                             <width>50</width>
-                                            <!-- 38) Inschriftträger: Höhe -->
                                             <height>33</height>
-                                            <!-- 20) Inschriftträger: Tiefe -->
                                             <depth/>
                                         </dimensions>
-                                        <!-- 14) Dekor -->
                                         <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                     </support>
-                                    <!-- 13) Erhaltung -->
                                     <condition>complete</condition>
                                 </supportDesc>
                                 <layoutDesc>
                                     <layout>
-                                        <dimensions>
-                                            <!-- 21) Inschriftfeld: Höhe -->
-                                            <height/>
-                                            <!-- 22) Inschriftfeld: Breite -->
-                                            <width/>
-                                        </dimensions>
-                                        <!-- 34) Paläographie: kontrolliertes Vokabular -->
                                         <rs type="palaeography" ref="#quadrata #letters-erodet"/>
-                                        <!-- 24) Metrik -->
                                         <rs type="metric">no</rs>
                                     </layout>
                                 </layoutDesc>
@@ -128,32 +73,17 @@
                             <handDesc>
                                 <handNote>
                                     <dimensions type="letterHeight">
-                                        <!-- 23) Buchstabenhöhe -->
                                         <height>4,5-1</height>
                                     </dimensions>
-                                    <!-- 39) Ligatur -->
                                     <rs type="ligature">no</rs>
                                 </handNote>
                             </handDesc>
                         </physDesc>
                         <history>
                             <origin>
-                                <!-- in @corresp wird die GeoID angegeben, andere Ortsangaben sind redundant und werden
-                                    am Ende nur hinein kopiert - siehe Kommentare -->
                                 <origPlace corresp="G003589"/>
                             </origin>
-                            <!--
-                                11) Fundjahr (Attribute auf <provenance>)
-
-                                @when - Korrekte Datumsangabe, entweder nur Jahr oder xs:date YYYY-MM-DD
-                                @notBefore - wie @when aber gemeint als "nach"
-                                @notAfter - wie @when aber gemeint als "vor"
-                                @when-custom - falls exakte Datierung unmöglich; schließt die anderen Attribute aus
-                            -->
-                            <provenance type="found" when="1721" when-custom="" notBefore="" notAfter="">
-                                <!-- 10b) Fundkontext: nicht kopiert, freie Eingabe -->
-                                <note type="context"/>
-                            </provenance>
+                            <provenance type="found" when="1721"/>
                             <provenance type="history"/>
                         </history>
                     </msPart>
@@ -165,41 +95,41 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <!-- Welche URI für lokale Klassifikation? -->
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
-                    <!-- 28) Religion - kontrolliertes Vokabular? -->
                     <term ref="#pagan"/>
                 </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
                 </keywords>
             </textClass>
         </profileDesc>
-        <!-- 33) Stand der Bearbeitung in @status -->
         <revisionDesc status="draft">
             <change type="created" when="2023-04-14T10:31:23.629Z" who="edep"/>
-            <change type="changed" when="2023-04-23T16:05:44.784Z" who="edep"/>
+            <change type="changed" when="2023-10-19T08:38:27.398Z" who="edep"/>
         </revisionDesc>
     </teiHeader>
-    <facsimile corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">
-    <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1416487"/>
-        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424639"/>
-        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424640"/>
-        <graphic url="https://heidicon.ub.uni-heidelberg.de/detail/1424644"/>
+    <facsimile corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f">
+        <graphic url="1416487%3A764775"/>
+        <graphic url="1424639%3A772930"/>
+        <graphic url="1424640%3A772931"/>
+        <graphic url="1424644%3A772935"/>
     </facsimile>
     <text>
         <body>
-            <div type="apparatus" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</div>
-            <div type="translation" resp="Feraudi" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f">Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName>
+            <div type="apparatus" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f"><listApp><app><note>Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</note></app></listApp></div>
+            <div type="translation" resp="Feraudi" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f"><ab>Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName></ab>
             </div>
             <div type="edition">
-                <div type="textpart" subtype="fragment" n="a" corresp="#29786d55-6da0-4ee9-b86d-556da0aee94f"><ab>
-<lb n="1"/><foreign xml:lang="gr">Ὑψίστῳ Σερά
+                <div type="textpart" subtype="fragment" n="a" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f">
+                    <ab>
+<lb n="1"/> <foreign xml:lang="grc">Ὑψίστῳ Σερά
 <lb n="2" break="no"/>πιδι σὺν γάστ
 <lb n="3" break="no"/>ρᾳ καὶ μυστα
-<lb n="4" break="no"/>ρίοις</foreign> 
-<lb n="5"/><persName key="P00004"><expan>G<ex>aius</ex></expan> <abbr>C</abbr> <expan>Calp<ex>urnius</ex></expan> 
+<lb n="4" break="no"/>ρίοις</foreign>                    
+<lb n="5"/> <persName key="P00004"><expan>G<ex>aius</ex></expan> <abbr>C</abbr> <expan>Calp<ex>urnius</ex></expan> 
 <lb n="6"/>Rufinus</persName> <expan>v<ex>ir</ex></expan> <expan>c<ex>larissimus</ex></expan>
-</ab></div>
+</ab>
+                </div>
             </div>
             <div type="commentary"/>
         </body>
