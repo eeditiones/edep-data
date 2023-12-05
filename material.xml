@@ -76,16 +76,6 @@
         <name xml:lang="de">Stein / Kalkstein</name>
         <name xml:lang="en">Stone – limestone</name>
     </term>
-    <term ref="https://www.eagle-network.eu/voc/material/lod/67">
-        <name xml:lang="de">Stein / Kohlenkalk</name>
-        <name xml:lang="en">Stone – carbonaceous limestone</name>
-    </term>
-<!--
-    <term ref="https://www.eagle-network.eu/voc/material/lod/76">
-        <name xml:lang="de">Stein / Konglomerat</name>
-        <name xml:lang="en">Stone – conglomerate</name>
-    </term>
--->
     <term ref="https://www.eagle-network.eu/voc/material/lod/93">
         <name xml:lang="de">Stein / Lapislazuli</name>
         <name xml:lang="en">Stone – lapis lazuli</name>
