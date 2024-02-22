@@ -151,4 +151,8 @@
     "name": "Ziegel",
     "value": "https://www.eagle-network.eu/voc/objtyp/lod/147"
   }
+  {
+    "name": "Sonstige"
+    "value": "https://www.eagle-network.eu/voc/objtyp/lod/1778"
+  }
 ]
