@@ -19,7 +19,10 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <repository key="https://d-nb.info/gnd/1055016-1">München, Staatliche
+                            Antikensammlung</repository>
+                        <idno type="inventory">NI 6979</idno>
+                        <idno type="TM">522587</idno>
                         <idno type="EDEp">E0000030</idno>
                     </msIdentifier>
                     <physDesc>
@@ -49,11 +52,7 @@
                                     target="#bibl-9">NONNIS</ref>.</origDate></origin>
                     </history>
                     <msPart type="main" xml:id="part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
-                        <msIdentifier>
-                            <repository key="https://d-nb.info/gnd/1055016-1">München, Staatliche
-                                Antikensammlung, inv. NI 6979.</repository>
-                            <idno type="TM">522587</idno>
-                        </msIdentifier>
+                        
                         <msContents>
                             <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
                                 type="Tituli sacri; Titulus Fortunae">
