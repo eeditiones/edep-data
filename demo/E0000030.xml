@@ -29,11 +29,11 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><objectType
-                                        ref="https://www.eagle-network.eu/voc/objtyp/lod/257"
-                                        /><material
-                                        ref="https://www.eagle-network.eu/voc/material/lod/131"
-                                            /><note><ref type="biblio" target="#bibl-1"
+                                <support>
+                                    <state type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/131"/>
+                                    <note><ref type="biblio" target="#bibl-1"
                                         >HELBIG</ref>: “In argilla grezza rossastra [...] una pizza
                                         ellittica (diametri 0,075 e 0,028), sul cui piano superiore
                                         sorgono cinque oggetti piramidali; sull'inferiore poi si
@@ -42,7 +42,9 @@
                                         >NONNIS</ref>: “Una placchetta ovale d'incerta definizione
                                         tipologica, in cui è forse possibile riconoscere un organo
                                         intero (utero appiattito fortemente
-                                    stilizzato?).”</note></support>
+                                    stilizzato?).”</note>
+                                </support>
+                                <condition>complete</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout><rs type="palaeography">De forma litterae A notandum est
@@ -87,10 +89,7 @@
                         <physDesc>
                             <objectDesc>
                                 <supportDesc>
-                                    <support><rs type="decoration"
-                                            ref="https://www.eagle-network.eu/voc/decor/lod/1000"
-                                        /></support>
-                                    <condition>complete</condition>
+                                    
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
