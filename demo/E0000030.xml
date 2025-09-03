@@ -44,7 +44,15 @@
                                         intero (utero appiattito fortemente
                                     stilizzato?).”</note></support>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="palaeography">De forma litterae A notandum est
+                                        hastam trasversam a sinistra solutam oblique collocatam
+                                        esse.</rs><rs type="metric">no</rs></layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote><rs type="ligature">no</rs></handNote>
+                        </handDesc>
                     </physDesc>
                     <msContents>
                         <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
@@ -84,15 +92,7 @@
                                         /></support>
                                     <condition>complete</condition>
                                 </supportDesc>
-                                <layoutDesc>
-                                    <layout><rs type="palaeography">De forma litterae A notandum est
-                                            hastam trasversam a sinistra solutam oblique collocatam
-                                            esse.</rs><rs type="metric">no</rs></layout>
-                                </layoutDesc>
                             </objectDesc>
-                            <handDesc>
-                                <handNote><rs type="ligature">no</rs></handNote>
-                            </handDesc>
                         </physDesc>
                     </msPart>
                 </msDesc>
