@@ -46,6 +46,19 @@
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <msContents>
+                        <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
+                            type="Tituli sacri; Titulus Fortunae">
+                            <textLang mainLang="lat"/>
+                            
+                            <note type="verification" subtype="autopsy"><date when="1885"
+                            /><persName>Helbig</persName></note>
+                            <note type="verification" subtype="photo">
+                                <date/>
+                                <persName>Kajava</persName>
+                            </note>
+                        </msItem>
+                    </msContents>
                     <history>
                         <origin>
                             <origDate notBefore-custom="-300" notAfter-custom="-200"
@@ -63,20 +76,6 @@
                                 inv. NI 6979.</provenance>
                     </history>
                     <msPart type="main" xml:id="part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
-                        
-                        <msContents>
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
-                                type="Tituli sacri; Titulus Fortunae">
-                                <textLang mainLang="lat"/>
-                              
-                                <note type="verification" subtype="autopsy"><date when="1885"
-                                        /><persName>Helbig</persName></note>
-                                <note type="verification" subtype="photo">
-                                    <date/>
-                                    <persName>Kajava</persName>
-                                </note>
-                            </msItem>
-                        </msContents>
                         <physDesc>
                             <objectDesc>
                                 <supportDesc>
