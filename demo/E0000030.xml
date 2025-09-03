@@ -57,6 +57,9 @@
                         <handDesc>
                             <handNote>
                                 <note type="ligature">no</note>
+                                <dimensions>
+                                    <height min="3" max="7" unit="cm"></height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
