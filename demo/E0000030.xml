@@ -58,7 +58,7 @@
                             <handNote>
                                 <note type="ligature">no</note>
                                 <dimensions>
-                                    <height min="3" max="7" unit="cm"></height>
+                                    <height min="" max="" unit="cm"></height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -91,15 +91,6 @@
                                 esse ac eam, quae exstat Monachii in Staatliche Antikensammlung,
                                 inv. NI 6979.</provenance>
                     </history>
-                    <msPart type="main" xml:id="part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    
-                                </supportDesc>
-                            </objectDesc>
-                        </physDesc>
-                    </msPart>
                 </msDesc>
                 <listBibl>
                     <listBibl type="bibliography">
