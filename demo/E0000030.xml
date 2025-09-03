@@ -67,74 +67,7 @@
                             <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
                                 type="Tituli sacri; Titulus Fortunae">
                                 <textLang mainLang="lat"/>
-                                <listBibl type="bibliography">
-
-                                    <bibl type="public" xml:id="bibl-4">
-                                        <ptr target="CifarelliRecinto"/>
-                                        <citedRange>11-12 adn. 26</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-5">
-                                        <ptr target="CifarelliAmbrosiniNonnisNuovidati"/>
-                                        <citedRange>249-250</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-6">
-                                        <ptr/>
-                                        <citedRange>191</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-7">
-                                        <ptr target="BoosInexcelsissimoloco"/>
-                                        <citedRange>27</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-8">
-                                        <ptr target="Hamdorf"/>
-                                        <note>cum im. phot.;</note>
-                                        <citedRange>622-623 n. E941 </citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-9">
-                                        <ptr target="Europe"/>
-                                        <note>(im. phot. in <citedRange>p. 353</citedRange>);</note>
-                                        <citedRange>360 n. [6] </citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-10">
-                                        <ptr target="CifarelliInstrumentum"/>
-                                        <citedRange>713</citedRange>
-                                    </bibl>
-                                    <bibl type="internal" xml:id="bibl-11">
-                                        <ptr target="Champeaux"/>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-12">
-                                        <ptr target="EDR"/>
-                                        <citedRange>155367</citedRange>
-                                    </bibl>
-                                </listBibl>
-                                <listBibl type="previousEditions">
-
-                                    <bibl type="public" xml:id="bibl-1">
-                                        <ptr target="Helbig"/>
-                                        <note>ex quo</note>
-                                        <citedRange>63</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-2">
-                                        <ptr target="IhmEEVIII"/>
-                                        <citedRange>625</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-3">
-                                        <ptr target="CIL1(2).2.4.1"/>
-                                        <citedRange>3101</citedRange>
-                                    </bibl>
-                                </listBibl>
-                                <listBibl type="images">
-
-                                    <bibl type="public" xml:id="bibl-13">
-                                        <ptr target="Hamdorf"/>
-                                        <citedRange>622-623 n. E941</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-14">
-                                        <ptr target="NonnisAppunti"/>
-                                        <note>im. phot. in p. 353.</note>
-                                        <citedRange>353</citedRange>
-                                    </bibl>
-                                </listBibl>
+                              
                                 <note type="verification" subtype="autopsy"><date when="1885"
                                         /><persName>Helbig</persName></note>
                                 <note type="verification" subtype="photo">
