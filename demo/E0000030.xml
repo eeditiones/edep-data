@@ -63,7 +63,6 @@
                     <msContents>
                         <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
                             type="Tituli sacri; Titulus Fortunae">
-                            <textLang mainLang="lat"/>
                             
                             <note type="verification" subtype="autopsy"><date when="1885"
                             /><persName>Helbig</persName></note>
@@ -182,7 +181,9 @@
                     <term/>
                 </keywords>
             </textClass>
-            
+            <langUsage>
+                <language ana="main" ident="lat"/>
+            </langUsage>
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2025-02-14T16:10:48.463+01:00" who="edep"/>
