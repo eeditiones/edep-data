@@ -13,6 +13,14 @@
       </fileDesc>
       <encodingDesc>
          <classDecl>
+            <taxonomy xml:id="pb-editor-role">
+               <desc>Description of editorial roles distinguished in the project; 
+                  multiple localized versions of the role name may be provided with `xml:lang` to specify the language</desc>
+               <category xml:id="digital">
+                  <catDesc xml:lang="en">Digital editor</catDesc>
+                  <catDesc xml:lang="pl">Edytor cyfrowy</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="pb-taxonomy">
                <category xml:id="genre">
                   <catDesc>Genre of a text</catDesc>
