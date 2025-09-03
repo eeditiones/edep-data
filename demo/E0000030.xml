@@ -7,6 +7,14 @@
                 <title>Titulus sacer Fortunae (EEE 3)</title>
                 <editor>Kajava</editor>
                 <editor role="digital">David Eibeck</editor>
+                <respStmt>
+                    <resp when="1885">autopsy</resp>
+                    <persName>Helbig</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>photo</resp>
+                    <persName>Kajava</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -63,17 +71,8 @@
                             </handNote>
                         </handDesc>
                     </physDesc>
-                    <msContents>
-                        <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80"
-                            type="Tituli sacri; Titulus Fortunae">
-                            
-                            <note type="verification" subtype="autopsy"><date when="1885"
-                            /><persName>Helbig</persName></note>
-                            <note type="verification" subtype="photo">
-                                <date/>
-                                <persName>Kajava</persName>
-                            </note>
-                        </msItem>
+                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                        <summary>Tituli sacri; Titulus Fortunae</summary>
                     </msContents>
                     <history>
                         <origin>
