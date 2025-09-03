@@ -46,10 +46,20 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin><origDate notBefore-custom="-300" notAfter-custom="-200"
+                        <origin>
+                            <origDate notBefore-custom="-300" notAfter-custom="-200"
                                 datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculo
                                 III a. Chr. n., potissimum medio, attribuit <ref type="biblio"
-                                    target="#bibl-9">NONNIS</ref>.</origDate></origin>
+                                    target="#bibl-9">NONNIS</ref>.</origDate>
+                            <origPlace corresp="G003598"/></origin>
+                            <provenance type="found" notAfter="1885"><note type="context">Inter res
+                                    votivas in via degli Asini (nunc via dell’Asilo) prope portam
+                                    Maggiore depositas [in fundo fratrum Colabucci <ref
+                                        type="biblio" target="#bibl-1"
+                                        >HELBIG</ref>].</note></provenance>
+                            <provenance type="history">Nuper cognitum est rem hanc votivam eandem
+                                esse ac eam, quae exstat Monachii in Staatliche Antikensammlung,
+                                inv. NI 6979.</provenance>
                     </history>
                     <msPart type="main" xml:id="part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
                         
@@ -151,17 +161,6 @@
                                 <handNote><rs type="ligature">no</rs></handNote>
                             </handDesc>
                         </physDesc>
-                        <history>
-                            <origin><origPlace corresp="G003598"/></origin>
-                            <provenance type="found" notAfter="1885"><note type="context">Inter res
-                                    votivas in via degli Asini (nunc via dell’Asilo) prope portam
-                                    Maggiore depositas [in fundo fratrum Colabucci <ref
-                                        type="biblio" target="#bibl-1"
-                                >HELBIG</ref>].</note></provenance>
-                            <provenance type="history">Nuper cognitum est rem hanc votivam eandem
-                                esse ac eam, quae exstat Monachii in Staatliche Antikensammlung,
-                                inv. NI 6979.</provenance>
-                        </history>
                     </msPart>
                 </msDesc>
             </sourceDesc>
