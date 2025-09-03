@@ -182,6 +182,7 @@
                 </keywords>
             </textClass>
             <langUsage>
+                <language ident=""></language>
                 <language ana="main" ident="lat"/>
             </langUsage>
         </profileDesc>
