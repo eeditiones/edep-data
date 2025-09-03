@@ -30,7 +30,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <state type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                                    <note type="decoration" corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/131"/>
                                     <note><ref type="biblio" target="#bibl-1"
@@ -47,13 +47,17 @@
                                 <condition>complete</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><rs type="palaeography">De forma litterae A notandum est
+                                <layout>
+                                    <note type="palaeography">De forma litterae A notandum est
                                         hastam trasversam a sinistra solutam oblique collocatam
-                                        esse.</rs><rs type="metric">no</rs></layout>
+                                        esse.</note>
+                                    <note type="metric">no</note></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><rs type="ligature">no</rs></handNote>
+                            <handNote>
+                                <note type="ligature">no</note>
+                            </handNote>
                         </handDesc>
                     </physDesc>
                     <msContents>
