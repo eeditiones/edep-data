@@ -119,22 +119,20 @@ instead of using `msItem` with nested content, factor out verification (see abov
 </msContents>
 ```
 
+# NOT REVIEWED YET
+
 ## partials
 
 * `<TEI type="partial" id="EDEP-007-a" corresp="EDEP-007">`
 * Use EDEP ID E0000028 as example
 
 
-Fields going into project-specific profile:
+## OTHER CHANGES to the form
 
 * TM ID: replace with a repeat which has configurable (one or more) identifiers, e.g. wikidata, taisho ...
 * Drop "transmission", use type on listBibl to denote bibliographic type. By default this includes: previous editions and bibliography. For EDEp additionally images and transmittions (in same order as currently)
-* Description of object / free form: project specific, not in base
-* Metric and ligature
-* Historical relevance
 
-## CHANGES
-
+* Information buttons should always be next to the box title, not in the editor toolbar
 * Repository:
 
   + 'GND Key' in 'Repository Key'
@@ -153,30 +151,5 @@ Fields going into project-specific profile:
                                         <width min="" max="" unit="cm"></width>
                                     </dimensions>
 ```
-* Languages:
-  + becomes repeat with checkbox for main language
-  + free form field for other language information
 
-  <textLang mainLang="lat"/>
-```
-<!-- Replaces mainLang - use repeat with option to mark one as main -->
-<langUsage>
-  <language ana="main" ident="lat"></language>
-  <language ident="nxm">Numidian</language>
-  <language ident="">Free form comment</language>
-</langUsage>
-```
-* allow more than one editor with different @role
 
-## Other TODOs
-
-* check the consequences of dropping msPart
-* Information buttons should always be next to the box title, not in the editor toolbar
-* check use of `rs` via `ref`:
-
-```xml
-<!-- change: replace rs with ref where applicable -->
-                                        <ref type="decoration" target="https://www.eagle-network.eu/voc/decor/lod/1000">
-                                            <!-- free form text goes here (situative) -->
-                                        </ref>
-```
