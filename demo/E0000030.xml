@@ -65,9 +65,6 @@
                         <handDesc>
                             <handNote>
                                 <note type="ligature">no</note>
-                                <dimensions>
-                                    <height min="" max="" unit="cm"></height>
-                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -80,7 +77,8 @@
                                 datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculo
                                 III a. Chr. n., potissimum medio, attribuit <ref type="biblio"
                                     target="#bibl-9">NONNIS</ref>.</origDate>
-                            <origPlace corresp="G003598"/></origin>
+                            <origPlace corresp="G003598"/>
+                        </origin>
                             <provenance type="found" notAfter="1885"><note type="context">Inter res
                                     votivas in via degli Asini (nunc via dell’Asilo) prope portam
                                     Maggiore depositas [in fundo fratrum Colabucci <ref
@@ -112,13 +110,12 @@
                         <bibl type="public" xml:id="bibl-8">
                             <ptr target="Hamdorf"/>
                             <note>cum im. phot.;</note>
-                            <citedRange>622-623 n. E941 </citedRange>
+                            <citedRange>622-623 n. E941</citedRange>
                         </bibl>
                         <bibl type="public" xml:id="bibl-9">
                             <ptr target="Europe"/>
-                            
-                            <note>(im. phot. in <citedRange>p. 353</citedRange>);</note>
-                            <citedRange>360 n. [6] </citedRange>
+                            <note>(im. phot. in <seg type="citedRange">p. 353</seg>);</note>
+                            <citedRange>360 n. [6]</citedRange>
                         </bibl>
                         <bibl type="public" xml:id="bibl-10">
                             <ptr target="CifarelliInstrumentum"/>
@@ -165,7 +162,6 @@
             <p>Encoded following EpiDoc guidelines 9.2</p>
         </encodingDesc>
         <profileDesc>
-            
             <textClass>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <term/>
@@ -175,7 +171,7 @@
                 </keywords>
             </textClass>
             <langUsage>
-                <language ident=""></language>
+                <language ident=""><note/></language>
                 <language ana="main" ident="lat"/>
             </langUsage>
         </profileDesc>
@@ -184,46 +180,47 @@
             <change type="changed" when="2025-09-02T15:33:46.324+02:00" who="edep"/>
         </revisionDesc>
     </teiHeader>
-    <facsimile corresp="#part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
+    <facsimile>
         <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155367&amp;lang=it"/>
     </facsimile>
     <text>
         <body>
-            <div type="apparatus" corresp="#part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b"/>
-            <div type="translation" corresp="#part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b"
-                resp="Eibeck">Alla Dea Fortuna.</div>
-            <div type="edition">
-                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment"
-                    n="a" fore:type="repeatable" corresp="#part1fcd2ffe-ffa9-48ab-8d2f-feffa918ab6b">
-                    <ab>
-                        <lb n="1"/><persName key="P000016">Fortunai</persName>
-                    </ab>
-                </div>
+            <div type="apparatus"/>
+            <div type="translation" resp="Eibeck">
+                <ab>Alla Dea Fortuna.</ab>
             </div>
-            <div type="commentary">Cf. <ref type="biblio" target="#bibl-4">CIFARELLI, Recinto
-                        <citedRange>11-12 adn. 26</citedRange>
-                </ref>; <ref type="biblio" target="#bibl-5">CIFARELLI - AMBROSINI - NONNIS, Nuovi
-                    dati <citedRange>249-250</citedRange>
-                </ref>; <ref type="biblio" target="#bibl-6">BOOS, Heiligtümer
-                        <citedRange>191</citedRange>
-                </ref>; <ref type="biblio" target="#bibl-7">BOOS, In excelsissimo loco
-                        <citedRange>27</citedRange>
-                </ref>; <ref type="biblio" target="#bibl-8">HAMDORF <citedRange>622-623 n.
-                        E941</citedRange> cum im. phot.</ref>; <ref type="biblio" target="#bibl-9"
-                    >NONNIS, Appunti <citedRange>360 n. [6]</citedRange> (im. phot. in
-                        <citedRange>p. 353</citedRange>)</ref>; <ref type="biblio" target="#bibl-10"
-                    >CIFARELLI, Instrumentum <citedRange>713</citedRange>
-                </ref>. Alii sulcum a dextra litteram I esse putaverunt, quod <ref type="biblio"
-                    target="#bibl-9">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
-                divinitatis nomen casu potissimum dativo vel genetivo apparere exspectes. Itaque, si
-                re vera Fortuna legendum est, de dativo in -a desinente agitur. <ref type="biblio"
-                    target="#bibl-6">BOOS, Heiligtümer</ref> perperam formam Fortunai casum
-                nominativum pluralem esse interpretatus est. De hoc titulo cultuque <persName
-                    key="P000016">deae Fortunae</persName>, quam Signini in sacello probabiliter a
-                meridie oppidi prope <placeName>portam Maggiore</placeName> sito iam aetate liberae
-                rei publicae venerabantur (CIFARELLI, l. l.), cf. <ref type="biblio"
-                    target="#bibl-11">CHAMPEAUX <citedRange>185</citedRange>
-                </ref>.</div>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/><persName key="P000016">Fortunai</persName>
+                </ab>
+            </div>
+            <div type="commentary">
+                <ab>Cf. <ref type="biblio" target="#bibl-4">CIFARELLI, Recinto <seg
+                            type="citedRange">11-12 adn. 26</seg>
+                    </ref>; <ref type="biblio" target="#bibl-5">CIFARELLI - AMBROSINI - NONNIS,
+                        Nuovi dati <seg type="citedRange">249-250</seg>
+                    </ref>; <ref type="biblio" target="#bibl-6">BOOS, Heiligtümer <seg
+                            type="citedRange">191</seg>
+                    </ref>; <ref type="biblio" target="#bibl-7">BOOS, In excelsissimo loco <seg
+                            type="citedRange">27</seg>
+                    </ref>; <ref type="biblio" target="#bibl-8">HAMDORF <seg type="citedRange"
+                            >622-623 n. E941</seg> cum im. phot.</ref>; <ref type="biblio"
+                        target="#bibl-9">NONNIS, Appunti <seg type="citedRange">360 n. [6]</seg>
+                        (im. phot. in <seg type="citedRange">p. 353</seg>)</ref>; <ref type="biblio"
+                        target="#bibl-10">CIFARELLI, Instrumentum <seg type="citedRange">713</seg>
+                    </ref>. Alii sulcum a dextra litteram I esse putaverunt, quod <ref type="biblio"
+                        target="#bibl-9">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
+                    divinitatis nomen casu potissimum dativo vel genetivo apparere exspectes.
+                    Itaque, si re vera Fortuna legendum est, de dativo in -a desinente agitur. <ref
+                        type="biblio" target="#bibl-6">BOOS, Heiligtümer</ref> perperam formam
+                    Fortunai casum nominativum pluralem esse interpretatus est. De hoc titulo
+                    cultuque <persName key="P000016">deae Fortunae</persName>, quam Signini in
+                    sacello probabiliter a meridie oppidi prope <placeName>portam
+                        Maggiore</placeName> sito iam aetate liberae rei publicae venerabantur
+                    (CIFARELLI, l. l.), cf. <ref type="biblio" target="#bibl-11">CHAMPEAUX <seg
+                            type="citedRange">185</seg>
+                    </ref>.</ab>
+            </div>
         </body>
     </text>
 </TEI>
