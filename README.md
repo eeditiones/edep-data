@@ -74,10 +74,17 @@ relocate to `sourceDesc/msDesc/physDesc`
 
 ## `rs`
 
-- change `rs type="decoration` to `note` with `@corresp` and relocate to `sourceDesc/msDesc/physDesc/objectDesc/supportDesc/support` (could also use `ref` but elsewhere `note` is more fitting, so for consistency let's stick with that)
-- change other cases of `rs` usage to `note` with `@type`
+- change `rs type="decoration` to `note` with `@corresp` and relocate to `sourceDesc/msDesc/physDesc/objectDesc/supportDesc/support` (could also use `ref` but elsewhere `note` is more fitting, so for consistency let's stick with that); alternatively use EpiDoc's `physDesc/decoDesc` and `decoNote` as in [EpiDoc spec](https://epidoc.stoa.org/gl/latest/supp-descdecor.html)
 
-**NB** `rs` was just wrong to use as it is design to represent references to named objects in the text; it makes no sense as an empty element or placeholder to put classifications onto
+```xml
+<decoDesc>
+    <decoNote>Egg and dart moulding along the top of the block.</decoNote>
+</decoDesc>
+```
+
+- change other cases of `rs` usage to `note` with `@type` or dedicated elements
+
+**NB** `rs` was just wrong to use as it is design to represent references to named objects in the text; it makes no sense as an empty element or placeholder to put classifications onto. In EpiDoc spec its use is allowed when providing a general prose description, and `rs` elements are added over keywords or key phrases in that unstructured description for the purposes of indexing.
 
 ## Languages
   
@@ -151,5 +158,3 @@ instead of using `msItem` with nested content, factor out verification (see abov
                                         <width min="" max="" unit="cm"></width>
                                     </dimensions>
 ```
-
-
