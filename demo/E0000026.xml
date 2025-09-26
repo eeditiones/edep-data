@@ -1,0 +1,186 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Silvano (EEE 10)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000026</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="101" notAfter-custom="300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Est saeculi II vel III p. Chr. n.</origDate>
+                        </origin>
+                    </history>
+                    <msPart type="main" xml:id="part1d737b48-2948-468b-b37b-482948868b4b">
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="TM">538429</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; titulus Silvano.">
+                                <textLang mainLang="lat"/>
+                                <listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-4">
+        <ptr target="QuiliciCivitadiArtena"/>
+        
+        <citedRange>180</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-5">
+        <ptr target="Cult"/>
+        
+        <citedRange>159</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-6">
+        <ptr target="BoosInexcelsissimoloco"/>
+        
+        <citedRange>27</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+        <ptr target="DeFrancesco"/>
+        
+        <citedRange>141</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="transmission">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="Caputi"/>
+        <note>Epistula <date>a. 1879</date> STEVENSONIO missa </note>
+        
+    </bibl>
+                                </listBibl>
+                                <listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-2">
+        <ptr target="CIL10.1"/>
+        <note>de manuscripto Marinii, qui obtulit e Vernazza, qui non vidit;</note>
+        <citedRange>5962</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-3">
+        <ptr target="Caputi"/>
+        <note>in epistula <date>a. 1879</date> Stevensonio missa</note>
+        
+    </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="autopsy">
+                                    <date/>
+                                    <persName>Marini</persName>
+                                </note>
+                                <note type="verification" subtype="drawing">
+        <date/>
+        <persName>Kajava</persName>
+    </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <rs type="decoration"/>
+                                    </support>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <rs type="palaeography"/>
+                                        <rs type="metric"/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <rs type="ligature"/>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace corresp="G003606"/>
+                            </origin>
+                            <provenance type="found" notAfter="1815">
+                                <note type="context">MOMMSEN: "Monte Fortino rep. nel Colle dell'Imperatore [qui pars est <placeName key="G003593">collis della Maiorana</placeName>]"</note>
+                            </provenance>
+                            <provenance type="history">
+                                <ref target="#bibl-2">MOMMSEN</ref>: “Est in domo domini oppidi VERN. Frustra quaesivit STEVENSON.”
+Iam pridem periisse videtur.</provenance>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term ref="#social-economic-legal-history"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-01-17T19:23:32.951+01:00" who="edep"/>
+            <change type="changed" when="2025-03-24T16:26:45.308+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part1d737b48-2948-468b-b37b-482948868b4b"/>
+            <div type="translation" corresp="#part1d737b48-2948-468b-b37b-482948868b4b" resp="Eibeck">Dedicato a <persName key="P00027">Silvano</persName>. <persName key="P000028">Marco Giulio Marziale</persName> (glielo) donò.</div>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part1d737b48-2948-468b-b37b-482948868b4b">
+                    <ab>
+<lb n="1"/>
+                        <persName key="P000027">Silvano</persName>
+<lb n="2"/>
+                        <expan>sacr<ex>um</ex>
+                        </expan>
+<lb n="3"/>
+                        <persName key="P000028">
+                            <expan>M<ex>arcus</ex>
+                            </expan> Iulius
+<lb n="4"/>Martialis</persName>
+<lb n="5"/>
+                        <expan>d<ex>ono</ex>
+                        </expan> <expan>d<ex>edit</ex>
+                        </expan>
+</ab>
+                </div>
+            </div>
+            <div type="commentary">Cf. <ref type="biblio" target="#bibl-4">QUILICI, Civita di Artena <citedRange unit="page">180</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-5">DORCEY <citedRange unit="page">159</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-6">BOOS, In excelsissimo loco <citedRange unit="page">27</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-8">DE FRANCESCO <citedRange unit="page">141</citedRange>
+                </ref>.
+3-4 <persName key="P000028">Martialis</persName>, quippe cum <persName key="P000027">Silvano</persName> deo donum daret, fuit fortasse aut colonus aut lignarius aut artifex alicuius generis (cf. <ref type="biblio" target="#bibl-5">DORCEY, l. l. <citedRange unit="page">119-120</citedRange>
+                </ref>).</div>
+        </body>
+    </text>
+</TEI>

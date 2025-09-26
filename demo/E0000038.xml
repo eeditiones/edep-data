@@ -1,0 +1,263 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Iunoni Monetae (EEE 8)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000038</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1778"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/109"/>
+                                    <note>Lamina aenea a tergo expolita.</note>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="-300" notAfter-custom="-201" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Laminam saeculo fere III. a. Chr. n. manufactam esse litterarum forma docet.</origDate>
+                        </origin>
+                    </history>
+                    <msPart type="main" xml:id="part53179a7a-01d7-4de2-979a-7a01d75de26e">
+                        <msIdentifier>
+                            <repository>Museo Villa Giulia (inv. N. 19179)</repository>
+                            <idno type="TM">522507</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; titulus Iunoni">
+                                <textLang mainLang="lat"/>
+                                <listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-5">
+        <ptr target="KirsoppLakeJunoMoneta"/>
+        
+        <citedRange>XLIX-L</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-6">
+        <ptr target="KirsoppLakeTuscanTemple"/>
+        
+        <citedRange>111</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+        <ptr target="Bianchi"/>
+        
+        <citedRange>363-364</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-8">
+        <ptr target="CoarelliIscrizione"/>
+        <note>
+                                            <citedRange unit="number">n. 488</citedRange> cum im. phot. <citedRange unit="figure">tab. LXXIII</citedRange>
+                                        </note>
+        <citedRange>337-338</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-9">
+        <ptr target="CoarelliLazio3"/>
+        
+        <citedRange>177-178</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-10">
+        <ptr target="Cancellieri"/>
+        
+        <citedRange>81</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-11">
+        <ptr target="GhislanzoniNSc"/>
+        <note>(Sopr. Arch. Lazio – Segni cum die adscripto 13 Nov. a. 1911)</note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-12">
+        <ptr target="CifarelliAmbrosiniNonnisNuovidati"/>
+        <note>cum im. phot. <citedRange unit="figure">fig. 9</citedRange>
+                                        </note>
+        <citedRange>254-255</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-13">
+        <ptr target="BoosHeiligtümer"/>
+        
+        <citedRange>191</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-14">
+        <ptr target="BoosInexcelsissimoloco"/>
+        
+        <citedRange>27</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-15">
+        <ptr target="CifarelliInstrumentum"/>
+        
+        <citedRange>713</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-16">
+        <ptr target="CifarelliColonia"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-17">
+        <ptr target="EDR"/>
+        
+        <citedRange>EDR155372</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="DellaSeta"/>
+        
+        <citedRange>221</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-2">
+        <ptr target="DegrassiILLRP"/>
+        
+        <citedRange>I/2 166 </citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-3">
+        <ptr target="CIL1(2).2.4.1"/>
+        
+        <citedRange>2864</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-4">
+        <ptr target="DegrassiImagines"/>
+        
+        <citedRange>83</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="images">
+                                    
+                                <bibl type="public" xml:id="bibl-18">
+            <ptr/>
+            <note>Im. phot. ex neg. Sopr. Arch. Etruria Merid. n. 1910.</note>
+            
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-19">
+            <ptr target="CoarelliIscrizione"/>
+            
+            <citedRange>tab. LXXIII</citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-20">
+            <ptr target="CifarelliAmbrosiniNonnisNuovidati"/>
+            
+            <citedRange>fig. 9</citedRange>
+        </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="autopsy">
+                                    <date when="1985"/>
+                                    <persName>Kajava</persName>
+                                </note>
+                                <note type="verification" subtype="autopsy">
+        <date/>
+        <persName>Degrassi</persName>
+    </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <width>8-8,1</width>
+                                            <height>3,1-3,2</height>
+                                            <depth>0,1-0,2</depth>
+                                        </dimensions>
+                                        <rs type="decoration"/>
+                                    </support>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <rs type="palaeography">Litterae sunt antiquiores, N et M late extensae hastas omnes habent obliquas, O est aliquantum angulata, ut et linea transversa litterae A. Puncta nulla cernuntur.</rs>
+                                        <rs type="metric">no</rs>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <dimensions type="letterHeight">
+                                        <height>0,6-0,7</height>
+                                    </dimensions>
+                                    <rs type="ligature">no</rs>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace corresp="G003607"/>
+                            </origin>
+                            <provenance type="found" notAfter="1911">
+                                <note type="context">In stipe sacra, cum aedes Iunonis in arce excavaretur.</note>
+                            </provenance>
+                            <provenance type="history"/>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-03-24T14:46:05.31+01:00" who="edep"/>
+            <change type="changed" when="2025-03-24T15:06:52.772+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#part53179a7a-01d7-4de2-979a-7a01d75de26e">
+    <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155372&amp;lang=it"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part53179a7a-01d7-4de2-979a-7a01d75de26e"/>
+            <div type="translation" corresp="#part53179a7a-01d7-4de2-979a-7a01d75de26e" resp="Eibeck">In dono a Giunone Moneta.</div>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part53179a7a-01d7-4de2-979a-7a01d75de26e">
+                    <ab>
+<lb n="1"/>
+                        <persName key="P000025">Iunonei
+<lb n="2"/>Monetai</persName>
+<lb n="3"/>donom
+</ab>
+                </div>
+            </div>
+            <div type="commentary">Cf. <ref type="biblio" target="#bibl-5">KIRSOPP LAKE, Juno Moneta <citedRange>XLIX-L</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-6">KIRSOPP LAKE, Tuscan Temple <citedRange unit="page">111</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-7">BIANCHI <citedRange unit="page">363-364</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-8">COARELLI, Iscrizione <citedRange unit="page">337-338 <citedRange unit="number">n. 488</citedRange> cum im. phot. <citedRange unit="figure">tab. LXXIII</citedRange>
+                    </citedRange>;</ref>
+                <ref type="biblio" target="#bibl-9">COARELLI, Lazio/3 <citedRange unit="page">177-178</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-10">CANCELLIERI <citedRange unit="page">81-81</citedRange>
+                </ref>, relationem effossionum ab <ref type="biblio" target="#bibl-11">E. GHISLANZONI a. 1911</ref> effectarum memorantem (Sopr. Arch. Lazio – Segni cum die adscripto <date>13 Nov. a. 1911</date>); <ref type="biblio" target="#bibl-12">CIFARELLI - AMBROSINI - NONNIS, Nuovi dati <citedRange unit="page">254-255 cum im. phot. <citedRange unit="figure">fig. 9</citedRange>
+                    </citedRange>
+                </ref>; <ref type="biblio" target="#bibl-13">BOOS, Heiligtümer <citedRange unit="page">191</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-13">BOOS, In excelsissimo loco <citedRange unit="page">27</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-15">CIFARELLI, Instrumentum <citedRange>713</citedRange>
+                </ref>.
+De prima forma sacelli saeculo fortasse VI exeunti attribuendi (<ref type="biblio" target="#bibl-16">CIFARELLI, Colonia <citedRange unit="page">158-160</citedRange>
+                </ref>) et postea saepius renovati quamquam parum constat, tamen <persName key="P000025">Iunoni Monetae</persName> ab initio dicatum fuisse tam capita <persName key="P000026">Iunonis</persName> in antefixis quam tituli <persName key="P000026">Iunonis</persName> nomine praediti ipso loco reperti docent. Cultum deae coloni fortasse iam aetate regum exeunte aut certe ad ultimum anno fere <date>495</date> <placeName>Signiam</placeName> secum portaverant (diverse tamen opinatus est <ref type="biblio" target="#bibl-8">COARELLI, Iscrizione <citedRange unit="page">338</citedRange>
+                </ref>, cultum <persName key="P000025">Iunonis Monetae</persName> territorio Volscorum et Auruncorum oriundum esse proponens).</div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,230 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Iunoni (EEE 9)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000039</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/67"/>
+                                    <note>Torus arae, ut videtur, ex lapide calcario undique imminutus.</note>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Ex forma litterarum, quae antiquiores haudquaquam iudicari possunt, non mihi videtur necesse esse titulum aetate liberae rei publicae inscriptum fuisse. </origDate>
+                        </origin>
+                    </history>
+                    <msPart type="main" xml:id="part9f74d01e-d5c9-4e0b-b4d0-1ed5c9ce0b01">
+                        <msIdentifier>
+                            <repository>Roma, Museo Villa Giulia (inv. n. 19410). </repository>
+                            <idno type="TM">522508</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; titulus Iunoni">
+                                <textLang otherLangs="lat"/>
+                                <listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-10">
+        <ptr/>
+        <note>CIFARELLI, Santuari 385-386 (cum im. phot. fig. 11); </note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-11">
+        <ptr/>
+        <note>BOOS, Heiligtümer 191</note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-12">
+        <ptr/>
+        <note>BOOS, In excelsissimo loco 27</note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-15">
+        <ptr target="EDR"/>
+        
+        <citedRange>EDR155373</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-19">
+        <ptr target="KirsoppLakeJunoMoneta"/>
+        
+        <citedRange>XLIX-L</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-20">
+        <ptr target="KirsoppLakeTuscanTemple"/>
+        
+        <citedRange>111</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-21">
+        <ptr target="Bianchi"/>
+        
+        <citedRange>363-364</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-22">
+        <ptr target="CoarelliIscrizione"/>
+        
+        <citedRange>337</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-23">
+        <ptr target="CoarelliLazio3"/>
+        
+        <citedRange>177-178</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-25">
+        <ptr target="Cancellieri"/>
+        
+        <citedRange>81</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-26">
+        <ptr target="GhislanzoniNSc"/>
+        <note>(Sopr. Arch. Lazio – <placeName>Segni</placeName> cum die adscripto <date>13 Nov. a. 1911</date>);</note>
+        
+    </bibl>
+                                </listBibl>
+                                <listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-17">
+        <ptr target="DellaSeta"/>
+        <note>ex eis</note>
+        <citedRange>221</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-18">
+        <ptr target="CIL1(2).2.4.1"/>
+        <note>qui non viderunt</note>
+        <citedRange>2865</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="images">
+                                    
+                                <bibl type="public" xml:id="bibl-13">
+            <ptr/>
+            <note>CIFARELLI, Santuari 385-386 (cum im. phot. fig. 11)</note>
+            
+        </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="autopsy">
+                                    <date when="1996"/>
+                                    <persName>Kajava</persName>
+                                </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <width>(32)</width>
+                                            <height>(13)</height>
+                                            <depth>(14)</depth>
+                                        </dimensions>
+                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                                    </support>
+                                    <condition>fragmentary</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <rs type="palaeography"/>
+                                        <rs type="metric">no</rs>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <dimensions type="letterHeight">
+                                        <height>4,5-4,8</height>
+                                    </dimensions>
+                                    <rs type="ligature"/>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace corresp="G003607"/>
+                            </origin>
+                            <provenance type="found" when="1911">
+                                <note type="context">In arce in effossionibus aedis Iunonis.</note>
+                            </provenance>
+                            <provenance type="history">Exstat Romae in Mus. Villa Giulia, in repositis.</provenance>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-03-24T15:21:10.164+01:00" who="edep"/>
+            <change type="changed" when="2025-03-24T16:09:48.077+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#part9f74d01e-d5c9-4e0b-b4d0-1ed5c9ce0b01">
+    <graphic url="https://www.academia.edu/2028724/_I_santuari_di_Signia_in_E_MARRONI_a_cura_di_Sacra_Nominis_Latini_I_santuari_del_Lazio_arcaico_e_repubblicano_Atti_del_Convegno_Internazionale_Roma_2009_Napoli_2012_pp_373_386"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part9f74d01e-d5c9-4e0b-b4d0-1ed5c9ce0b01">
+                <listApp>
+                    <app loc="1">
+                        <note>
+                            <rdg>[I]uno[ni]</rdg> <ref type="biblio" target="#bibl-2">DEGRASSI - KRUMMREY </ref>et COARELLI, [I]unon[i] <ref type="biblio" target="#bibl-10">CIFARELLI</ref>
+                        </note>
+                    </app>
+                </listApp>, sed initio pars litterae I adhuc cernitur.</div>
+            <div type="translation" corresp="#part9f74d01e-d5c9-4e0b-b4d0-1ed5c9ce0b01" resp="Eibeck">A <persName key="P000026">Giunone</persName>
+            </div>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part9f74d01e-d5c9-4e0b-b4d0-1ed5c9ce0b01">
+                    <ab>
+<lb n="1"/>
+                        <persName key="P000026">
+                            <unclear>I</unclear>uno<unclear>n</unclear>
+                        </persName>
+                        <supplied reason="lost" unit="character" quantity="unknown">- - -</supplied>
+</ab>
+                </div>
+            </div>
+            <div type="commentary">Cf. etiam <ref type="biblio" target="#bibl-19">KIRSOPP LAKE, Juno Moneta <citedRange>XLIX-L</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-20">KIRSOPP LAKE, Tuscan Temple <citedRange unit="page">111</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-21">BIANCHI <citedRange unit="page">363-364</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-22">F. COARELLI, Iscrizione <citedRange unit="page">337</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-23">COARELLI, Lazio/3 <citedRange unit="page">177-178</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-25">CANCELLIERI <citedRange unit="page">81</citedRange>
+                </ref>, relationem effossionum ab <ref type="biblio" target="#bibl-26">E. GHISLANZONI a. 1911</ref> effectarum memorantem (Sopr. Arch. Lazio – Segni cum die adscripto 13 Nov. a. 1911); <ref type="biblio" target="#bibl-10">CIFARELLI, Santuari <citedRange unit="page">385-386 (cum im. phot. <citedRange unit="figure">fig. 11</citedRange>)</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-11">BOOS, Heiligtümer <citedRange unit="page">191</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-12">BOOS, In excelsissimo loco <citedRange unit="page">27</citedRange>
+                </ref>.
+Ex forma litterarum, quae antiquiores haudquaquam iudicari possunt, non mihi videtur necesse esse titulum aetate liberae rei publicae inscriptum fuisse. </div>
+        </body>
+    </text>
+</TEI>

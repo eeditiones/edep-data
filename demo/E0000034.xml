@@ -1,0 +1,237 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Titulus sacer Iano Patri (EEE 7)</title><editor>Kajava</editor></titleStmt><publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt><sourceDesc><msDesc><msIdentifier><repository>Epigraphische Datenbank Heidelberg</repository><idno type="EDEp">E0000034</idno></msIdentifier><physDesc><objectDesc><supportDesc><support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/1778"/><material ref="https://www.eagle-network.eu/voc/material/lod/67"/><note>Saxum ex lapide calcario, in fronte levigatum, tam infra quam in marginibus sinistro et dextro imminutum, superne paullulum sic rotundatum, ut summum planum sit rectum. In planis adclivi ac declivi duo foramina reliquias uncorum ferreorum ad saxum adfingendum adhuc retinent.</note></support></supportDesc></objectDesc></physDesc><history><origin><origDate when-custom="0181-01-01" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                                <ref type="biblio" target="#bibl-3">LEBEK</ref> opinatus est carmen <date cert="low">Kalendis Ianuariis a. 181</date> attribui posse (cf. v. 3 ex.).</origDate></origin></history><msPart type="main" xml:id="part0e980166-eebe-47bc-9801-66eebe87bc31"><msIdentifier><repository>Museo Civico Archeologico Roger Lambrechts, Artena, inv. N. 34.</repository><idno type="TM">550619</idno></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/85 https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; titulus Iano Patri; carmen"><textLang mainLang="lat"/><listBibl type="bibliography">
+                                    
+                                
+                                    
+                                    <bibl type="public" xml:id="bibl-6">
+        <ptr target="QuiliciViaLatina"/>
+        
+        <citedRange>215 adn. 26</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+        <ptr target="CugusiCLEenovellismo"/>
+        
+        <citedRange>138-139</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-8">
+        <ptr target="CugusiPerunnuovocorpus"/>
+        
+        <citedRange>152, 169 et 175</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-9">
+        <ptr target="DeFrancesco"/>
+        
+        <citedRange>141</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-10">
+        <ptr target="Mattiacci"/>
+        
+        <citedRange>223-224</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-11">
+        <ptr/>
+        <note>Enn. ann.</note>
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-12">
+        <ptr/>
+        <note>Sept. Ser. Carm.</note>
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-13">
+        <ptr target="Gnecchi"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-14">
+        <ptr/>
+        <note>BMC Emp. 4</note>
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-15">
+        <ptr target="SEG28"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-16">
+        <ptr/>
+        <note>SEG XXVII</note>
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-17">
+        <ptr target="KajavaGreekHymn"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-18">
+        <ptr target="SEG54"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-19">
+        <ptr target="KajavaHeracles"/>
+        
+        
+    </bibl>
+                                    
+                                    <bibl type="internal" xml:id="bibl-21">
+        <ptr target="SEG47"/>
+        
+        
+    </bibl>
+                                    
+                                    <bibl type="internal" xml:id="bibl-26">
+        <ptr/>
+        <note>SEG XXXII</note>
+        
+    </bibl>
+                                <bibl type="public" xml:id="bibl-27">
+        <ptr target="AE1996"/>
+        
+        <citedRange>370</citedRange>
+    </bibl><bibl type="public" xml:id="bibl-28">
+        <ptr target="AE2004"/>
+        
+        <citedRange>385</citedRange>
+    </bibl><bibl type="public" xml:id="bibl-29">
+        <ptr target="AE1997"/>
+        
+        
+    </bibl><bibl type="public" xml:id="bibl-31">
+        <ptr target="EDR"/>
+        
+        <citedRange>EDR155370</citedRange>
+    </bibl></listBibl><listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="QuiliciCivitadiArtena"/>
+        <note>cum im. phot. <citedRange unit="figure">tab. CVI, 3</citedRange>
+                                        </note>
+        <citedRange>173-180</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-2">
+        <ptr target="KajavaNewPoems"/>
+        <note>cum im. phot. <citedRange unit="page">p. 77-78 <citedRange unit="figure">fig. 1a-b</citedRange>
+                                            </citedRange> (= <ref type="biblio" target="#bibl-27">AE 1996, <citedRange unit="number">370</citedRange>
+                                            </ref>); </note>
+        <citedRange>76-94</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-3">
+        <ptr target="Lebek"/>
+        <note>cum im. phot. <citedRange>p. 69</citedRange> (= <ref type="biblio" target="#bibl-29">AE 2004, <citedRange unit="number">385</citedRange>
+                                            </ref>).</note>
+        
+    </bibl>
+                                </listBibl><listBibl type="images">
+                                    
+                                
+                                    <bibl type="public" xml:id="bibl-23">
+            <ptr/>
+            <note>KAJAVA, New Poems (= <ref type="biblio" target="#bibl-27">AE 1996, <citedRange unit="number">370</citedRange>
+                                            </ref>)</note>
+            <citedRange>76-94, cum im. phot. p. 77-78 fig. 1a-b </citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-24">
+            <ptr/>
+            <note>LEBEK (<ref type="biblio" target="#bibl-28">AE 2004, <citedRange unit="number">385</citedRange>
+                                            </ref>)</note>
+            <citedRange>69</citedRange>
+        </bibl>
+                                <bibl xml:id="bibl-32">
+            <ptr target="QuiliciCivitadiArtena"/>
+            
+            <citedRange>173-180 cum im. phot. tab. CVI, 3</citedRange>
+        </bibl></listBibl><note type="verification" subtype="autopsy"><date when="1983"/><persName>KAJAVA – SOLIN</persName></note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width>34</width><height>51</height><depth>25</depth></dimensions><rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/></support><condition>complete</condition></supportDesc><layoutDesc><layout><rs type="palaeography" ref="https://edep.adw.uni-heidelberg.de/paleography/libraria">Litterae sunt librariae tenues et elegantes, puncta non cernuntur.</rs><rs type="metric">yes</rs></layout></layoutDesc></objectDesc><handDesc><handNote><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003606"/></origin><provenance type="found" notAfter="1982"><note type="context">Rep. Artena in aratione inter rudera villae Romanae in loco dicto Colle dell'Imperatore (qui pars est <placeName key="G003593">collis Maiorana</placeName>).</note></provenance><provenance type="history">Postea devectum in conventum olim Franciscanorum [ibi <date>1983</date>].</provenance></history></msPart></msDesc></sourceDesc></fileDesc><encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc><profileDesc><textClass><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion"><term/></keywords><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms"><term/></keywords></textClass></profileDesc><revisionDesc status="draft"><change type="created" when="2025-03-24T11:36:35.634+01:00" who="edep"/><change type="changed" when="2025-03-30T19:39:38.809+02:00" who="edep"/></revisionDesc></teiHeader><facsimile corresp="#part0e980166-eebe-47bc-9801-66eebe87bc31">
+    <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155370&amp;lang=it"/>
+    </facsimile><text><body><div type="apparatus" corresp="#part0e980166-eebe-47bc-9801-66eebe87bc31">Supplevit <ref type="biblio" target="#bibl-3">LEBEK</ref>. <listApp>
+                    <app loc="1">
+                        <note>1 ex. cl[audis] <ref type="biblio" target="#bibl-1">QUILICI</ref>, <ref type="biblio" target="#bibl-2">KAJAVA</ref>
+                        </note>
+                    </app>; <app loc="3">
+                        <note>3 ex. <rdg>l[ibis]</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>, <rdg>ḷ[ibellis]</rdg> <ref type="biblio" target="#bibl-2">KAJAVA</ref>
+                        </note>
+                    </app>; <app loc="4">
+                        <note>4 ex. <rdg>s[---]</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>, <rdg>s[peciem]</rdg> <ref type="biblio" target="#bibl-2">KAJAVA</ref>
+                        </note>
+                    </app>; <app loc="5">
+                        <note>5 in. <rdg> [gente]m</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>
+                        </note>
+                    </app>; <app loc="5">
+                        <note>5 ex. <rdg> av[---]</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>, <rdg>aụ[gescere curet]</rdg> <ref type="biblio" target="#bibl-2">KAJAVA</ref>
+                        </note>
+                    </app>; <app loc="6">
+                        <note>6 in. <rdg>[ad]</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>, <rdg>[et]</rdg> <ref type="biblio" target="#bibl-2">KAJAVA</ref>; ex. <rdg>viride[m ---]</rdg> <ref type="biblio" target="#bibl-1">QUILICI</ref>, <rdg>viridẹ[m revocet]</rdg> <ref type="biblio" target="#bibl-2">KAJAVA</ref>
+                        </note>
+                    </app>
+                </listApp>.</div><div type="translation" corresp="#part0e980166-eebe-47bc-9801-66eebe87bc31" resp="Lebek">
+                <persName key="P000021">Vater Ianus</persName>, der du den verschlossenen Himmelstempel der Götter mit deinem Schlüssel
+entriegelst und den entriegelten verriegelst,
+empfange am beginnenden Monatsersten dieses mein folgendes Gebet, das ich dir (zur Weiterleitung) anvertraue,
+und verschaffe (ihm) leichten Zugang zum Thron <persName key="P000022">Iuppiters</persName>:
+„Er, der machte, daß die Macht Roms und Latium erstarkten,
+möge den Frieden zu einem gefestigten und lebenskräftigen machen!“ </div><div type="edition"><div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part0e980166-eebe-47bc-9801-66eebe87bc31">
+                    <ab>
+<lg>
+                            <lb n="1"/>
+                            <l>
+                                <persName key="P000021">
+                                    <supplied reason="lost">I</supplied><unclear>a</unclear>ne Pater</persName>, quì templa deum caelestia cl<supplied reason="lost">aue</supplied>
+                            </l>
+<lb n="2"/>
+                            <l>
+                                <supplied reason="lost">cl</supplied><unclear>a</unclear>̣usa tua reseras et reserata ser<supplied reason="lost">as</supplied>,</l>
+<lb n="3"/>
+                            <l>
+                                <supplied reason="lost">accipe</supplied> vota novis haec, quae tibi mando, <unclear>k</unclear>
+                                <supplied reason="lost">
+                                    <expan>al<ex>endis</ex>
+                                    </expan>
+                                </supplied>
+                            </l>
+<lb n="4"/>
+                            <l>
+                                <supplied reason="lost">et fa</supplied>ciles aditus da <persName key="P000022">Iovis</persName> ad s<supplied reason="lost">olium</supplied>:</l>
+<lb n="5"/>
+                            <l>
+                                <supplied reason="lost">qui re</supplied>m Romanam <expan>Latiumq<ex>ue</ex>
+                                </expan> a<unclear>u</unclear>
+                                <supplied reason="lost">gescere <expan>f<ex>ecit</ex>
+                                    </expan>
+                                </supplied>
+                            </l>,
+<lb n="6"/>
+                            <l>
+                                <supplied reason="lost">is</supplied> pacem stabilìtam et viridẹ<supplied reason="lost">m faciat</supplied>
+                            </l>.</lg>
+</ab>
+                </div></div><div type="commentary">Cf. <ref type="biblio" target="#bibl-6">QUILICI, Via Latina <citedRange unit="page">215 <citedRange unit="footnote">adn. 26</citedRange>
+                    </citedRange>
+                </ref>; <ref type="biblio" target="#bibl-7">CUGUSI, CLE e novellismo <citedRange unit="page">138-139</citedRange>138-139</ref>; <ref type="biblio" target="#bibl-8">CUGUSI, Per un nuovo corpus <citedRange unit="page">152</citedRange>, <citedRange unit="page">169</citedRange> et <citedRange unit="page">175</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-9">DE FRANCESCO <citedRange unit="page">141</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-10">MATTIACCI <citedRange unit="page">223-224</citedRange>
+                </ref>.
+De supplementis lexicalibusque vide praesertim <ref type="biblio" target="#bibl-3">LEBEK l. l.</ref> et <ref type="biblio" target="#bibl-2">KAJAVA l. l.</ref>, qui amplissime pertractaverunt. 
+	Dici potest auctorem, qui aetate Antoninorum aut fortasse paulo post scripsit, ad carmen hoc componendum lingua stiloque tam vetustiore quam recentiore usum esse: versibus <ref type="biblio" target="#bibl-10">Ennii (cf. ann. <citedRange unit="line">466</citedRange>
+                </ref>: qui rem Romanam Latiumque augescere vultis), fortasse etiam Lucretii, formis figurisque dicendi poesis q. d. neotericae propriis (cf. <ref type="biblio" target="#bibl-12">Sept. Ser. carm. <citedRange unit="fragment">frg. 23</citedRange>
+                </ref>, quod est invocatio <persName key="P000021">Iani patris</persName> aequalis multisque modis nostro similis). 
+	Quam ob rem auctor huius carminis distichis tribus elegiacis compositi preces et vota Iano patri obtulerit, etsi in dubio manet, tamen titulus ad pericula quaedam Romae Latioque minantia referre videtur. <persName key="P000021">Ianus pater</persName>, quem sacerdotes in caerimoniis sacrisque publicis saepius primum precari solebant, cum omnium esset principiorum ac finium auctor, in hoc quoque eventu invocabatur, quippe qui ianuis Gemini claudendis facultatem haberet belli componendi. Praeterea <persName key="P000021">Ianus</persName> deus erat, per quem homines precantes aditum accessumque ad alios deos habere poterant. Eo enim interprete preces supplicum ad deos quoscumque transmittebantur. In nostro casu homo ille precans ab <persName key="P000022">Iove</persName> voluit petere, ut periculis depulsis pacem stabilem inter cives componeret. Quod ex litteris carmen ad saec. II exiens aut III iniens adsignari potest, eventus qui civibus Romanis periculo fuerunt eodem fere tempore collocandi sunt. Preces huius carminis nisi imaginariae tantum iudicandae sunt, fortasse potissimum de aetate mortem <persName key="P000023">imperatoris M. Aurelii</persName> (a. 180) sequente cogitare possis, cum barbaris devictis pax Romana iterum nata esset. Non sine momento esse videtur, quod <persName key="P000024">Commodo</persName> imperante in nummis quibusdam renovatio temporum imagine <persName key="P000021">Iani</persName> illustrata est (cf. etiam legendam TELLVS STABIL(ita) bullae cuiusdam imaginem bifrontem <persName key="P000024">Commodi</persName> rappraesentantis: <ref type="biblio" target="#bibl-13">GNECCHI <citedRange unit="page">66 <citedRange unit="number">n. 131</citedRange>
+                    </citedRange>
+                </ref>). <persName key="P000022">Iuppiter</persName> quoque, praesertim cum epitheto Latiaris colebatur, patronus Latii fuit, qui Latium salvum praestaret. At huc accedit, quod etiam <persName key="P000022">Iuppiter</persName> reditum aetatis aureae comitabatur atque Latius appellatus est in nummis aetatis Antoninorum (cf. <ref type="biblio" target="#bibl-14">BMC Emp. 4, <citedRange unit="page">262 <citedRange unit="number">n. 1632</citedRange>
+                    </citedRange>
+                </ref>). Lebek opinatus est carmen Kalendis Ianuariis a. 181 attribui posse (cf. v. 3 ex.).
+ 	Tamen haudquaquam excludi potest, quin carmen nostrum temporis aliquantum posterioris sit. Meminisse denique oportet alia quoque carmina aequalia eodem loco reperta esse, scil. tria Graece scripta (<ref type="biblio" target="#bibl-15">SEG XXVIII <citedRange unit="number">793</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-26">XXXII <citedRange unit="number">1020</citedRange>
+                </ref> [cf. <ref type="biblio" target="#bibl-2">KAJAVA, New Poems <citedRange unit="page">90-91</citedRange>
+                </ref>]; <ref type="biblio" target="#bibl-17">KAJAVA, Greek Hymn</ref> [= <ref type="biblio" target="#bibl-18">SEG LIX <citedRange unit="number">1172</citedRange>
+                </ref>]; <ref type="biblio" target="#bibl-19">Kajava, Heracles <citedRange unit="page">55-86</citedRange>
+                </ref> [= <ref type="biblio" target="#bibl-29">AE 1997, </ref> = <ref type="biblio" target="#bibl-21">SEG XLVII <citedRange unit="number">1517</citedRange>
+                </ref>]) atque Latinum n. 74 infra.</div></body></text></TEI>

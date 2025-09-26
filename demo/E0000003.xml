@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Titulus sacer Bonae Deae (EEE 1)</title><editor>Kajava</editor></titleStmt><publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt><sourceDesc><msDesc><msIdentifier><repository>Epigraphische Datenbank Heidelberg</repository><idno type="EDEp">E0000003</idno></msIdentifier><physDesc><objectDesc><supportDesc><support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/><material ref="https://www.eagle-network.eu/voc/material/lod/48"/><note>Tabula marmorea in quattuor fragmenta inter se coniuncta fracta, in angulo superiore sinistro mutilata, in postica rudis, undique regula et cymatio inverso cincta.</note></support></supportDesc></objectDesc></physDesc><history><origin><origDate notBefore-custom="0000" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saec. I. p. Chr. n. (de inscriptione donisque Actes magistrae vide praesertim quae scripsi l. l.)
+</origDate></origin></history><msPart type="main" xml:id="parteec21ba8-90b8-4f61-821b-a890b8ef6198"><msIdentifier><repository>Museo Nazionale Romano, mag. epigr. L, II. 2 int. (inv. N. 56231).</repository><idno type="TM">TM547721</idno></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; Titulus Bonae Deae; Titulus officiorum cultu"><textLang mainLang="lat"/><listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-16">
+        <ptr target="IhmInschriften"/>
+        
+        <citedRange>317</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-17">
+        <ptr target="Navarra"/>
+        
+        <citedRange>102-104</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-18">
+        <ptr target="KajavaDedication"/>
+        
+        <citedRange>210-216</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-19">
+        <ptr target="AE1987"/>
+        
+        <citedRange>231</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-20">
+        <ptr target="Bona Dea (Roman deity)"/>
+        
+        <citedRange>77-78 n. 69</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-21">
+        <ptr target="CifarelliColaiacomoGuida"/>
+        
+        <citedRange>16</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-22">
+        <ptr target="Schulze"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-23">
+        <ptr target="CIL14.0"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-25">
+        <ptr target="DiehlDemfinali"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-26">
+        <ptr target="EDR"/>
+        
+        <citedRange>155365</citedRange>
+    </bibl>
+                                </listBibl><listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="Gatti"/>
+        
+        <citedRange>190-192</citedRange>
+    <note>ex quo</note>
+                                    </bibl>
+                                    <bibl type="public" xml:id="bibl-13">
+        <ptr target="IhmEEVIII"/>
+        
+        <citedRange>624</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-14">
+        <ptr target="DessauILS"/>
+        
+        <citedRange>3945</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-15">
+        <ptr target="DeRuggiero"/>
+        
+        <citedRange>1949</citedRange>
+    </bibl>
+                                </listBibl><listBibl type="images">
+                                    
+                                <bibl type="public" xml:id="bibl-24">
+            <ptr target="KajavaDedication"/>
+            <note>cum im. phot. tab. XII b (<ref type="biblio" target="#bibl-19">AE 1987, 231</ref>)</note>
+            <citedRange>210-216</citedRange>
+        </bibl>
+                                </listBibl><note type="verification" subtype="autopsy"><date when="1996"/><persName>Kajava - Korhonen - Solin</persName></note><note type="verification" subtype="autopsy">
+        <date when="1979"/>
+        <persName>Solin</persName>
+    </note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width>29,5</width><height>22</height><depth>2,3</depth></dimensions><rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/></support><condition>fragmentary</condition></supportDesc><layoutDesc><layout><rs type="palaeography"/><rs type="metric">no</rs><ab>Litteras: V. 1-2: 2,2-2,3; V. 3: 1,8-1,9; V. 4: 1,7-1,8; V. 5-6: 1,6-1,8 cm</ab></layout></layoutDesc></objectDesc><handDesc><handNote><dimensions type="letterHeight"><height>1,0-2,3</height></dimensions><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003596"/></origin><provenance type="found" notAfter="1883"><note type="context">In hortis aedium, quae hodie sunt Cremona.</note></provenance><provenance type="history"/></history></msPart></msDesc></sourceDesc></fileDesc><encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc><profileDesc><textClass><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion"><term ref="#pagan"/></keywords><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms"><term ref="#social-economic-legal-history"/></keywords></textClass></profileDesc><revisionDesc status="draft"><change type="created" when="2024-07-22T16:05:41.487+02:00" who="edep"/><change type="changed" when="2025-05-08T11:24:23.391+02:00" who="edep"/></revisionDesc></teiHeader><facsimile corresp="#parteec21ba8-90b8-4f61-821b-a890b8ef6198">
+    <graphic url="https://www.jstor.org/stable/20186720"/>
+        <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155365&amp;lang=it"/>
+    </facsimile><text><body><div type="apparatus" corresp="#parteec21ba8-90b8-4f61-821b-a890b8ef6198"/><div type="translation" corresp="#parteec21ba8-90b8-4f61-821b-a890b8ef6198" resp="Eibeck - Kajava">
+                <persName key="P000014">Aurunceia Acte, figlia di Spurio</persName>, donò alla <persName key="P000013">Bona Dea</persName> tuniche ed un mantello di stoffa fine e verde-bluastra ed una lampada di bronzo.</div><div type="edition"><div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#parteec21ba8-90b8-4f61-821b-a890b8ef6198">
+                    <ab>
+<lb n="1"/>
+                        <persName key="P000014">Aurunceia <expan>Sp<ex>uri</ex>
+                            </expan> <expan>f<ex>ilia</ex>
+                            </expan>
+<lb n="2"/>Acte</persName> <expan>mag<ex>istra</ex>
+                        </expan>
+<lb n="3"/>
+                        <persName key="P000013">Bone Deae </persName>tunicas
+<lb n="4"/>duas et palliolum
+<lb n="5"/>rasas caleinas et
+<lb n="6"/>lucerna aeria <expan>d<ex>ono</ex>
+                        </expan> <expan>d<ex>edit</ex>
+                        </expan>
+</ab>
+                </div></div><div type="commentary">Cf. <ref type="biblio" target="#bibl-16'">IHM, Inschriften<citedRange unit="page">317</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-17">NAVARRA <citedRange unit="page">102-104</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-18">KAJAVA, Dedication <citedRange unit="page">210-216</citedRange> cum <citedRange unit="figure">im. phot. tab. XII b</citedRange>
+                </ref> (<ref type="biblio" target="#bibl-19">AE 1987, <citedRange unit="number">231</citedRange>
+                </ref>); <ref type="biblio" target="#bibl-20">BROUWER <citedRange unit="page">77-78</citedRange> <citedRange unit="footnote">n. 69</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-21">CIFARELLI - COLAIACOMO, Guida <citedRange unit="page">16</citedRange>
+                </ref>.
+1 nomen Aurunceii (<ref type="biblio" target="#bibl-22">SCHULZE <citedRange>522</citedRange>
+                </ref>) in aliis locis Latii adiecti non recurrit, sed Praeneste notum est (<ref type="biblio" target="#bibl-23">XIV <citedRange unit="number">2978-79</citedRange>
+                </ref>). - 5 rasas et caleinas sunt adiectiva, quae ad tunicas duas et palliolum referunt, qualitatem excellentem illud, hoc colorem (Gr. καλλάινος) vestium indicantia. - 6 de -m finali in hoc titulo omissa cf. <ref type="biblio" target="#bibl-25">DIEHL, De m finali <citedRange unit="page">252</citedRange>
+                </ref>.</div></body></text></TEI>

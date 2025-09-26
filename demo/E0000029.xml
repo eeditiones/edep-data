@@ -1,0 +1,203 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Dianae Pamnetianae (EEE 2)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000029</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="0100" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Titulus fortasse saeculo II p. Chr. n. attribui potest.</origDate>
+                        </origin>
+                    </history>
+                    <msPart type="main" xml:id="part901a166a-da7e-4053-9a16-6ada7eb05365">
+                        <msIdentifier>
+                            <repository/>
+                            <idno type="TM">538427</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; Titulus Dianae">
+                                <textLang otherLangs="lat"/>
+                                <listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-4">
+        <ptr target="Antiquities, Roman"/>
+        
+        <citedRange>27</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-5">
+        <ptr target="WissowaRE5"/>
+        
+        <citedRange>336</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-6">
+        <ptr target="Schulze"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-7">
+        <ptr target="KajavaDedication"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-8">
+        <ptr target="KajavaNaming"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-9">
+        <ptr target="EDR"/>
+        
+        <citedRange>155323</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="transmission">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="Caputi"/>
+        <note>Epistula STEVENSONIO a. 1879 missa. Caputi se non vidisse dixit. <ref type="biblio" target="#bibl-3">MOMMSEN</ref>: “Duo exempla extant in schedis nostris nescio unde accepta, quorum alterum exceptum est a. 1853”.</note>
+        
+    </bibl>
+                                </listBibl>
+                                <listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-2">
+        <ptr target="Caputi"/>
+        <note>Epistula STEVENSONIO a. 1879 missa. Caputi se non vidisse dixit.</note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-3">
+        <ptr target="CIL10"/>
+        <note>“Duo exempla extant in schedis nostris nescio unde accepta, quorum alterum exceptum est a. 1853”.</note>
+        <citedRange>5960</citedRange>
+    </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="not-seen">
+                                    <date when="1879"/>
+                                    <persName>Caputi</persName>
+                                </note>
+                                <note type="verification" subtype="drawing">
+        <date/>
+        <persName>Mommsen</persName>
+    </note>
+                                <note type="verification" subtype="not-seen">
+        <date/>
+        <persName>Kajava</persName>
+    </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <rs type="decoration"/>
+                                    </support>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <rs type="palaeography"/>
+                                        <rs type="metric"/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <rs type="ligature"/>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace corresp="G003597"/>
+                            </origin>
+                            <provenance type="found" notAfter="1853">
+                                <note type="context">
+                                    <ref type="biblio" target="#bibl-3">MOMMSEN</ref>: “Monte Fortino nella segreteria comunale ex schedis,” [sed locum sic indicatum iam MOMMSEN erratum esse opinatus est, cum nemo ibi lapidis a STEVENSON diligenter investigati meminisset]. 
+De origine propius nihil constat.</note>
+                            </provenance>
+                            <provenance type="history">Latet aut periit</provenance>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term ref="#social-economic-legal-history"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-02-14T14:01:12.966+01:00" who="edep"/>
+            <change type="changed" when="2025-03-23T17:30:39.881+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#part901a166a-da7e-4053-9a16-6ada7eb05365">
+    <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155323&amp;lang=it"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part901a166a-da7e-4053-9a16-6ada7eb05365">
+                <listApp>
+                    <app loc="1-2">
+                        <note>1-2 Panne|iane</note>
+                    </app>; <app loc="3-4">
+                        <note>3-4 POM..|NIAN..S</note>
+                    </app> <wit>exemplum alterum in schedis</wit> <ref type="biblio" target="#bibl-3">MOMMSENI</ref>
+                </listApp>.</div>
+            <div type="translation" corresp="#part901a166a-da7e-4053-9a16-6ada7eb05365">
+                <persName key="P000015">Quinto Giulio Pomponiano</persName> (dedica questo altare?) a <persName key="P000012">Diana Panneziana</persName>. </div>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part901a166a-da7e-4053-9a16-6ada7eb05365">
+                    <ab>
+<lb n="1"/>	<persName key="P000012">Diane Pamne-
+<lb n="2"/>	tiane</persName> <persName key="P000015">
+                            <expan>Q<ex>uintus</ex>
+                            </expan> Iuli
+<lb n="3" break="no"/>us Pompo
+<lb n="4" break="no"/>	nianus</persName>
+</ab>
+                </div>
+            </div>
+            <div type="commentary">Cf. <ref type="biblio" target="#bibl-4">BOOS, In excelsissimo loco <citedRange>27</citedRange>
+                </ref>.
+Cum epitheton Dianae probabiliter ex nomine gentili derivatum sit (<ref type="biblio" target="#bibl-5">G. WISSOWA, RE 5, 1905, <citedRange>col. 336</citedRange>
+                </ref>), Signiae gentem Pamnetiam vel potius Panentiam (<ref type="biblio" target="#bibl-6">SCHULZE <citedRange>44</citedRange>
+                </ref>; cf. <ref type="biblio" target="#bibl-7">KAJAVA, Dedication <citedRange>210 and. 4</citedRange>
+                </ref>, <ref type="biblio" target="#bibl-8">KAJAVA, Naming <citedRange>46</citedRange>
+                </ref>) Dianae devotam fuisse probabile est.</div>
+        </body>
+    </text>
+</TEI>

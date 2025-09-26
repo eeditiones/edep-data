@@ -1,0 +1,188 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Titulus sacer Herculei (EEE 6)</title><editor>Kantola</editor></titleStmt><publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt><sourceDesc><msDesc><msIdentifier><repository>Epigraphische Datenbank Heidelberg</repository><idno type="EDEp">E0000033</idno></msIdentifier><physDesc><objectDesc><supportDesc><support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53"/><material ref="https://www.eagle-network.eu/voc/material/lod/2"/><note>Fragmentum superius basis quadratae ex lapide Tiburtino superne cymatio ornatae.</note></support></supportDesc></objectDesc></physDesc><history><origin><origDate notBefore-custom="-125" notAfter-custom="-100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saec. II. a. Chr. n. exeuntis.</origDate></origin></history><msPart type="main" xml:id="part8fd2cdd6-26a3-4b84-92cd-d626a32b843a"><msIdentifier><repository>Museo Archeologico Comunale di Segni., inv. n. 137176 (inv. M.A.S. 168)</repository><idno type="TM">521283</idno></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; titulus Herculei"><textLang mainLang="lat"/><listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-2">
+        <ptr target="AE2000"/>
+        
+        <citedRange>290</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-3">
+        <ptr target="CifarelliGiunoneMoneta"/>
+        <note>(cum im. phot. <citedRange unit="figure">fig. 105</citedRange>); </note>
+        <citedRange>117-118</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-4">
+        <ptr target="CifarelliColaiacomoStrazzullaMuseo"/>
+        <note>(non vidi)</note>
+        <citedRange>tab. II</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-5">
+        <ptr target="CifarelliNuoveiscrizioni"/>
+        
+        <citedRange>572</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-6">
+        <ptr target="CifarelliSantuari"/>
+        
+        <citedRange>383</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+        <ptr target="CifarelliSegniMuseo"/>
+        
+        <citedRange>151</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-8">
+        <ptr target="CifarelliColaiacomoGuida"/>
+        
+        <citedRange>14</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-9">
+        <ptr target="BoosHeiligtümer"/>
+        
+        <citedRange>192</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-10">
+        <ptr target="CifarelliInstrumentum"/>
+        
+        <citedRange>711 adn. 41, 712 adn. 45</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-11">
+        <ptr target="CIL6"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-12">
+        <ptr target="CIL6.4.1"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-13">
+        <ptr target="SEG54"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-14">
+        <ptr target="AE2004"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-15">
+        <ptr target="Vine"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-16">
+        <ptr/>
+        <note>IGF</note>
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-17">
+        <ptr target="CIL1(2)"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-18">
+        <ptr/>
+        <note>IG XIV</note>
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-19">
+        <ptr target="CIL13"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-20">
+        <ptr target="DessauILS"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-21">
+        <ptr target="AE1998"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-22">
+        <ptr target="SalomiesVornamen"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-26">
+        <ptr target="EDR"/>
+        
+        <citedRange>155416</citedRange>
+    </bibl>
+                                </listBibl><listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-1">
+        <ptr target="CifarelliCulto"/>
+        <note>cum im. phot. fig. 5 (<ref type="biblio" target="#bibl-2">AE 2000, <citedRange unit="number">290</citedRange>
+                                            </ref>)</note>
+        <citedRange>180-186</citedRange>
+    </bibl>
+                                </listBibl><listBibl type="images">
+                                    
+                                <bibl type="public" xml:id="bibl-23">
+            <ptr target="CifarelliCulto"/>
+            <note>cum im. phot. <citedRange unit="figure">fig. 5</citedRange> (= <ref type="biblio" target="#bibl-2">AE 2000, <citedRange unit="number">290</citedRange>
+                                            </ref>).</note>
+            <citedRange>180-186</citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-24">
+            <ptr target="CifarelliColaiacomoStrazzullaMuseo"/>
+            <note>(non vidi).</note>
+            <citedRange>tab. II</citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-25">
+            <ptr target="CifarelliGiunoneMoneta"/>
+            <note>cum im. phot. <citedRange unit="figure">fig. 105</citedRange>
+                                        </note>
+            <citedRange>117-118 </citedRange>
+        </bibl>
+                                </listBibl><note type="verification" subtype="autopsy"><date when="2002"/><persName>Kajava - Solin</persName></note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width>28</width><height>(52)</height><depth>28</depth></dimensions><rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/2000"/></support><condition>fragmentary</condition></supportDesc><layoutDesc><layout><rs type="palaeography"/><rs type="metric">no</rs><ab>V. 1 in cymatio inscriptus est.</ab></layout></layoutDesc></objectDesc><handDesc><handNote><dimensions type="letterHeight"><height>2,7-4</height></dimensions><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003604"/></origin><provenance type="found" notAfter="1975"><note type="context">Rep. in via Traiana medio fere itinere inter Signiam et Colleferro in acervo soli.</note></provenance><provenance type="history">Ex loco reperto operum quorundam publicorum extra <placeName key="G003605">portam Maggiore</placeName> a. 1975 perfectorum autocineto onerario translatus esse fertur (de topographia antiqua apud portam Maggiore cf. <ref type="biblio" target="#bibl-1">CIFARELLI, Culto <citedRange unit="page">185-186 <citedRange unit="figure">fig. 6-7</citedRange>
+                                    </citedRange>
+                                </ref>).</provenance></history></msPart></msDesc></sourceDesc></fileDesc><encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc><profileDesc><textClass><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion"><term/></keywords><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms"><term ref="#social-economic-legal-history"/></keywords></textClass></profileDesc><revisionDesc status="draft"><change type="created" when="2025-03-24T09:04:40.648+01:00" who="edep"/><change type="changed" when="2025-03-30T19:23:35.068+02:00" who="edep"/></revisionDesc></teiHeader><facsimile corresp="#part8fd2cdd6-26a3-4b84-92cd-d626a32b843a">
+    <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155416&amp;lang=it"/>
+    </facsimile><text><body><div type="apparatus" corresp="#part8fd2cdd6-26a3-4b84-92cd-d626a32b843a">
+                <app loc="3">
+                    <note>3 <rdg>VAA+V+</rdg> <ref type="biblio" target="#bibl-1">CIFARELLI, Culto</ref>
+                    </note>
+                </app>.</div><div type="translation" corresp="#part8fd2cdd6-26a3-4b84-92cd-d626a32b843a" resp="Eibeck">
+                <persName key="P000020">Lucio Cretario Varo(?), figlio di Gaio,</persName>dedica (questo altare) con gioia e merito ad <persName key="P000003">Ercole</persName>.</div><div type="edition"><div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part8fd2cdd6-26a3-4b84-92cd-d626a32b843a"><ab>
+<lb n="1"/>	<persName key="P000003">Hercole</persName> 
+<lb n="2"/>	<persName key="P000020"><expan>L<ex>ucius</ex></expan> Cretarius <expan>C<ex>ai</ex></expan> <expan>f<ex>ilius</ex></expan>
+<lb n="3"/>	Vaa+u<unclear>s</unclear></persName> dat
+<lb n="4"/>	lub<supplied reason="lost">en</supplied>s <expan>mere<ex>to</ex></expan>
+</ab>       </div></div><div type="commentary">Cf. <ref type="biblio" target="#bibl-1">CIFARELLI, Giunone Moneta <citedRange unit="page">117-118 (cum im. phot. <citedRange unit="figure">fig. 105</citedRange>)</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-4">CIFARELLI – COLAIACOMO – STRAZZULLA, Museo <citedRange unit="figure">tab. II</citedRange>
+                </ref> (non vidi); <ref type="biblio" target="#bibl-5">CIFARELLI, Nuove iscrizioni <citedRange unit="page">572</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-7">CIFARELLI, Segni. Museo <citedRange unit="page">151</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-8">CIFARELLI - COLAIACOMO, Guida <citedRange unit="page">14</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-9">BOOS, Heiligtümer </ref>; <ref type="biblio" target="#bibl-6">CIFARELLI, Santuari <citedRange unit="page">383</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-10">CIFARELLI, Instrumentum <citedRange unit="page">711 <citedRange unit="footnote">adn. 41</citedRange>
+                    </citedRange>, <citedRange unit="page">712 <citedRange unit="footnote">adn. 45</citedRange>
+                    </citedRange>
+                </ref>.
+1 De forma Hercole cf. supra n. 5. - 2 De nomine Cretarii cf. <ref type="biblio" target="#bibl-1">CIFARELLI, Culto <citedRange unit="page">183-184</citedRange>
+                </ref>. Praeterea hoc nomen rarum alibi quater Romae (<ref type="biblio" target="#bibl-11">VI <citedRange unit="number">7061</citedRange>, <citedRange unit="number">10286/7</citedRange>, <citedRange unit="number">16582</citedRange>, <citedRange unit="number">35066</citedRange>
+                </ref>) ac semel Comamae in Pisidia (<ref type="biblio" target="#bibl-13">SEG LIV <citedRange unit="number">1371</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-13">AE 2004, <citedRange unit="number">1471</citedRange>
+                </ref>) occurrere videtur. - 3 <quote>"peut-être le cognomen Vaarus"</quote> M. CORBIER - M. CULLIN (AE). - Lectionem Vaaṛuṣ (Vaa[r]u[s] <ref type="biblio" target="#bibl-5">CIFARELLI, Nuove iscrizioni</ref>) valde probabilem esse opinor, nisi forte Vaaḷuṣ legendum est. De Vaar- geminatione scripto vide <ref type="biblio" target="#bibl-15">VINE <citedRange unit="page">277 c. adn. 28</citedRange>
+                </ref>; etiam <ref type="biblio" target="#bibl-19">XIII <citedRange unit="number">7521</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-20">DESSAU, ILS <citedRange unit="number">7473</citedRange>
+                </ref>, et <ref type="biblio" target="#bibl-21">AE 1998, <citedRange unit="number">341</citedRange>
+                </ref>. Similiter de Vaal- vide <ref type="biblio" target="#bibl-15">VINE, <citedRange unit="page">277 <citedRange unit="footnote">c. adn. 29</citedRange>
+                    </citedRange>
+                </ref> (<ref type="biblio" target="#bibl-16">IGF <citedRange unit="number">89</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-17">I² <citedRange unit="number">2280</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-18">IG XIV <citedRange unit="number">2480</citedRange>
+                </ref>, ubi textus bilinguis formas Οὐᾶλος et Vaalus praebet), et <ref type="biblio" target="#bibl-22">SALOMIES, Vornamen <citedRange unit="page">131 <citedRange unit="footnote">c. adn. 375</citedRange>
+                    </citedRange>
+                </ref>.</div></body></text></TEI>

@@ -1,0 +1,476 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Herculei (EEE 4)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000031</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/67 https://www.eagle-network.eu/voc/material/lod/48"/>
+                                    <note>KAJAVA: “Basis quadrata ex lapide calcario tam in margine sinistro quam praecipue in angulo inferiore sinistro fracta. Olim basis teste MAROCCO etiam anagyphis ornata erat.”
+<ref type="biblio" target="#bibl-14">MAROCCO</ref>:  “un marmo spezzato da una parte esprimente un basso rilievo di un sagrificio. Vi è un sacerdote che precede un toro accompagnato all' ara da un uomo che tiene nella destra il coltello per jugularlo ed un genietto suona le tibie in atto esultante e sotto leggesi…”.</note>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="-32" notAfter-custom="100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                                <persName key="P000017">Gallus</persName> cum certe aetate rei publicae, medio fere saeculo primo, <persName key="P000003">Herculi</persName> dedicavisset, IIIIviros aetate imperatoria ineunte operam aedi reficiendae dedisse verisimile est.</origDate>
+                        </origin>
+                    </history>
+                    <msPart type="main" xml:id="part823cbd32-1c72-4c2f-bcbd-321c72ec2fb1">
+                        <msIdentifier>
+                            <repository key="https://d-nb.info/gnd/1080488510">Museo Archeologico Comunale di Segni, inv. N. 137177 (inv. MAS 169)</repository>
+                            <idno type="TM">538428</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80" type="Tituli sacri; Titulus Herculei; Titulus magistratuum municipalium; Titulus officiorum cultu">
+                                <textLang otherLangs="lat"/>
+                                <listBibl type="bibliography">
+                                    
+                                <bibl type="public" xml:id="bibl-31">
+        <ptr target="Ionta"/>
+        
+        <citedRange>106-107</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-32">
+        <ptr target="Navarra"/>
+        
+        <citedRange>88</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-33">
+        <ptr target="Jouffroy"/>
+        
+        <citedRange>30</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-34">
+        <ptr target="CifarelliRecinto"/>
+        
+        <citedRange>12 adn. 37</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-35">
+        <ptr target="Antiquities"/>
+        <note>cum im. phot. fig. 3 (<ref type="biblio" target="#bibl-36">AE 2007, 346</ref>);</note>
+        <citedRange>220-1 </citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-36">
+        <ptr target="AE2007"/>
+        
+        <citedRange>346</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-37">
+        <ptr target="CifarelliSegniMuseo"/>
+        
+        <citedRange>151</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-38">
+        <ptr target="CifarelliColaiacomoGuida"/>
+        
+        <citedRange>16</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-39">
+        <ptr target="CifarelliColaiacomoStrazzullaMuseo"/>
+        
+        <citedRange>tab. II</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-40">
+        <ptr target="BoosHeiligtümer"/>
+        
+        <citedRange>192</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-41">
+        <ptr target="BoosInexcelsissimoloco"/>
+        
+        <citedRange>27</citedRange>
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-42">
+        <ptr target="Camodeca"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-43">
+        <ptr target="CassieriLuttazzi"/>
+        
+        
+    </bibl>
+                                    <bibl type="internal" xml:id="bibl-44">
+        <ptr target="LeumannLautuFormenl2"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-45">
+        <ptr target="EDR"/>
+        
+        <citedRange>155325</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="transmission">
+                                    
+                                <bibl type="public" xml:id="bibl-3">
+        <ptr target="LigoriusNeap"/>
+        <note>cum delineatione basis, versuum divisione non observata</note>
+        <citedRange>35, p. 206</citedRange>
+    </bibl>
+                                </listBibl>
+                                <listBibl type="previousEditions">
+                                    
+                                <bibl type="public" xml:id="bibl-4">
+        <ptr target="BembusCodMonacLat10801f47f54"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-5">
+        <ptr target="Metellus"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-6">
+        <ptr target="LigoriusNeap"/>
+        <note>cum delineatione basis, versuum divisione non observata (inde <ref type="biblio" target="#bibl-7">MURATORIUS <citedRange>477,2</citedRange>
+                                            </ref>)</note>
+        <citedRange>35, p. 206</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+        <ptr target="Muratorius"/>
+        
+        <citedRange>477,2</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-8">
+        <ptr target="Laurius"/>
+        
+        <citedRange>1, 9 f. 76 = f. 81 = 1, 10 f. 86'</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-9">
+        <ptr target="Suaresius"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-10">
+        <ptr target="Giovardius"/>
+        
+        <citedRange>R 14-15</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-11">
+        <ptr target="Anonymus"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-12">
+        <ptr target="Tarolliusms"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-13">
+        <ptr target="Gerhard"/>
+        
+        <citedRange>88</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-14">
+        <ptr target="Marocco"/>
+        <note>(inde <ref type="biblio" target="#bibl-15">Arch. Stato EUR, AA.BB.AA. fasc. 309,4</ref>); </note>
+        <citedRange>9, 93-94 </citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-15">
+        <ptr target="AABBAAfasc3094"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-16">
+        <ptr target="RitschlMonumenta"/>
+        
+        <citedRange>tab. LXXXIX D</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-17">
+        <ptr target="CIL1.0"/>
+        <note>qui titulum hodie imminutum integrum vidit</note>
+        <citedRange>1145</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-18">
+        <ptr target="CIL10"/>
+        
+        <citedRange>5961</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-19">
+        <ptr target="Wilmanns"/>
+        
+        <citedRange>1781</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-20">
+        <ptr target="DeRuggiero"/>
+        
+        <citedRange>1085</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-21">
+        <ptr target="DessauILS"/>
+        
+        <citedRange>5440</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-22">
+        <ptr target="DiehlAltlatInschr5"/>
+        
+        <citedRange>95</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-23">
+        <ptr target="CIL1(2)"/>
+        <note>cf.:</note>
+        <citedRange>1503</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-24">
+        <ptr target="CIL1(2).2.4.2"/>
+        
+        <citedRange>p. 1001</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-25">
+        <ptr target="DegrassiILLRP1(2)"/>
+        
+        <citedRange>135</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-26">
+        <ptr target="Stevenson"/>
+        
+        
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-27">
+        <ptr target="CifarelliCriptoportico"/>
+        <note>cum im. phot. p. 779 fig. 22 (<ref type="biblio" target="#bibl-28">AE 1992, 255</ref>); </note>
+        <citedRange>778-780</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-28">
+        <ptr target="AE1992"/>
+        
+        <citedRange>255</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-29">
+        <ptr target="Durante"/>
+        
+        <citedRange>784-785 n. 2</citedRange>
+    </bibl>
+                                    <bibl type="public" xml:id="bibl-30">
+        <ptr target="CifarelliCulto"/>
+        
+        <citedRange>174-175</citedRange>
+    <note>cum im. phot. fig. 1.</note>
+                                    </bibl>
+                                </listBibl>
+                                <listBibl type="images">
+                                    
+                                <bibl type="public" xml:id="bibl-46">
+            <ptr target="CifarelliColaiacomoStrazzullaMuseo"/>
+            
+            <citedRange>tab. II</citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-47">
+            <ptr target="CifarelliCulto"/>
+            
+            <citedRange>fig. 1</citedRange>
+        </bibl>
+                                    <bibl type="public" xml:id="bibl-48">
+            <ptr target="CifarelliCriptoportico"/>
+            
+            <citedRange>p. 779 fig. 22</citedRange>
+        </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="autopsy">
+                                    <date/>
+                                    <persName>Mommsen</persName>
+                                </note>
+                                <note type="verification">
+        <date when="1989"/>
+        <persName>Kajava - Solin</persName>
+    </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <width>57</width>
+                                            <height>57</height>
+                                            <depth>54</depth>
+                                        </dimensions>
+                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/2000"/>
+                                    </support>
+                                    <condition>fragmentary</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <rs type="palaeography" ref="https://edep.adw.uni-heidelberg.de/paleography/quadrata https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged https://edep.adw.uni-heidelberg.de/paleography/capitalis">Puncta varie insculpta ubique fere adsunt aut pro iis lineola redacta est (ut in v. 1 inter Horodeonius et P). Litteras capitales quadratas versuum 1-2 sequuntur litterae partim oblongae; P ubique aperta est, O in v. 1-2 paene aut omnino rotunda.</rs>
+                                        <rs type="metric">no</rs>
+                                        <ab>V. 1-2: 5; V. 3-4: 4; V. 5-6: 3,5-4; V. 7-8: 3 cm</ab>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <dimensions type="letterHeight">
+                                        <height>3-6</height>
+                                    </dimensions>
+                                    <rs type="ligature">no</rs>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace corresp="G003599"/>
+                            </origin>
+                            <provenance type="found" notAfter="1536">
+                                <note type="context">
+                                    <ref type="biblio" target="#bibl-4">BEMBUS</ref>: “iuxta palatium praetoris”.</note>
+                            </provenance>
+                            <provenance type="history">
+                                <ref type="biblio" target="#bibl-3">LIGORIUS</ref>: “in casa di M. Francesco Cantore”.
+<ref type="biblio" target="#bibl-8">LAURIUS</ref>: “presso il <placeName key="G003600">palazzo vescovile</placeName>”.
+<ref type="biblio" target="#bibl-13">GERHARD</ref>: “in <placeName key="G003599">curia</placeName>”.
+<ref type="biblio" target="#bibl-14">MAROCCO</ref>: “nella <placeName key="G003599">sala comunale</placeName>”.
+<ref type="biblio" target="#bibl-17">MOMMSEN</ref>: “in eadem domo hodie schola publica adhuc”. 
+<ref type="biblio" target="bibl-26">STEVENSON</ref>: “nel portone del <placeName key="G003602">nuovo Municipio</placeName>”
+KAJAVA: “In <placeName key="G003602">curia</placeName> a. 1989.”</provenance>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term ref="#social-economic-legal-history"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-02-15T12:15:58.339+01:00" who="edep"/>
+            <change type="changed" when="2025-03-23T17:28:56.274+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#part823cbd32-1c72-4c2f-bcbd-321c72ec2fb1">
+    <graphic url="http://www.edr-edr.it/edr_programmi/view_img.php?id_nr=155325&amp;lang=it"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part823cbd32-1c72-4c2f-bcbd-321c72ec2fb1">	<app loc="1">
+                    <note>1 <rdg>HORDIONIVS</rdg> <ref type="biblio" target="#bibl-13">GERHARD</ref> – <rdg>P•HORDEONIVS D•F•</rdg> <ref type="biblio" target="#bibl-8">LAURIUS</ref> – <rdg>HORDEONIVS•PEGALLVS•HERCVLEI</rdg> <ref type="biblio" target="#bibl-5">METELLUS</ref> – HORDE+ONIVS PAGALLVS•HERCVLEI <ref type="biblio" target="#bibl-6">LIGORIUS</ref>
+                    </note>
+                </app>; <app loc="3">
+                    <note>3 <rdg>RVSVS</rdg> <ref type="biblio" target="#bibl-5">METELLUS</ref>
+                    </note>
+                </app>; <app loc="3/4">
+                    <note>3/4 <rdg>M•C• A•F• CILIVS MVTVS C•F• PRISCVS</rdg> (alio loco <rdg>M•CAECILIVS RVFVS</rdg>) <ref type="biblio" target="#bibl-8">LAURIUS</ref>, <ref type="biblio" target="#bibl-10">GIOVARDIUS</ref>
+                    </note>
+                </app>; <listApp loc="4">
+                    <app>
+                        <note>4 <rdg>C -F- RISCVS</rdg> <ref type="biblio" target="#bibl-5">METELLUS</ref>
+                        </note>
+                    </app> – <app>
+                        <note>
+                            <rdg>FILIVS</rdg> <ref type="biblio" target="#bibl-11">ANONYMUS</ref>
+                        </note>
+                    </app>
+                </listApp>; <app loc="5">
+                    <note>5 <rdg>IIIII</rdg> <ref type="biblio" target="#bibl-5">METELLUS</ref> – <rdg>IIII•VIR•S•C</rdg> <ref type="biblio" target="#bibl-10">GIOVARDIUS</ref> – <rdg>ID</rdg> <ref type="biblio" target="#bibl-12">ANONYMUS</ref>
+                    </note>
+                </app>; <app loc="7/8">
+                    <note>7/8 <rdg>TRASFERENDVM•BAS•IMPONENDAM</rdg> <ref type="biblio" target="#bibl-5">METELLUS</ref> – <rdg>TRANFERENDVM• BASIIM</rdg> <ref type="biblio" target="#bibl-6">LIGORIUS</ref>
+                    </note>
+                </app>; <app loc="8">
+                    <note>8 <rdg>CVRAVER</rdg> <ref type="biblio" target="#bibl-6">LIGORIUS</ref>, <ref type="biblio" target="#bibl-7">MURATORIUS</ref> – <rdg>CVRAVERVNT</rdg> <ref type="biblio" target="#bibl-11">ANONYMUS</ref>
+                    </note>
+                </app> – P P om. <ref type="biblio" target="#bibl-10">GIOVARDIUS</ref>. </div>
+            <div type="translation" corresp="#part823cbd32-1c72-4c2f-bcbd-321c72ec2fb1" resp="Eibeck">
+                <persName key="P000017">Publio Ordeonio Gallo, figlio di Publio,</persName> (dedica questo altare) ad <persName key="P000003">Ercole</persName>. <persName key="P000018">Marco Cecilio Rufo, figlio di Marco,</persName> e <persName key="P000019">Gaio Claudio Prisco, figlio di Gaio,</persName> entrambi quattuorviri iure dicundo, auguri su decisione del Senato al fine di ristrutturare il tempio, trasferire l’insegna e porre la base, si occuparono (di tali faccende) mediante finanziamento pubblico.</div>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part823cbd32-1c72-4c2f-bcbd-321c72ec2fb1">
+                    <ab>
+<lb n="1"/>
+                        <persName key="P000017">
+                            <expan>P<ex>ublius</ex>
+                            </expan> Hordeonius <expan>P<ex>ubli</ex>
+                            </expan> <expan>f<ex>ilius</ex>
+                            </expan>
+<lb n="2"/>Gallus</persName> <persName key="P000003">Hercolei</persName>
+<lb n="3"/>
+                        <persName key="P000018">
+                            <supplied reason="undefined" evidence="previouseditor">
+                                <expan>M<ex>arcus</ex>
+                                </expan>
+                            </supplied> Caecilius <expan>M<ex>arci</ex>
+                            </expan> <expan>f<ex>ilius</ex>
+                            </expan> Rufus</persName>
+<lb n="4"/>
+                        <persName key="P000019">
+                            <supplied reason="undefined" evidence="previouseditor">
+                                <expan>C<ex>aius</ex>
+                                </expan>
+                            </supplied> Claudius <expan>C<ex>ai</ex>
+                            </expan> <expan>f<ex>ilius</ex>
+                            </expan> Priscus</persName>
+<lb n="5"/>
+                        <supplied reason="undefined" evidence="previouseditor">IIII</supplied>
+                        <expan>vir<ex>i</ex>
+                        </expan> <expan>ì<ex>ure</ex>
+                        </expan> <expan>d<ex>icundo</ex>
+                        </expan> <expan>s<ex>enatus</ex>
+                        </expan> <expan>c<ex>onsulto</ex>
+                        </expan> augures
+<lb n="6"/>
+                        <supplied reason="undefined" evidence="previouseditor">a</supplied>
+                        <unclear>e</unclear>dem reficiendam signum
+<lb n="7"/>
+                        <supplied reason="undefined" evidence="previouseditor">transfer</supplied>
+                        <unclear>e</unclear>ndum basim
+<lb n="8"/>ponendam <expan>curave<ex>runt</ex>
+                        </expan> <expan>p<ex>ecunia</ex>
+                        </expan> <expan>p<ex>ublica</ex>
+                        </expan>
+</ab>
+                </div>
+            </div>
+            <div type="commentary">Cf. <ref type="biblio" target="#bibl-31">IONTA <citedRange unit="page">106-107</citedRange>
+                </ref> (qui <citedRange unit="page">p. 101</citedRange> est titulus ad hunc videtur redire: PHORDEONIVS D. F....... | SIGNINAE COLONIAE AVGVRES....); <ref type="biblio" target="#bibl-32">NAVARRA<citedRange unit="page">88</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-33">JOUFFROY<citedRange unit="page">30</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-34">CIFARELLI, Recinto <citedRange unit="page">12</citedRange> <citedRange unit="footnote">adn. 37</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-30">CIFARELLI, Culto <citedRange unit="page">174-175</citedRange> cum <citedRange unit="figure">im. phot. fig. 1</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-38">CIFARELLI – COLAIACOMO – STRAZZULLA, Museo <citedRange unit="figure">tab. II</citedRange>
+                </ref> (non vidi); <ref type="biblio" target="#bibl-35">CIFARELLI, Magistrati <citedRange unit="page">220-1</citedRange> cum <citedRange unit="figure">im. phot. fig. 3</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-37">CIFARELLI, Segni. Museo<citedRange unit="page">151</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-38">CIFARELLI - COLAIACOMO, Guida <citedRange unit="page">16</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-40">BOOS, Heiligtümer <citedRange unit="page">192</citedRange>
+                </ref>; <ref type="biblio" target="#bibl-41">BOOS, In excelsissimo loco <citedRange unit="page">27</citedRange>
+                </ref>.
+1 nomen Hordeonii etiam ex aliis titulis Signinis notum est (nn. 24, 52, 53). De hac gente origine Campana, quae tam Capuae quam Puteolis floruit, cf. quae adnotavit <ref type="biblio" target="#bibl-42">CAMODECA <citedRange unit="page">27-36</citedRange>
+                </ref>. Saeculo fortasse iam II a. Chr. n. Hordeoniis villa magna cum fundo erat inter Signiam et Gavignano in loco dicto Rossili (ubi eosdem etiam lateres faciendos curavisse apparet, cf. <ref type="biblio" target="#bibl-43">CASSIERI - LUTTAZZI <citedRange unit="page">206</citedRange> <citedRange unit="footnote">adn. 25</citedRange>
+                </ref> et praesertim laterem signatum Sex. Ho. P͜L l. (<ref type="biblio" target="#bibl-35">CIFARELLI, Magistrati <citedRange unit="page">221</citedRange>
+                </ref> = <ref type="biblio" target="#bibl-36">AE 2007, <citedRange unit="number">346</citedRange>
+                </ref>), in quo fortasse Hordeonius quidam Publii et Lucii libertus laudatur, notabiliter sine cognomine et cum praenomine a patronorum diverso; idcirco later hic vix est saec. I a. Chr. n. ineunti posterior. - 4 C. Claudium Priscum ex sigillo impresso <ref type="biblio" target="#bibl-36">AE 2007, <citedRange unit="number">348</citedRange>
+                </ref> notum eundem virum ac nostrum haud improbabiliter esse putant DARDAINE AE, <ref type="biblio" target="#bibl-37">CIFARELLI, Segni. Museo <citedRange>151</citedRange>
+                </ref>. - 5 observa vocabula probabiliter erroris causa in tali ordine inscripta esse, ut augures post s(enatus) c(onsulto) tantum memorentur, cf. <ref type="biblio" target="#bibl-29">DURANTE</ref> l. l. - 7 de forma basim vide <ref type="biblio" target="#bibl-44">LEUMANN <citedRange unit="page">440</citedRange>
+                </ref>.
+	<persName key="P000018">Rufum</persName> et <persName key="P000019">Priscum</persName> IIIIviros, qui etiam augures <placeName key="G003587">Signiae</placeName> fuerunt, cultum <persName key="P000003">Herculis</persName> iam dudum a <persName key="P000017">P. Hordeonio Gallo</persName> curatum senatus consulto pecunia publica restauravisse titulus perspicue indicat. Attamen in dubio manet, utrum aedem incendio aut aliter deletam an vetustate delapsam refecerint. Signo dei translato novaque basi posita etiam titulum basis prioris donum <persName key="P000003">Herculi</persName> a <persName key="P000017">Gallo</persName> datum memorantem litteris maioribus in vv. 1-2 exscripsisse ipsi videntur. Basis tamen a IIIIviris posita fortasse statuam non sustinebat, nam in plano eius superiore vestigia nulla signi adfixi vel doni cuiusdam discerni possunt. Signum ipsum translatum probabiliter idem fuit, quod iam <persName key="P000017">Gallus</persName> <persName key="P000003">Herculi</persName> dedicaverat.</div>
+        </body>
+    </text>
+</TEI>
