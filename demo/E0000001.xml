@@ -1,11 +1,16 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Titulus sacer Herculei (EEE5)</title>
                 <editor>Kantola</editor>
+                <editor role="digital">David Eibeck</editor>
+                <respStmt>
+                    <resp when="1998">autopsy</resp>
+                    <persName></persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -18,7 +23,8 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <repository>Museo Archeologico Comunale di Segni</repository>
+                        <idno type="TM">521282</idno>
                         <idno type="EDEp">E0000001</idno>
                     </msIdentifier>
                     <physDesc>
@@ -28,113 +34,60 @@
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/67"/>
                                     <note>Fragmenta duo inter se coniuncta cippi parallelepipedi ex lapide calcario, supra et infra mutili.</note>
+                                    <dimensions>
+                                        <width>20-22 cm</width>
+                                        <height>64 cm</height>
+                                        <depth>20-22 cm</depth>
+                                    </dimensions>
+                                    <note type="decoration" corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                 </support>
-                            </supportDesc>
+                                <condition>fragmentary</condition>
+                            </supportDesc>       
+                            <layoutDesc>
+                                <layout>
+                                    <note type="palaeography"/>
+                                    <note type="metric">no</note>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letterHeight">
+                                    <height>2,1-2,7 cm.</height>
+                                </dimensions>
+                                <rs type="ligature">no</rs>
+                            </handNote>
+                        </handDesc>
                     </physDesc>
+                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80"/>
                     <history>
                         <origin>
                             <origDate notBefore-custom="-0100" notAfter-custom="-0075" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saec I. a. Chr. n. ineuntis</origDate>
+                            <origPlace corresp="G003587"/>
                         </origin>
+                        <provenance type="found" when="1998">
+                            <note type="context">Murum immissa erant a. 1998 Signiae in domo quadam privata.</note>
+                        </provenance>
+                        <provenance type="history"/>
                     </history>
-                    <msPart type="main" xml:id="f6367e0b8-79fd-4363-a7e0-b879fd636349">
-                        <msIdentifier>
-                            <repository>Museo Archeologico Comunale di Segni</repository>
-                            <idno type="TM">521282</idno>
-                        </msIdentifier>
-                        <msContents>
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80">
-                                <textLang mainLang="lat"/>
-                                <listBibl type="bibliography">
-                                    
-                                <bibl>
-        <ptr target="CifarelliCulto"/>
-        
-    </bibl>
-                                    <bibl>
-        <ptr target="EDR"/>
-        
-    </bibl>
-                                    <bibl>
-        <ptr target="EDCS"/>
-        
-    </bibl>
-                                    <bibl>
-        <ptr target="CifarelliGiunoneMoneta"/>
-        
-    </bibl>
-                                    <bibl>
-        <ptr target="CifarelliColaiacomoGuida"/>
-        
-    </bibl>
-                                    <bibl>
-        <ptr target="BoosHeiligtümer"/>
-        
-    </bibl>
-                                </listBibl>
-                                <listBibl type="previousEditions">
-                                    
-                                <bibl>
-        <ptr target="CifarelliCulto"/>
-        
-    </bibl>
-                                </listBibl>
-                                <listBibl type="images">
-                                    
-                                <bibl>
-            <ptr target="CifarelliCulto"/>
-            
-        </bibl>
-                                    <bibl>
-            <ptr target="CifarelliGiunoneMoneta"/>
-            
-        </bibl>
-                                </listBibl>
-                                <note type="verification" subtype="autopsy">
-                                    <date when="1998"/>
-                                </note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    <support>
-                                        <dimensions>
-                                            <width>20-22 cm</width>
-                                            <height>64 cm</height>
-                                            <depth>20-22 cm</depth>
-                                        </dimensions>
-                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
-                                    </support>
-                                    <condition>fragmentary</condition>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout>
-                                        <rs type="palaeography"/>
-                                        <rs type="metric">no</rs>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote>
-                                    <dimensions type="letterHeight">
-                                        <height>2,1-2,7 cm.</height>
-                                    </dimensions>
-                                    <rs type="ligature">no</rs>
-                                </handNote>
-                            </handDesc>
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace corresp="G003587"/>
-                            </origin>
-                            <provenance type="found" when="1998">
-                                <note type="context">Murum immissa erant a. 1998 Signiae in domo quadam privata.</note>
-                            </provenance>
-                            <provenance type="history"/>
-                        </history>
-                    </msPart>
                 </msDesc>
+                <listBibl>
+                    <listBibl type="bibliography"> 
+                        <bibl><ptr target="CifarelliCulto"/></bibl>
+                            <bibl><ptr target="EDR"/></bibl>
+                            <bibl><ptr target="EDCS"/></bibl>
+                            <bibl><ptr target="CifarelliGiunoneMoneta"/></bibl>
+                            <bibl><ptr target="CifarelliColaiacomoGuida"/></bibl>
+                            <bibl><ptr target="BoosHeiligtümer"/></bibl>
+                        </listBibl>
+                        <listBibl type="previousEditions">              
+                            <bibl><ptr target="CifarelliCulto"/></bibl>
+                        </listBibl>
+                        <listBibl type="images">    
+                            <bibl><ptr target="CifarelliCulto"/></bibl>
+                            <bibl><ptr target="CifarelliGiunoneMoneta"/></bibl>
+                        </listBibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -149,6 +102,10 @@
                     <term/>
                 </keywords>
             </textClass>
+            <langUsage>
+                <language ident=""></language>
+                <language ana="main" ident="lat"/>
+            </langUsage>
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2023-04-14T07:24:53.976Z" who="edep"/>
@@ -157,10 +114,10 @@
     </teiHeader>
     <text>
         <body>
-            <div type="apparatus" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349"/>
-            <div type="translation" resp="Eibeck" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349"><ab>Il medico <persName type="attested" key="P000002">Timocle</persName>, dopo aver offerto la decima, dona (questo altare) ad <persName type="divine" key="P000003">Ercole</persName>.</ab></div>
+            <div type="apparatus"/>
+            <div type="translation" resp="Eibeck"><ab>Il medico <persName type="attested" key="P000002">Timocle</persName>, dopo aver offerto la decima, dona (questo altare) ad <persName type="divine" key="P000003">Ercole</persName>.</ab></div>
             <div type="edition">
-                <div type="textpart" subtype="fragment" n="a" corresp="#f6367e0b8-79fd-4363-a7e0-b879fd636349">
+                <div type="textpart" subtype="fragment" n="a">
                     <ab>
 <lb n="1"/> <persName type="divine" key="P000003">Hercole</persName>
 <lb n="2"/> <persName type="attested" key="P000002">Timocles</persName>

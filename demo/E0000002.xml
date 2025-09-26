@@ -1,11 +1,16 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Weihinschrift für Serapis aus Panóias (Conventus Bracaraugustanus, HiC)</title>
                 <editor>Feraudi</editor>
+                <editor role="digital">David Eibeck</editor>
+                <respStmt>
+                    <resp when="1996">autopsy</resp>
+                    <persName></persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -18,7 +23,8 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <repository>in situ</repository>
+                        <idno type="TM">227747</idno>
                         <idno type="EDEp">E0000002</idno>
                     </msIdentifier>
                     <physDesc>
@@ -28,65 +34,40 @@
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/11"/>
                                     <note>Felsblock mit ursprünglich insgesamt fünf Inschriften</note>
+                                    <dimensions>
+                                        <width>50</width>
+                                        <height>33</height>
+                                        <depth/>
+                                    </dimensions>
+                                    <note type="decoration" corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                 </support>
+                                <condition>complete</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <note type="palaeography" corresp="#quadrata #letters-erodet"/>
+                                    <note type="metric">no</note>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letterHeight">
+                                    <height>4,5-1</height>
+                                </dimensions>
+                                <rs type="ligature">no</rs>
+                            </handNote>
+                        </handDesc>
                     </physDesc>
+                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80"/>
                     <history>
                         <origin>
                             <origDate notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2./3. Jh.</origDate>
+                            <origPlace corresp="G003589"/>
                         </origin>
+                        <provenance type="found" when="1721"/>
+                        <provenance type="history"/>
                     </history>
-                    <msPart type="main" xml:id="f29786d55-6da0-4ee9-b86d-556da0aee94f">
-                        <msIdentifier>
-                            <repository>in situ</repository>
-                            <idno type="TM">227747</idno>
-                        </msIdentifier>
-                        <msContents>
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/80">
-                                <textLang mainLang="lat" otherLangs="frc"/>
-                                <note type="verification" subtype="autopsy">
-                                    <date when="1996"/>
-                                </note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    <support>
-                                        <dimensions>
-                                            <width>50</width>
-                                            <height>33</height>
-                                            <depth/>
-                                        </dimensions>
-                                        <rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/>
-                                    </support>
-                                    <condition>complete</condition>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout>
-                                        <rs type="palaeography" ref="#quadrata #letters-erodet"/>
-                                        <rs type="metric">no</rs>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote>
-                                    <dimensions type="letterHeight">
-                                        <height>4,5-1</height>
-                                    </dimensions>
-                                    <rs type="ligature">no</rs>
-                                </handNote>
-                            </handDesc>
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace corresp="G003589"/>
-                            </origin>
-                            <provenance type="found" when="1721"/>
-                            <provenance type="history"/>
-                        </history>
-                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -102,13 +83,18 @@
                     <term/>
                 </keywords>
             </textClass>
+            <langUsage>
+                <language ident=""></language>
+                <language ana="main" ident="lat"/>
+                <language ident="frc"/>
+            </langUsage>
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2023-04-14T10:31:23.629Z" who="edep"/>
             <change type="changed" when="2023-10-19T08:38:27.398Z" who="edep"/>
         </revisionDesc>
     </teiHeader>
-    <facsimile corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f">
+    <facsimile>
         <graphic url="1416487%3A764775"/>
         <graphic url="1424639%3A772930"/>
         <graphic url="1424640%3A772931"/>
@@ -116,11 +102,11 @@
     </facsimile>
     <text>
         <body>
-            <div type="apparatus" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f"><listApp><app><note>Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</note></app></listApp></div>
-            <div type="translation" resp="Feraudi" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f"><ab>Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName></ab>
+            <div type="apparatus"><listApp><app><note>Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</note></app></listApp></div>
+            <div type="translation" resp="Feraudi"><ab>Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName></ab>
             </div>
             <div type="edition">
-                <div type="textpart" subtype="fragment" n="a" corresp="#f29786d55-6da0-4ee9-b86d-556da0aee94f">
+                <div type="textpart" subtype="fragment" n="a">
                     <ab>
 <lb n="1"/> <foreign xml:lang="grc">Ὑψίστῳ Σερά
 <lb n="2" break="no"/>πιδι σὺν γάστ
