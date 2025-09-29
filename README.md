@@ -126,6 +126,10 @@ instead of using `msItem` with nested content, factor out verification (see abov
 </msContents>
 ```
 
+## citedRange in free text fields
+
+`<citedRange>` is not allowed in `ab`, e.g. in commentary, use `seg type="citedRange"` instead, with `@subtype` where unit specification is required, e.g. `<seg type="citedRange" subtype="page">252</seg>`
+
 # NOT REVIEWED YET
 
 ## partials
