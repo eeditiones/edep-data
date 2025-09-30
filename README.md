@@ -130,20 +130,17 @@ instead of using `msItem` with nested content, factor out verification (see abov
 
 `<citedRange>` is not allowed in `ab`, e.g. in commentary, use `seg type="citedRange"` instead, with `@subtype` where unit specification is required, e.g. `<seg type="citedRange" subtype="page">252</seg>`
 
-# NOT REVIEWED YET
+# TODO
 
 ## partials
 
 * `<TEI type="partial" id="EDEP-007-a" corresp="EDEP-007">`
 * Use EDEP ID E0000028 as example
 
-
 ## OTHER CHANGES to the form
 
-* TM ID: replace with a repeat which has configurable (one or more) identifiers, e.g. wikidata, taisho ...
 * Drop "transmission", use type on listBibl to denote bibliographic type. By default this includes: previous editions and bibliography. For EDEp additionally images and transmittions (in same order as currently)
 
-* Information buttons should always be next to the box title, not in the editor toolbar
 * Repository:
 
   + 'GND Key' in 'Repository Key'
@@ -152,13 +149,3 @@ instead of using `msItem` with nested content, factor out verification (see abov
 
 
 * Digital images should be a separate block
-* Description/Decoration gets an additional, optional free form field: description of decoration
-* Type of monument and type of inscription could go into the same block after dropping msPart
-* handDesc/handNote letter size:
-```xml
-<dimensions>
-                                        <!-- Add to form -->
-                                        <height min="" max="" unit="cm"></height>
-                                        <width min="" max="" unit="cm"></width>
-                                    </dimensions>
-```
