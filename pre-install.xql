@@ -1,6 +1,6 @@
 xquery version "3.1";
 
-import module namespace xdb="http://exist-db.org/xquery/xmldb";
+import module namespace xmldb="http://exist-db.org/xquery/xmldb";
 
 (: The following external variables are set by the repo:deploy function :)
 
@@ -15,7 +15,7 @@ declare function local:mkcol-recursive($collection, $components) {
     if (exists($components)) then
         let $newColl := concat($collection, "/", $components[1])
         return (
-            xdb:create-collection($collection, $components[1]),
+            xmldb:create-collection($collection, $components[1]),
             local:mkcol-recursive($newColl, subsequence($components, 2))
         )
     else
@@ -30,10 +30,10 @@ declare function local:mkcol($collection, $path) {
 local:mkcol(repo:get-root(), 'edep-data'),
 sm:chgrp(xs:anyURI($target), "tei"),
 sm:chown(xs:anyURI($target), "edep"),
-xdb:store-files-from-pattern($target, $dir, 'index.xql'),
+xmldb:store-files-from-pattern($target, $dir, 'index.xql'),
 local:mkcol($target, 'workspace'),
 sm:chgrp(xs:anyURI($target || "/workspace"), "tei"),
 sm:chown(xs:anyURI($target || "/workspace"), "edep"),
 (: store the collection configuration :)
 local:mkcol("/db/system/config", $target),
-xdb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf")
+xmldb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf")
