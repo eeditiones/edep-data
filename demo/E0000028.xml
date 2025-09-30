@@ -1,79 +1,321 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Titulus sepulcralis Christianus (EEE131)</title><editor>Kajava</editor></titleStmt><publicationStmt>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sepulcralis Christianus (EEE131)</title>
+                <editor>Kajava</editor>
+            </titleStmt>
+            <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
                 <availability>
                     <p>Heidelberger Akademie der Wissenschaften</p>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
-                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
                 </availability>
-            </publicationStmt><sourceDesc><msDesc><msIdentifier><repository>Epigraphische Datenbank Heidelberg</repository><idno type="EDEp">E0000028</idno></msIdentifier><physDesc><objectDesc><supportDesc><support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/><material ref="https://www.eagle-network.eu/voc/material/lod/48"/><note>Quattuor fragmenta (a-d) inter se coniuncta tabulae marmoreae superne tantum integrae, in postica levigatae.
-[Fragmenta a-c = Fragment 1, fragmentum d = Fragment 2]</note></support></supportDesc></objectDesc></physDesc><history><origin><origDate notBefore-custom="0300" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculi IV p. Chr. n. esse videtur.</origDate></origin></history><msPart type="main" xml:id="part6224dc49-ccbc-4854-a4dc-49ccbcc854cc"><msIdentifier><repository>Museo Archeologico Comunale del Territorio Toleriense, Colleferro (inv. n. 3160)</repository></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/92" type="Tituli sepulchrales Christiani"><textLang mainLang="lat"/><listBibl type="previousEditions">
-                                    
-                                
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <idno type="EDEp">E0000028</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType
+                                        ref="https://www.eagle-network.eu/voc/objtyp/lod/257"
+                                        /><material
+                                        ref="https://www.eagle-network.eu/voc/material/lod/48"
+                                        /><note>Quattuor fragmenta (a-d) inter se coniuncta tabulae
+                                        marmoreae superne tantum integrae, in postica levigatae.
+                                        [Fragmenta a-c = Fragment 1, fragmentum d = Fragment
+                                        2]</note></support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore-custom="0300" notAfter-custom="0400"
+                                datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculi
+                                IV p. Chr. n. esse videtur.</origDate></origin>
+                    </history>
+                    <msPart type="main" xml:id="part6224dc49-ccbc-4854-a4dc-49ccbcc854cc">
+                        <msIdentifier>
+                            <repository>Museo Archeologico Comunale del Territorio Toleriense,
+                                Colleferro (inv. n. 3160)</repository>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/92"
+                                type="Tituli sepulchrales Christiani">
+                                <textLang mainLang="lat"/>
+                                <listBibl type="previousEditions">
+
+
                                     <bibl type="public" xml:id="bibl-5">
-        <ptr target="FelleReperti"/>
-        
-        <citedRange>274-275 n. 32</citedRange>
-    </bibl>
-                                <bibl type="public" xml:id="bibl-7">
-        <ptr target="FiocchiNicolaiIscrizioni"/>
-        
-        
-    </bibl></listBibl><note type="verification" subtype="autopsy"><date when="1996"/><persName>Kajava - Korhonen</persName></note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width>(37)</width><height>(24)</height><depth>1,5</depth></dimensions><rs type="decoration" ref="https://www.eagle-network.eu/voc/decor/lod/1000"/></support><condition>fragmentary</condition></supportDesc><layoutDesc><layout><rs type="palaeography">Litterae ductu incerto.</rs><rs type="metric"/></layout></layoutDesc></objectDesc><handDesc><handNote><dimensions type="letterHeight"><height>2,2-2,5</height></dimensions><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003594"/></origin><provenance type="found" notBefore="1984" notAfter="1990" when-custom="Frg. 1: 1985, Frg. 2: 1989"><note type="context"><ref type="biblio" target="#bibl-5">FELLE</ref>: "I frr. a-c [= Frg. 1] nella catacomba, mentre il fr. d [= Frg. 2] proviene dall'area esterna, precisamente dalla US 377".</note></provenance><provenance type="history"/></history></msPart><msPart type="fragment" xml:id="Fd48bfea2-b5bf-4d76-8592-51fd1953a23f"><msIdentifier><repository>Museo Archeologico Comunale del Territorio Toleriense, Colleferro (inv. n. 3160).</repository></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/92" type="Tituli sepulcrales Christiani"><textLang mainLang="lat"/><listBibl type="previousEditions">
-            <bibl type="public" xml:id="bibl-1">
-        <ptr target="FiocchiNicolaiIscrizioni"/>
-        <note>cum im. phot. <citedRange>p. 322</citedRange> <citedRange>fig. 3,9</citedRange>
+                                        <ptr target="FelleReperti"/>
+                                        <citedRange>274-275 n. 32</citedRange>
+                                    </bibl>
+                                    <bibl type="public" xml:id="bibl-7">
+                                        <ptr target="FiocchiNicolaiIscrizioni"/>
+                                    </bibl>
+                                </listBibl>
+                                <note type="verification" subtype="autopsy"><date when="1996"
+                                        /><persName>Kajava - Korhonen</persName></note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support><dimensions>
+                                            <width>(37)</width>
+                                            <height>(24)</height>
+                                            <depth>1,5</depth>
+                                        </dimensions><rs type="decoration"
+                                            ref="https://www.eagle-network.eu/voc/decor/lod/1000"
+                                        /></support>
+                                    <condition>fragmentary</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout><rs type="palaeography">Litterae ductu incerto.</rs><rs
+                                            type="metric"/></layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote><dimensions type="letterHeight">
+                                        <height>2,2-2,5</height>
+                                    </dimensions><rs type="ligature"/></handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin><origPlace corresp="G003594"/></origin>
+                            <provenance type="found" notBefore="1984" notAfter="1990"
+                                when-custom="Frg. 1: 1985, Frg. 2: 1989"><note type="context"><ref
+                                        type="biblio" target="#bibl-5">FELLE</ref>: "I frr. a-c [=
+                                    Frg. 1] nella catacomba, mentre il fr. d [= Frg. 2] proviene
+                                    dall'area esterna, precisamente dalla US
+                                377".</note></provenance>
+                            <provenance type="history"/>
+                        </history>
+                    </msPart>
+                    <msPart type="fragment" xml:id="Fd48bfea2-b5bf-4d76-8592-51fd1953a23f">
+                        <msIdentifier>
+                            <repository>Museo Archeologico Comunale del Territorio Toleriense,
+                                Colleferro (inv. n. 3160).</repository>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/92"
+                                type="Tituli sepulcrales Christiani">
+                                <textLang mainLang="lat"/>
+                                <listBibl type="previousEditions">
+                                    <bibl type="public" xml:id="bibl-1">
+                                        <ptr target="FiocchiNicolaiIscrizioni"/>
+                                        <note>cum im. phot. <citedRange>p. 322</citedRange>
+                                            <citedRange>fig. 3,9</citedRange>
                                         </note>
-        <citedRange>321 n. 26 </citedRange>
-    </bibl>
-                                    
-                                </listBibl><listBibl type="images">
-            <bibl type="public" xml:id="bibl-6">
-            <ptr target="FiocchiNicolaiIscrizioni"/>
-            
-            <citedRange>322 fig. 3,9</citedRange>
-        </bibl></listBibl><note type="verification"><date when="1996"/><persName>Kajava - Korhonen</persName></note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width/><height/><depth>1,5</depth></dimensions><rs type="decoration"/></support><condition>fragmentary</condition></supportDesc><layoutDesc><layout><rs type="palaeography">Litterae ductu incerto.</rs><rs type="metric"/></layout></layoutDesc></objectDesc><handDesc><handNote><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003594">
-                
-                
-            </origPlace></origin><provenance type="found" when="1985"><note type="context">Nella catacomba (<ref type="biblio" target="#bibl-2">Felle</ref>)</note></provenance><provenance type="history"/></history></msPart><msPart type="fragment" xml:id="Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49"><msIdentifier><repository>Museo Archeologico Comunale del Territorio Toleriense, Colleferro (inv. n. 3160).</repository></msIdentifier><msContents><msItem class="https://www.eagle-network.eu/voc/typeins/lod/92" type="Tituli sepulcrales Christiani"><textLang mainLang="lat"/><listBibl type="previousEditions">
-            <bibl type="public" xml:id="bibl-3">
-        <ptr target="FelleReperti"/>
-        
-        <citedRange>274-275 n. 32</citedRange>
-    </bibl>
-                                <bibl type="public" xml:id="bibl-8">
-        <ptr target="FiocchiNicolaiIscrizioni"/>
-        
-        <citedRange>321 n. 6</citedRange>
-    </bibl></listBibl><note type="verification"><date when="1996"/><persName>Kajava - Korhonen</persName></note></msItem></msContents><physDesc><objectDesc><supportDesc><support><dimensions><width/><height/><depth>1,5</depth></dimensions><rs type="decoration"/></support><condition>complete</condition></supportDesc><layoutDesc><layout><rs type="palaeography">Litterae ductu incertu.</rs><rs type="metric"/></layout></layoutDesc></objectDesc><handDesc><handNote><rs type="ligature"/></handNote></handDesc></physDesc><history><origin><origPlace corresp="G003594">
-                
-                
-            </origPlace></origin><provenance type="found" when="1989"><note type="context">proviene dall'area esterna, precisamente dalla US 377 (<ref type="biblio" target="#bibl-3">Felle</ref>)</note></provenance><provenance type="history"/></history></msPart></msDesc></sourceDesc></fileDesc><encodingDesc>
+                                        <citedRange>321 n. 26 </citedRange>
+                                    </bibl>
+
+                                </listBibl>
+                                <listBibl type="images">
+                                    <bibl type="public" xml:id="bibl-6">
+                                        <ptr target="FiocchiNicolaiIscrizioni"/>
+                                        <citedRange>322 fig. 3,9</citedRange>
+                                    </bibl>
+                                </listBibl>
+                                <note type="verification"><date when="1996"/><persName>Kajava -
+                                        Korhonen</persName></note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support><dimensions>
+                                            <width/>
+                                            <height/>
+                                            <depth>1,5</depth>
+                                        </dimensions><rs type="decoration"/></support>
+                                    <condition>fragmentary</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout><rs type="palaeography">Litterae ductu incerto.</rs><rs
+                                            type="metric"/></layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote><rs type="ligature"/></handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin><origPlace corresp="G003594"> </origPlace></origin>
+                            <provenance type="found" when="1985"><note type="context">Nella
+                                    catacomba (<ref type="biblio" target="#bibl-2"
+                                    >Felle</ref>)</note></provenance>
+                            <provenance type="history"/>
+                        </history>
+                    </msPart>
+                    <msPart type="fragment" xml:id="Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49">
+                        <msIdentifier>
+                            <repository>Museo Archeologico Comunale del Territorio Toleriense,
+                                Colleferro (inv. n. 3160).</repository>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/92"
+                                type="Tituli sepulcrales Christiani">
+                                <textLang mainLang="lat"/>
+                                <listBibl type="previousEditions">
+                                    <bibl type="public" xml:id="bibl-3">
+                                        <ptr target="FelleReperti"/>
+                                        <citedRange>274-275 n. 32</citedRange>
+                                    </bibl>
+                                    <bibl type="public" xml:id="bibl-8">
+                                        <ptr target="FiocchiNicolaiIscrizioni"/>
+                                        <citedRange>321 n. 6</citedRange>
+                                    </bibl>
+                                </listBibl>
+                                <note type="verification"><date when="1996"/><persName>Kajava -
+                                        Korhonen</persName></note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support><dimensions>
+                                            <width/>
+                                            <height/>
+                                            <depth>1,5</depth>
+                                        </dimensions><rs type="decoration"/></support>
+                                    <condition>complete</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout><rs type="palaeography">Litterae ductu incertu.</rs><rs
+                                            type="metric"/></layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote><rs type="ligature"/></handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin><origPlace corresp="G003594"> </origPlace></origin>
+                            <provenance type="found" when="1989"><note type="context">proviene
+                                    dall'area esterna, precisamente dalla US 377 (<ref type="biblio"
+                                        target="#bibl-3">Felle</ref>)</note></provenance>
+                            <provenance type="history"/>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
             <p>Encoded following EpiDoc guidelines 9.2</p>
-        </encodingDesc><profileDesc><textClass><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion"><term/></keywords><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms"><term/></keywords></textClass></profileDesc><revisionDesc status="draft"><change type="created" when="2025-01-18T11:56:21.818+01:00" who="edep"/><change type="changed" when="2025-09-04T12:21:09.772+02:00" who="edep"/></revisionDesc></teiHeader><text><body><div type="apparatus" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc"><listApp> <app loc="1"><note>[---]VOCEM[---] <ref type="biblio" target="#bibl-7">FIOCCHI NICOLAI</ref> </note></app><app loc="1"><note>1 [---]ṾOCEṂ[---] <ref type="biblio" target="#bibl-2">FELLE</ref></note></app> 2 <app loc="2"><note>[---] meses d[ecem ---] <ref type="biblio" target="#bibl-7">FIOCCHI NICOLAI</ref></note></app> – <app loc="2"><note>[--- vixit annos ---] meses duo [--- ?] <ref type="biblio" target="#bibl-5">FELLE</ref></note></app>. </listApp></div><div type="translation" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc"/><div type="apparatus" corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f">
-                <listApp><app loc="1"><note>1 [---]VOCEM[---] <ref type="biblio" target="#bibl-1'">FIOCCHI NICOLAI</ref></note></app>; <app loc="2"><note>2 [---] meses d[ecem ---] <ref type="biblio" target="#bibl-1">FIOCCHI NICOLAI</ref></note></app>.</listApp>
-            </div><div type="translation" corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f"/><div type="apparatus" corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49"><listApp> <app loc="1"><note>[---]VOCEM[---] <ref type="biblio" target="#bibl-8">FIOCCHI NICOLAI</ref> </note></app><app loc="1"><note>1 [---]ṾOCEṂ[---] <ref type="biblio" target="#bibl-3">FELLE</ref></note></app> 2 <app loc="2"><note>[---] meses d[ecem ---] <ref type="biblio" target="#bibl-8">FIOCCHI NICOLAI</ref></note></app> – <app loc="2"><note>[--- vixit annos ---] meses duo [--- ?] <ref type="biblio" target="#bibl-3">FELLE</ref></note></app>. </listApp></div><div type="translation" corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49"/><div type="edition"><div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc">
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-01-18T11:56:21.818+01:00" who="edep"/>
+            <change type="changed" when="2025-09-04T12:21:09.772+02:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="apparatus" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc">
+                <listApp>
+                    <app loc="1">
+                        <note>[---]VOCEM[---] <ref type="biblio" target="#bibl-7">FIOCCHI
+                                NICOLAI</ref>
+                        </note>
+                    </app><app loc="1">
+                        <note>1 [---]ṾOCEṂ[---] <ref type="biblio" target="#bibl-2"
+                            >FELLE</ref></note>
+                    </app> 2 <app loc="2">
+                        <note>[---] meses d[ecem ---] <ref type="biblio" target="#bibl-7">FIOCCHI
+                                NICOLAI</ref></note>
+                    </app> – <app loc="2">
+                        <note>[--- vixit annos ---] meses duo [--- ?] <ref type="biblio"
+                                target="#bibl-5">FELLE</ref></note>
+                    </app>. </listApp>
+            </div>
+            <div type="translation" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc"/>
+            <div type="apparatus" corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f">
+                <listApp><app loc="1">
+                        <note>1 [---]VOCEM[---] <ref type="biblio" target="#bibl-1'">FIOCCHI
+                                NICOLAI</ref></note>
+                    </app>; <app loc="2">
+                        <note>2 [---] meses d[ecem ---] <ref type="biblio" target="#bibl-1">FIOCCHI
+                                NICOLAI</ref></note>
+                    </app>.</listApp>
+            </div>
+            <div type="translation" corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f"/>
+            <div type="apparatus" corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49">
+                <listApp>
+                    <app loc="1">
+                        <note>[---]VOCEM[---] <ref type="biblio" target="#bibl-8">FIOCCHI
+                                NICOLAI</ref>
+                        </note>
+                    </app><app loc="1">
+                        <note>1 [---]ṾOCEṂ[---] <ref type="biblio" target="#bibl-3"
+                            >FELLE</ref></note>
+                    </app> 2 <app loc="2">
+                        <note>[---] meses d[ecem ---] <ref type="biblio" target="#bibl-8">FIOCCHI
+                                NICOLAI</ref></note>
+                    </app> – <app loc="2">
+                        <note>[--- vixit annos ---] meses duo [--- ?] <ref type="biblio"
+                                target="#bibl-3">FELLE</ref></note>
+                    </app>. </listApp>
+            </div>
+            <div type="translation" corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49"/>
+            <div type="edition">
+                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment"
+                    n="a" fore:type="repeatable" corresp="#part6224dc49-ccbc-4854-a4dc-49ccbcc854cc">
                     <ab>
-<lb n="1"/>
-                        <gap reason="lost" extent="unknown" unit="character"/>+OCE+<gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2"/>
-                        <gap reason="lost" extent="unknown" unit="character"/> <unclear>m</unclear>eses duo <gap reason="lost" extent="unknown" unit="character"/>
-<lb n="3"/>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>+OCE+<gap
+                            reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <unclear>m</unclear>eses duo <gap reason="lost" extent="unknown"
+                            unit="character"/>
+                        <lb n="3"/>
                         <gap reason="lost" extent="unknown" unit="line"/>
-</ab>
-                </div><div type="textpart" subtype="fragment" n="a" corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f">
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="a"
+                    corresp="#Fd48bfea2-b5bf-4d76-8592-51fd1953a23f">
                     <ab>
-<lb n="1"/>
-                        <gap reason="lost" extent="unknown" unit="character"/>+OCE+<gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2"/>
-                        <gap reason="lost" extent="unknown" unit="character"/> <unclear>m</unclear>eses d<gap reason="lost" extent="unknown" unit="character"/> 
-<lb n="3"/>
+                        <lb n="1"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>+OCE+<gap
+                            reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <unclear>m</unclear>eses d<gap reason="lost" extent="unknown"
+                            unit="character"/>
+                        <lb n="3"/>
                         <gap reason="lost" extent="unknown" unit="line"/>
-</ab>
-                </div><div type="textpart" subtype="fragment" n="a" corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49">
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="a"
+                    corresp="#Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49">
                     <ab>
-<lb n="1"/>
-                        <supplied reason="lost">meses d</supplied>uo <gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2"/>
+                        <lb n="1"/>
+                        <supplied reason="lost">meses d</supplied>uo <gap reason="lost"
+                            extent="unknown" unit="character"/>
+                        <lb n="2"/>
                         <gap reason="lost" extent="unknown" unit="line"/>
-</ab>
-                </div></div><div type="commentary">1 fortasse [--- in]ṇoceṇ[ti ---] aut [In]ṇoceṇ[ti ---], nisi forte hic cum <ref type="biblio" target="#bibl-1">FIOCCHI NICOLAI</ref> legendum est [--- filio vel marito vel sim. s]uo Cem[---]. Si res ita se habet, nomen defuncto potest fuisse Gemellus vel sim.</div></body></text></TEI>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">1 fortasse [--- in]ṇoceṇ[ti ---] aut [In]ṇoceṇ[ti ---], nisi
+                forte hic cum <ref type="biblio" target="#bibl-1">FIOCCHI NICOLAI</ref> legendum est
+                [--- filio vel marito vel sim. s]uo Cem[---]. Si res ita se habet, nomen defuncto
+                potest fuisse Gemellus vel sim.</div>
+        </body>
+    </text>
+</TEI>
