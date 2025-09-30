@@ -55,7 +55,7 @@ jobs:
       - name: Start exist-ci containers
         run: |
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
-          --name exist --rm --health-interval=1s --health-start-period=2s \
+          --name exist --rm --health-interval=1s --health-start-period=1s \
           duncdrum/existdb:${{ matrix.exist-version }}
 
       - name: Wait for server to start
@@ -64,7 +64,7 @@ jobs:
           echo "Waiting for server to start..."
           until docker logs exist 2>&1 | grep -q "Server has started"; do
             echo "Still waiting..."
-            sleep 6
+            sleep 8
           done
 
       # Test

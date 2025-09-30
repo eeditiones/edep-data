@@ -1,4 +1,6 @@
-xquery version "3.0";
+xquery version "3.1";
+
+import module namespace xmldb="http://exist-db.org/xquery/xmldb";
 
 (: The following external variables are set by the repo:deploy function :)
 
@@ -9,6 +11,25 @@ declare variable $dir external;
 (: the target collection into which the app is deployed :)
 declare variable $target external;
 
-for $resource in xmldb:get-child-resources($target || "/workspace")
-return
-    sm:chmod(xs:anyURI($target || "/workspace/" || $resource), "rw-rw----")
+declare function local:mkcol-recursive($collection, $components) {
+    if (exists($components)) then
+        let $newColl := concat($collection, "/", $components[1])
+        return (
+            xmldb:create-collection($collection, $components[1]),
+            local:mkcol-recursive($newColl, subsequence($components, 2))
+        )
+    else
+        ()
+};
+
+(: Helper function to recursively create a collection hierarchy. :)
+declare function local:mkcol($collection, $path) {
+    local:mkcol-recursive($collection, tokenize($path, "/"))
+};
+
+local:mkcol($target, 'workspace'),
+sm:chgrp(xs:anyURI($target || "/workspace"), "tei"),
+sm:chown(xs:anyURI($target || "/workspace"), "edep"),
+(: store the collection configuration :)
+local:mkcol("/db/system/config", $target),
+xmldb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf")
