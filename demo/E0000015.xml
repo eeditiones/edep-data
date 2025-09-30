@@ -1,9 +1,13 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000015">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Test 1810 [E*15]</title>
                 <editor>Francisca Feraudi</editor>
+                <respStmt>
+                    <resp when="2023-06-16">autopsy</resp>
+                    <persName>Francisca Feraudi</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -16,9 +20,12 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Epigraphische Datenbank Heidelberg</repository>
+                        <repository key="16153024-2">Trier, Museum am Dom</repository>
+                        <idno type="TM">448650</idno>
                         <idno type="EDEp">E0000015</idno>
                     </msIdentifier>
+                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/92">
+                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -26,85 +33,57 @@
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/49"/>
                                     <note>Aus vier aneinander passenden Fragmenten fast vollständig zusammengesetzt, lediglich kleine Fehlstelle links unten. Vorderseite poliert, Rückseite geglättet, Kanten original geschnitten.</note>
+                                    <dimensions>
+                                        <width>49</width>
+                                        <height>41</height>
+                                        <depth>1,5-3</depth>
+                                    </dimensions>
+                                    <note type="decoration"/>
                                 </support>
+                                <condition>fragmentary</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <dimensions>
+                                        <height>41</height>
+                                        <width>49</width>
+                                    </dimensions>
+                                    <note type="palaeography" corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged https://edep.adw.uni-heidelberg.de/paleography/uniziale">Längliche, fein geschnittene Kapitalis mit schlanken gedrängt stehenden Buchstaben; A mit geknicktem Mittelbalken, Q mit gerade schräglinks gestellter Cauda, C in Z. 6 unzial.</note>
+                                    <note type="metric">partim</note>
+                                    <ab>Vers- u. Prosainschrift (Z. 1-6 u. 7-9). Zw. Z. 6 u. 7 Staurogramm zw. A u. ω flankiert von zwei gegenständig angeordneten Tauben.</ab>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions type="letterHeight">
+                                    <height>2-2,7</height>
+                                </dimensions>
+                                <rs type="ligature">no</rs>
+                            </handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origDate notBefore-custom="400" notAfter-custom="431" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/>
+                            <origPlace corresp="G003591"/>
                         </origin>
+                        <provenance type="found" when="1980" when-custom="1980-07-04 (gr. Frg.) bzw. 1980-09-04 (drei kl. Frge.)"/>
+                        <provenance type="history">Inv. MaD Trier Max Fundnr. 323</provenance>
                     </history>
-                    <msPart type="main" xml:id="part3fae8dee-c015-478b-ae8d-eec015f78b03">
-                        <msIdentifier>
-                            <repository key="16153024-2">Trier, Museum am Dom</repository>
-                            <idno type="TM">448650</idno>
-                        </msIdentifier>
-                        <msContents>
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/92">
-                                <textLang otherLangs="lat"/>
-                                <listBibl type="bibliography">
-                                    
-                                <bibl type="public" xml:id="bibl-1">
-        <ptr/>
-        
-        <citedRange>AE 2007, 0992.</citedRange>
-    </bibl>
-                                    <bibl type="public" xml:id="bibl-2">
-        <ptr/>
-        
-        <citedRange>H. Merten, Die frühchristlichen Inschriften aus St. Maximin bei Trier (Trier 2018) 45-49, Nr. 5; Foto.</citedRange>
-    </bibl>
-                                </listBibl>
-                                <note type="verification" subtype="autopsy">
-                                    <date when="2023-06-16"/>
-                                    <persName>Feraudi</persName>
-                                </note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    <support>
-                                        <dimensions>
-                                            <width>49</width>
-                                            <height>41</height>
-                                            <depth>1,5-3</depth>
-                                        </dimensions>
-                                        <rs type="decoration"/>
-                                    </support>
-                                    <condition>fragmentary</condition>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout>
-                                        <dimensions>
-                                            <height>41</height>
-                                            <width>49</width>
-                                        </dimensions>
-                                        <rs type="palaeography" ref="https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged https://edep.adw.uni-heidelberg.de/paleography/uniziale">Längliche, fein geschnittene Kapitalis mit schlanken gedrängt stehenden Buchstaben; A mit geknicktem Mittelbalken, Q mit gerade schräglinks gestellter Cauda, C in Z. 6 unzial.</rs>
-                                        <rs type="metric">partim</rs>
-                                        <ab>Vers- u. Prosainschrift (Z. 1-6 u. 7-9). Zw. Z. 6 u. 7 Staurogramm zw. A u. ω flankiert von zwei gegenständig angeordneten Tauben.</ab>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote>
-                                    <dimensions type="letterHeight">
-                                        <height>2-2,7</height>
-                                    </dimensions>
-                                    <rs type="ligature">no</rs>
-                                </handNote>
-                            </handDesc>
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace corresp="G003591"/>
-                            </origin>
-                            <provenance type="found" when="1980" when-custom="1980-07-04 (gr. Frg.) bzw. 1980-09-04 (drei kl. Frge.)"/>
-                            <provenance type="history">Inv. MaD Trier Max Fundnr. 323</provenance>
-                        </history>
-                    </msPart>
                 </msDesc>
+                <listBibl>
+                    <listBibl type="bibliography">
+                        <bibl type="public" xml:id="bibl-1">
+                            <ptr/>
+                            <citedRange>AE 2007, 0992.</citedRange>
+                        </bibl>
+                        <bibl type="public" xml:id="bibl-2">
+                            <ptr/>
+                            <citedRange>H. Merten, Die frühchristlichen Inschriften aus St. Maximin bei Trier (Trier 2018) 45-49, Nr. 5; Foto.</citedRange>
+                        </bibl>
+                    </listBibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -119,6 +98,9 @@
                     <term/>
                 </keywords>
             </textClass>
+            <langUsage>
+                <language ident="lat"></language>
+            </langUsage>
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2024-10-18T14:10:55.642+02:00" who="edep"/>
@@ -130,12 +112,11 @@
     </facsimile>
     <text>
         <body>
-            <div type="apparatus" corresp="#part3fae8dee-c015-478b-ae8d-eec015f78b03"/>
-            <div type="translation" corresp="#part3fae8dee-c015-478b-ae8d-eec015f78b03" resp="Hiltrud Merten">Die, welche unter diesem Stein, gleich in mütterlichen Sitten und zum Schmerz aller liegt, ist die reine Boethiola, hochgeboren, eine Frau von senatorischem Stand, ebenbürtige Ehefrau des Amandus, der den Grabstein setzte. Oh, welch schrecklicher Tag, der zwölf Jahre hinwegnahm, in welchen sie heiligmäßig mit dem eigenen Ehemann lebte.
-Boethiola, eine Frau von senatorischem Stand, lebte 25 Jahre und 9 Monate, 3 Tage; sie war die Ehefrau des Amandus, eines Mannes von senatorischem Stand, 12 Jahre und 19 Tage.</div>
+            <div type="apparatus"/>
+            <div type="translation" resp="Hiltrud Merten"><ab>Die, welche unter diesem Stein, gleich in mütterlichen Sitten und zum Schmerz aller liegt, ist die reine Boethiola, hochgeboren, eine Frau von senatorischem Stand, ebenbürtige Ehefrau des Amandus, der den Grabstein setzte. Oh, welch schrecklicher Tag, der zwölf Jahre hinwegnahm, in welchen sie heiligmäßig mit dem eigenen Ehemann lebte.
+Boethiola, eine Frau von senatorischem Stand, lebte 25 Jahre und 9 Monate, 3 Tage; sie war die Ehefrau des Amandus, eines Mannes von senatorischem Stand, 12 Jahre und 19 Tage.</ab></div>
             <div type="edition">
-                <div xmlns:fore="http://teipublisher.com/ns/fore" type="textpart" subtype="fragment" n="a" fore:type="repeatable" corresp="#part3fae8dee-c015-478b-ae8d-eec015f78b03">
-                    <ab>
+                <ab>
 <lg met="eleg.distichon">
                             <lb n="1"/>
                             <l met="hexameter">Quae iacet hoc saxo maternis moribus 
@@ -148,7 +129,7 @@ Boethiola, eine Frau von senatorischem Stand, lebte 25 Jahre und 9 Monate, 3 Tag
                                 <expan>qui<ex>bu</ex>s</expan> vixit sancte coniuge cum proprio</l>
                         </lg>
 <lb n="7"/>
-                        <g type="columba"/> Α <g type="crux monogrammatica">P+</g> ω <g type="columba"/>  
+                        <g type="columba"/> Α <g type="crux-monogrammatica">P+</g> ω <g type="columba"/>  
 <lb n="8"/>Boethiola <expan>c<ex>larissima</ex>
                         </expan> <expan>f<ex>emina</ex>
                         </expan> vixit anni
@@ -158,7 +139,6 @@ Boethiola, eine Frau von senatorischem Stand, lebte 25 Jahre und 9 Monate, 3 Tag
                         </expan> <expan>c<ex>larissimi</ex>
                         </expan> annos XII et dies XVIIII
 </ab>
-                </div>
             </div>
             <div type="commentary"/>
         </body>
