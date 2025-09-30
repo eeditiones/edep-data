@@ -43,8 +43,8 @@
                                         [Fragmenta a-c = Fragment 1, fragmentum d = Fragment
                                         2]</note>
                                     <dimensions>
-                                        <width>(37)</width>
-                                        <height>(24)</height>
+                                        <width/>
+                                        <height/>
                                         <depth>1,5</depth>
                                     </dimensions>
                                     <note type="decoration"
@@ -54,15 +54,13 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <note type="palaeography">Litterae ductu incerto.</note>
+                                    <note type="palaeography">Litterae ductu incertu.</note>
                                     <note type="metric"/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><dimensions type="letterHeight">
-                                    <height>2,2-2,5</height>
-                                </dimensions><rs type="ligature"/></handNote>
+                            <handNote><note type="ligature"/></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -72,73 +70,21 @@
                                 IV p. Chr. n. esse videtur.</origDate>
                             <origPlace corresp="G003594"/>
                         </origin>
-                        <provenance type="found" notBefore="1984" notAfter="1990"
-                            when-custom="Frg. 1: 1985, Frg. 2: 1989"><note type="context"><ref
-                                    type="biblio" target="#bibl-5">FELLE</ref>: "I frr. a-c [= Frg.
-                                1] nella catacomba, mentre il fr. d [= Frg. 2] proviene dall'area
-                                esterna, precisamente dalla US 377".</note>
-                            </provenance>
+                        <provenance type="found" when="1989"><note type="context">proviene dall'area
+                                esterna, precisamente dalla US 377 (<ref type="biblio"
+                                    target="#bibl-3">Felle</ref>)</note></provenance>
                         <provenance type="history"/>
                     </history>
-                    <msPart type="fragment" xml:id="Fcb2910af-ceb4-4fb1-a8df-f21f015a7f49">
-                        <msIdentifier>
-                            <repository>Museo Archeologico Comunale del Territorio Toleriense,
-                                Colleferro (inv. n. 3160).</repository>
-                        </msIdentifier>
-                        <msContents>
-                            <msItem class="https://www.eagle-network.eu/voc/typeins/lod/92"
-                                type="Tituli sepulcrales Christiani">
-                                <textLang mainLang="lat"/>
-                                <listBibl type="previousEditions">
-                                    <bibl type="public" xml:id="bibl-3">
-                                        <ptr target="FelleReperti"/>
-                                        <citedRange>274-275 n. 32</citedRange>
-                                    </bibl>
-                                    <bibl type="public" xml:id="bibl-8">
-                                        <ptr target="FiocchiNicolaiIscrizioni"/>
-                                        <citedRange>321 n. 6</citedRange>
-                                    </bibl>
-                                </listBibl>
-                                <note type="verification"><date when="1996"/><persName>Kajava -
-                                        Korhonen</persName></note>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    <support><dimensions>
-                                            <width/>
-                                            <height/>
-                                            <depth>1,5</depth>
-                                        </dimensions><rs type="decoration"/></support>
-                                    <condition>complete</condition>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout><rs type="palaeography">Litterae ductu incertu.</rs><rs
-                                            type="metric"/></layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote><rs type="ligature"/></handNote>
-                            </handDesc>
-                        </physDesc>
-                        <history>
-                            <origin><origPlace corresp="G003594"> </origPlace></origin>
-                            <provenance type="found" when="1989"><note type="context">proviene
-                                    dall'area esterna, precisamente dalla US 377 (<ref type="biblio"
-                                        target="#bibl-3">Felle</ref>)</note></provenance>
-                            <provenance type="history"/>
-                        </history>
-                    </msPart>
                 </msDesc>
                 <listBibl>
                     <listBibl type="previousEditions">
-                        <bibl type="public" xml:id="bibl-5">
+                        <bibl type="public" xml:id="bibl-3">
                             <ptr target="FelleReperti"/>
                             <citedRange>274-275 n. 32</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-7">
+                        <bibl type="public" xml:id="bibl-8">
                             <ptr target="FiocchiNicolaiIscrizioni"/>
+                            <citedRange>321 n. 6</citedRange>
                         </bibl>
                     </listBibl>
                 </listBibl>
