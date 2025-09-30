@@ -194,25 +194,23 @@
                     fine e verde-bluastra ed una lampada di bronzo.</ab>
             </div>
             <div type="edition">
-                <div type="textpart" subtype="fragment" n="a">
-                    <ab>
-                        <lb n="1"/>
-                        <persName key="P000014">Aurunceia <expan>Sp<ex>uri</ex>
-                            </expan>
-                            <expan>f<ex>ilia</ex>
-                            </expan>
-                            <lb n="2"/>Acte</persName>
-                        <expan>mag<ex>istra</ex>
-                        </expan>
-                        <lb n="3"/>
-                        <persName key="P000013">Bone Deae </persName>tunicas <lb n="4"/>duas et
-                        palliolum <lb n="5"/>rasas caleinas et <lb n="6"/>lucerna aeria
-                                <expan>d<ex>ono</ex>
-                        </expan>
-                        <expan>d<ex>edit</ex>
-                        </expan>
-                    </ab>
-                </div>
+                <ab>
+<lb n="1"/>
+<persName key="P000014">Aurunceia <expan>Sp<ex>uri</ex>
+    </expan>
+    <expan>f<ex>ilia</ex>
+    </expan>
+    <lb n="2"/>Acte</persName>
+<expan>mag<ex>istra</ex>
+</expan>
+<lb n="3"/>
+<persName key="P000013">Bone Deae </persName>tunicas <lb n="4"/>duas et
+palliolum <lb n="5"/>rasas caleinas et <lb n="6"/>lucerna aeria
+        <expan>d<ex>ono</ex>
+</expan>
+<expan>d<ex>edit</ex>
+</expan>
+                </ab>
             </div>
             <div type="commentary">
                 <ab>Cf. <ref type="biblio" target="#bibl-16'">IHM, Inschriften <seg
