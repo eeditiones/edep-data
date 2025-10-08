@@ -41,12 +41,12 @@
                                     <note type="decoration" corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/131"/>
-                                    <note><ref type="biblio" target="#bibl-1"
+                                    <note><ref type="biblio" target="#Helbig"
                                         >HELBIG</ref>: “In argilla grezza rossastra [...] una pizza
                                         ellittica (diametri 0,075 e 0,028), sul cui piano superiore
                                         sorgono cinque oggetti piramidali; sull'inferiore poi si
                                         legge un'arcaica iscrizione latina, graffita nell'argilla
-                                        già cotta.” <ref type="biblio" target="#bibl-9"
+                                        già cotta.” <ref type="biblio" target="#Europe"
                                         >NONNIS</ref>: “Una placchetta ovale d'incerta definizione
                                         tipologica, in cui è forse possibile riconoscere un organo
                                         intero (utero appiattito fortemente
@@ -76,13 +76,13 @@
                             <origDate notBefore-custom="-300" notAfter-custom="-200"
                                 datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculo
                                 III a. Chr. n., potissimum medio, attribuit <ref type="biblio"
-                                    target="#bibl-9">NONNIS</ref>.</origDate>
+                                    target="#Europe">NONNIS</ref>.</origDate>
                             <origPlace corresp="G003598"/>
                         </origin>
                         <provenance type="found" notAfter="1885"><note type="context">Inter res
                                 votivas in via degli Asini (nunc via dell’Asilo) prope portam
                                 Maggiore depositas [in fundo fratrum Colabucci <ref
-                                    type="biblio" target="#bibl-1"
+                                    type="biblio" target="#Helbig"
                                     >HELBIG</ref>].</note></provenance>
                         <provenance type="history">Nuper cognitum est rem hanc votivam eandem
                             esse ac eam, quae exstat Monachii in Staatliche Antikensammlung,
@@ -91,66 +91,39 @@
                 </msDesc>
                 <listBibl>
                     <listBibl type="bibliography">
-                        <bibl type="public" xml:id="bibl-4">
-                            <ptr target="CifarelliRecinto"/>
+                        <bibl type="public" corresp="CifarelliRecinto">
                             <citedRange>11-12 adn. 26</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-5">
-                            <ptr target="CifarelliAmbrosiniNonnisNuovidati"/>
-                            <citedRange>249-250</citedRange>
-                        </bibl>
-                        <bibl type="public" xml:id="bibl-6">
-                            <ptr/>
-                            <citedRange>191</citedRange>
-                        </bibl>
-                        <bibl type="public" xml:id="bibl-7">
-                            <ptr target="BoosInexcelsissimoloco"/>
+                        <bibl type="public" corresp="CifarelliAmbrosiniNonnisNuovidati"/>
+                        <bibl type="public" corresp="BoosHeiligtümer"/>
+                        <bibl type="public" corresp="BoosInexcelsissimoloco">
                             <citedRange>27</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-8">
-                            <ptr target="Hamdorf"/>
+                        <bibl type="public" corresp="Hamdorf">
                             <note>cum im. phot.;</note>
                             <citedRange>622-623 n. E941</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-9">
-                            <ptr target="Europe"/>
-                            <note>(im. phot. in <seg type="citedRange">p. 353</seg>);</note>
-                            <citedRange>360 n. [6]</citedRange>
-                        </bibl>
-                        <bibl type="public" xml:id="bibl-10">
-                            <ptr target="CifarelliInstrumentum"/>
-                            <citedRange>713</citedRange>
-                        </bibl>
-                        <bibl type="internal" xml:id="bibl-11">
-                            <ptr target="Champeaux"/>
-                        </bibl>
-                        <bibl type="public" xml:id="bibl-12">
-                            <ptr target="EDR"/>
-                            <citedRange>155367</citedRange>
-                        </bibl>
+                        <bibl type="public" corresp="Europe"/>
+                        <bibl type="public" corresp="CifarelliInstrumentum"/>
+                        <bibl type="internal" corresp="Champeaux"/>
                     </listBibl>
                     <listBibl type="previousEditions">
-                        <bibl type="public" xml:id="bibl-1">
-                            <ptr target="Helbig"/>
+                        <bibl type="public" corresp="Helbig">
                             <note>ex quo</note>
                             <citedRange>63</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-2">
-                            <ptr target="IhmEEVIII"/>
+                        <bibl type="public" corresp="IhmEEVIII">
                             <citedRange>625</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-3">
-                            <ptr target="CIL1(2).2.4.1"/>
+                        <bibl type="public" corresp="CIL1(2).2.4.1">
                             <citedRange>3101</citedRange>
                         </bibl>
                     </listBibl>
                     <listBibl type="images">
-                        <bibl type="public" xml:id="bibl-13">
-                            <ptr target="Hamdorf"/>
+                        <bibl type="public" xml:id="Hamdorf">
                             <citedRange>622-623 n. E941</citedRange>
                         </bibl>
-                        <bibl type="public" xml:id="bibl-14">
-                            <ptr target="NonnisAppunti"/>
+                        <bibl type="public" xml:id="NonnisAppunti">
                             <note>im. phot. in p. 353.</note>
                             <citedRange>353</citedRange>
                         </bibl>
@@ -195,29 +168,29 @@
                 </ab>
             </div>
             <div type="commentary">
-                <ab>Cf. <ref type="biblio" target="#bibl-4">CIFARELLI, Recinto <seg
+                <ab>Cf. <ref type="biblio" target="#CifarelliRecinto">CIFARELLI, Recinto <seg
                             type="citedRange">11-12 adn. 26</seg>
-                    </ref>; <ref type="biblio" target="#bibl-5">CIFARELLI - AMBROSINI - NONNIS,
+                    </ref>; <ref type="biblio" target="#CifarelliAmbrosiniNonnisNuovidati">CIFARELLI - AMBROSINI - NONNIS,
                         Nuovi dati <seg type="citedRange">249-250</seg>
-                    </ref>; <ref type="biblio" target="#bibl-6">BOOS, Heiligtümer <seg
+                    </ref>; <ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer <seg
                             type="citedRange">191</seg>
-                    </ref>; <ref type="biblio" target="#bibl-7">BOOS, In excelsissimo loco <seg
+                    </ref>; <ref type="biblio" target="#BoosInexcelsissimoloco">BOOS, In excelsissimo loco <seg
                             type="citedRange">27</seg>
-                    </ref>; <ref type="biblio" target="#bibl-8">HAMDORF <seg type="citedRange"
+                    </ref>; <ref type="biblio" target="#Hamdorf">HAMDORF <seg type="citedRange"
                             >622-623 n. E941</seg> cum im. phot.</ref>; <ref type="biblio"
-                        target="#bibl-9">NONNIS, Appunti <seg type="citedRange">360 n. [6]</seg>
+                        target="#Europe">NONNIS, Appunti <seg type="citedRange">360 n. [6]</seg>
                         (im. phot. in <seg type="citedRange">p. 353</seg>)</ref>; <ref type="biblio"
-                        target="#bibl-10">CIFARELLI, Instrumentum <seg type="citedRange">713</seg>
+                        target="#CifarelliInstrumentum">CIFARELLI, Instrumentum <seg type="citedRange">713</seg>
                     </ref>. Alii sulcum a dextra litteram I esse putaverunt, quod <ref type="biblio"
-                        target="#bibl-9">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
+                        target="#Europe">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
                     divinitatis nomen casu potissimum dativo vel genetivo apparere exspectes.
                     Itaque, si re vera Fortuna legendum est, de dativo in -a desinente agitur. <ref
-                        type="biblio" target="#bibl-6">BOOS, Heiligtümer</ref> perperam formam
+                        type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> perperam formam
                     Fortunai casum nominativum pluralem esse interpretatus est. De hoc titulo
                     cultuque <persName key="P000016">deae Fortunae</persName>, quam Signini in
                     sacello probabiliter a meridie oppidi prope <placeName>portam
                         Maggiore</placeName> sito iam aetate liberae rei publicae venerabantur
-                    (CIFARELLI, l. l.), cf. <ref type="biblio" target="#bibl-11">CHAMPEAUX <seg
+                    (CIFARELLI, l. l.), cf. <ref type="biblio" target="#Champeaux">CHAMPEAUX <seg
                             type="citedRange">185</seg>
                     </ref>.</ab>
             </div>
