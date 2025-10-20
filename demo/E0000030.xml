@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>Titulus sacer Fortunae (EEE 3)</title>
                 <editor>Kajava</editor>
-                <editor role="digital">David Eibeck</editor>
+                <editor role="digital">Wolfgang Meier</editor>
                 <respStmt>
                     <resp when="1885">autopsy</resp>
                     <persName>Helbig</persName>
@@ -15,6 +15,10 @@
                     <resp>photo</resp>
                     <persName>Kajava</persName>
                 </respStmt>
+                <editor role="digital">David Eibeck</editor>
+                <editor role="digital">Magdalena Turska</editor>
+                <editor role="digital">Joern Turner</editor>
+                <editor>Helbig</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
