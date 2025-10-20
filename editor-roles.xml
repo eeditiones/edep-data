@@ -1,0 +1,14 @@
+<vocabulary xml:id="editor-roles">
+    <term xml:id="">
+        <name xml:lang="de">print (original)</name>
+        <name xml:lang="en">print (original)</name>
+    </term>
+    <term xml:id="print">
+        <name xml:lang="de">print (original)</name>
+        <name xml:lang="en">print (original)</name>
+    </term>
+    <term xml:id="digital">
+        <name xml:lang="en">digital</name>
+        <name xml:lang="de">digital</name>
+    </term>
+</vocabulary>
