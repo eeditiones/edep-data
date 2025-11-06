@@ -1,367 +1,1119 @@
-<items>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/1000" name="not present"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/2000" name="yes"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/16" name="Abrazo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/15" name="Acanto"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/17" name="Achilles"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/18" name="Acrótera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/19" name="Adonis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/20" name="Aigle"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/21" name="Akanthus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/22" name="Aktäon; Aktaion"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/23" name="Alkestis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/2" name="Alpha et Omega"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/44" name="Altar"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/25" name="Ancla"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/564" name="Andromeda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/27" name="Äneas"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/24" name="Anfiteatro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/28" name="Animal"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/351" name=""/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/29" name="Aphrodite; Venus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/30" name="Apollo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/566" name="Apollon"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/352" name="Apollón; Apollo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/78" name="Arado"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/31" name="Arbol"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/32" name="Arco"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/36" name="Ariadne"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/38" name="Arma"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/33" name="Arquitectura"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/34" name="Arquitrave"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/37" name="Artemis; Diana"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/39" name="Ascia"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/40" name="Asklepios; Asclepius; Aesculap"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/41" name="Astrágalo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/42" name="Athena; Minerva"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/361" name="Athéné; Minerva"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/43" name="Attis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/45" name="Bacchus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/46" name="Balteus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/47" name="Banda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/49" name="Barco"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/48" name="Basa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/149" name="Bellota"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/52" name="Bogenzwickel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/57" name="Bolsa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/58" name="Botón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/60" name="Brazo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/61" name="Brustschmuck"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/62" name="Bucráneo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/51" name="Buey"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/63" name="Bulla"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/65" name="Busto"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/80" name="Caballo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/311" name="Cabeza"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/73" name="Cadena"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/67" name="Caduceo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/53" name="Caja"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/68" name="Calo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/569" name="Calo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/69" name="Cántaro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/50" name="Carnero"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/77" name="Carreta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/76" name="Carro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/71" name="Casco"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/141" name="Cenefa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/72" name="Cérvido"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/229" name="Cesta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/75" name="Chaflán"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/14" name="chi-rho"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/81" name="Chiton"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/113" name="Cima"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/99" name="Cimacio"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/64" name="Cincel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/273" name="Cinta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/83" name="Circo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/82" name="Círculo circulus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/84" name="Ciste"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/85" name="Clipeus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/87" name="Cofre"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/89" name="Concha"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/86" name="Corazón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/216" name="Cordero"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/92" name="Cornisa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/93" name="Corona"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/94" name="Corona cívica"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/95" name="Corona de laurel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/98" name="Creciente"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/571" name="Creusa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/97" name="Creusa;Kreusa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/6" name="cross"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/3" name="Crux Decussata"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/4" name="Crux Gammata"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/5" name="Crux Immissa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/70" name="Cuadrado"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/96" name="Cuchillo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/91" name="Cuerno de la abundancia"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/90" name="Cuervo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/572" name="Daedalus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/101" name="Dardos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/103" name="Decoración compleja"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/102" name="Delfín"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/1" name="Desunt"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/105" name="Dextrarum iunctio"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/106" name="Diener"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/189" name="Dintel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/107" name="Dioskuren"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/574" name="Dipti"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/108" name="Diptychon"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/112" name="Divinidad"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/109" name="Dolichenus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/110" name="Doppelknopffibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/111" name="Dosenortband"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/115" name="Einheimische Frau"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/576" name="Endymion"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/118" name="Entablamiento"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/119" name="Epona"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/121" name="Eroten"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/114" name="Escama"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/280" name="Escena de banquete"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/281" name="Escena de caza"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/283" name="Escena de sacrificio"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/282" name="Escena familiar"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/285" name="Escena funeraria"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/286" name="Escena militar"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/287" name="Escena mitológica"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/288" name="Escena religiosa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/284" name="Escena triunfale"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/289" name="Escocia"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/120" name="Escuadra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/55" name="Escudo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/147" name="Espada"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/211" name="Espejo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/35" name="Espina de pescado"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/321" name="Espiral"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/122" name="Estandarte"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/123" name="Estrella"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/304" name="Estrígile"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/305" name="Esvástica"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/124" name="Exedra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/125" name="Falera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/127" name="Festón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/129" name="Fibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/130" name="Figura humana"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/131" name="Filete"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/133" name="Flecha"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/134" name="Flor"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/135" name="Florón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/137" name="Flügelfibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/138" name="Fortuna"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/142" name="Frontón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/143" name="Fruto"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/88" name="Gallo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/144" name="Ganymed"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/427" name="Ganymédes"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/79" name="Gato"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/145" name="Genius"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/148" name="Gorgoneion"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/152" name="Greca"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/151" name="Greif"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/153" name="Guirnalda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/154" name="Haube"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/583" name="Hector"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/155" name="Hedera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/156" name="Hekate"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/158" name="Helena"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/159" name="Hephaistos; Vulcanus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/162" name="Héra; Iuno"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/160" name="Herakles;Hercules"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/440" name="Hermés; Mercur"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/163" name="Heros"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/164" name="Hexágono"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/188" name="Hiedra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/165" name="Hippokamp; Seepferd"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/444" name="Hippolytos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/140" name="Hogar"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/128" name="Hoja"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/167" name="Horuslocke"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/223" name="Huevo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/168" name="Hygeia"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/169" name="Ikarus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/170" name="Instrumento de música"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/171" name="Iphigenie"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/275" name="Jabalí"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/172" name="Jahreszeit"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/329" name="Jarrón"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/587" name="Jupiter; Juppiter; Zeus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/174" name="Kannelur"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/175" name="Kapitell"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/176" name="Kentaur"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/177" name="Kerberos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/178" name="Kline"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/179" name="Kniefibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/180" name="Kompositkapitell"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/181" name="Korinthisches Kapitell"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/457" name="Kybele;Magna Mater;Mater Deum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/184" name="Latobius"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/185" name="Leda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/183" name="Lengüeta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/186" name="Librarius"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/187" name="Lictor"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/191" name="Listel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/132" name="Llama"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/192" name="Lorica"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/193" name="Löwe"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/195" name="Luna"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/196" name="Lunula"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/202" name="Mänade"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/197" name="Mano"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/203" name="Mappa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/66" name="Marco"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/204" name="Mars;Ares"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/205" name="Marsyas"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/198" name="Martillo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/199" name="Máscara"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/200" name="Meandro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/201" name="medallion"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/206" name="Medea"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/207" name="Medusa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/208" name="Meerwesen"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/209" name="Menelaos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/306" name="Mesa"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/210" name="Minotaurus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/212" name="Mithras"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/215" name="Moldura"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/214" name="Molduración"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/213" name="Moneda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/13" name="Monogr. Christi cum Alpha et Omega"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/8" name="Monogr. Christi Decussatum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/9" name="Monogr. Christi in crucem transl. cum A e O"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/10" name="Monogr. Christi in crucem translatum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/12" name="Monogr. Christi radiatum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/11" name="Monogr. Christi radiatum cum Alpha et Omega"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/7" name="Monogr. Ἰη(σοῦς)"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/126" name="Mujer"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/217" name="Nemesis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/218" name="Nereide"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/219" name="Nicho"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/117" name="Niño"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/220" name="Nudo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/221" name="Ödipus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/222" name="Orpheus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/225" name="Oso"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/226" name="Ovalo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/227" name="Ovas"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/234" name="Paenula"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/224" name="Pájaro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/228" name="Palma"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/235" name="Pan; Faun"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/236" name="Panzer"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/230" name="Pátera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/246" name="Pedestal"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/231" name="Peine"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/232" name="Peltae"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/237" name="Pelzhut"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/54" name="Pendientes"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/233" name="Pentágono"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/238" name="Peplos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/239" name="Perla"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/240" name="Perseus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/241" name="Pétalo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/242" name="Phädra; Phaidra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/243" name="Phalera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/244" name="Phrygische Mütze"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/245" name="Pie"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/248" name="Pilar"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/247" name="Pilastra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/249" name="Pilum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/252" name="Piña"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/250" name="Polos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/251" name="Polyptychon"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/255" name="Poseidon; Neptun"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/256" name="Priamos"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/257" name="Prisionero"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/258" name="Pteryges"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/253" name="Puerta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/59" name="Pulsera"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/259" name="Pyramidenstumpf"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/261" name="Queue d'aronde"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/262" name="Rahmenfeld"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/146" name="Rama"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/56" name="Ramo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/263" name="Raya"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/139" name="Rayo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/264" name="Rectángulo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/265" name="Regla graduada"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/254" name="Retrato"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/190" name="Ribete"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/267" name="Ringschnalle"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/136" name="Río"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/266" name="Róleo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/268" name="Rolle"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/194" name="Rombo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/269" name="Roseta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/270" name="Rostra"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/271" name="Rueda"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/272" name="Rueda radiada"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/274" name="Sagum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/277" name="Sarmiento"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/276" name="Satyr"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/278" name="Säule"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/279" name="Scheibenfibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/290" name="Schreibtafel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/291" name="Seitenwange"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/531" name="sella curulis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/292" name="Sella curulis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/104" name="Semicírculo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/293" name="Serapis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/294" name="Serpiente"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/74" name="Silla"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/295" name="Silvanus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/296" name="Sirene"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/297" name="Sockelbild"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/298" name="Soffitte"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/300" name="Sol"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/299" name="Soldado"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/301" name="Sphinx"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/302" name="Stilus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/303" name="Syrinx"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/307" name="Tabula Ansata"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/315" name="Tallo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/498" name="talpazat"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/308" name="Tänien"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/312" name="Teatro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/310" name="Templo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/313" name="Theseus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/314" name="Thyrsosstab"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/325" name="Tímpano"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/316" name="Toga"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/317" name="Toga contabulata"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/318" name="Tomba"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/320" name="Toque"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/309" name="Toro"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/811" name="Toro (archit)"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/322" name="Trenza"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/323" name="Triton"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/324" name="Tropaion"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/326" name="Tunica"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/327" name="Urceus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/328" name="Urna"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/150" name="Uva"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/330" name="Vexillum"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/331" name="Victoria"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/332" name="Volumen"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/333" name="Voluta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/260" name="Volutenpolster;Pulvinus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/334" name="Zigzag"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/335" name="Zwiebelknopffibel"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/815" name="crux immissa cum alpha et omega"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/900" name="cervus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/901" name="navis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/902" name="herma"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/903" name="homo"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/904" name="femina"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/905" name="vir"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/906" name="caput"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/907" name="gladiator"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/908" name="galea"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/909" name="athleta"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/910" name="canis"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/911" name="venatio"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/912" name="eroticus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/913" name="camelus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/914" name="gallus"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/915" name="columna"/>
-    <item value="https://www.eagle-network.eu/voc/decor/lod/916" name="planta"/>
-</items>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomy of inscription decorations for EpiDoc profile</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Established in the scope of the EDEp project</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="decoration">
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/1000">
+                        <catDesc>not present</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/2000">
+                        <catDesc>yes</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/16">
+                        <catDesc>Abrazo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/15">
+                        <catDesc>Acanto</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/17">
+                        <catDesc>Achilles</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/18">
+                        <catDesc>Acrótera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/19">
+                        <catDesc>Adonis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/20">
+                        <catDesc>Aigle</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/21">
+                        <catDesc>Akanthus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/22">
+                        <catDesc>Aktäon; Aktaion</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/23">
+                        <catDesc>Alkestis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/2">
+                        <catDesc>Alpha et Omega</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/44">
+                        <catDesc>Altar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/25">
+                        <catDesc>Ancla</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/564">
+                        <catDesc>Andromeda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/27">
+                        <catDesc>Äneas</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/24">
+                        <catDesc>Anfiteatro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/28">
+                        <catDesc>Animal</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/351">
+                        <catDesc/>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/29">
+                        <catDesc>Aphrodite; Venus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/30">
+                        <catDesc>Apollo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/566">
+                        <catDesc>Apollon</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/352">
+                        <catDesc>Apollón; Apollo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/78">
+                        <catDesc>Arado</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/31">
+                        <catDesc>Arbol</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/32">
+                        <catDesc>Arco</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/36">
+                        <catDesc>Ariadne</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/38">
+                        <catDesc>Arma</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/33">
+                        <catDesc>Arquitectura</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/34">
+                        <catDesc>Arquitrave</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/37">
+                        <catDesc>Artemis; Diana</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/39">
+                        <catDesc>Ascia</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/40">
+                        <catDesc>Asklepios; Asclepius; Aesculap</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/41">
+                        <catDesc>Astrágalo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/42">
+                        <catDesc>Athena; Minerva</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/361">
+                        <catDesc>Athéné; Minerva</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/43">
+                        <catDesc>Attis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/45">
+                        <catDesc>Bacchus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/46">
+                        <catDesc>Balteus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/47">
+                        <catDesc>Banda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/49">
+                        <catDesc>Barco</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/48">
+                        <catDesc>Basa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/149">
+                        <catDesc>Bellota</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/52">
+                        <catDesc>Bogenzwickel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/57">
+                        <catDesc>Bolsa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/58">
+                        <catDesc>Botón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/60">
+                        <catDesc>Brazo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/61">
+                        <catDesc>Brustschmuck</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/62">
+                        <catDesc>Bucráneo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/51">
+                        <catDesc>Buey</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/63">
+                        <catDesc>Bulla</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/65">
+                        <catDesc>Busto</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/80">
+                        <catDesc>Caballo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/311">
+                        <catDesc>Cabeza</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/73">
+                        <catDesc>Cadena</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/67">
+                        <catDesc>Caduceo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/53">
+                        <catDesc>Caja</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/68">
+                        <catDesc>Calo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/569">
+                        <catDesc>Calo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/69">
+                        <catDesc>Cántaro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/50">
+                        <catDesc>Carnero</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/77">
+                        <catDesc>Carreta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/76">
+                        <catDesc>Carro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/71">
+                        <catDesc>Casco</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/141">
+                        <catDesc>Cenefa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/72">
+                        <catDesc>Cérvido</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/229">
+                        <catDesc>Cesta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/75">
+                        <catDesc>Chaflán</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/14">
+                        <catDesc>chi-rho</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/81">
+                        <catDesc>Chiton</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/113">
+                        <catDesc>Cima</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/99">
+                        <catDesc>Cimacio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/64">
+                        <catDesc>Cincel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/273">
+                        <catDesc>Cinta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/83">
+                        <catDesc>Circo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/82">
+                        <catDesc>Círculo circulus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/84">
+                        <catDesc>Ciste</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/85">
+                        <catDesc>Clipeus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/87">
+                        <catDesc>Cofre</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/89">
+                        <catDesc>Concha</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/86">
+                        <catDesc>Corazón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/216">
+                        <catDesc>Cordero</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/92">
+                        <catDesc>Cornisa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/93">
+                        <catDesc>Corona</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/94">
+                        <catDesc>Corona cívica</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/95">
+                        <catDesc>Corona de laurel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/98">
+                        <catDesc>Creciente</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/571">
+                        <catDesc>Creusa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/97">
+                        <catDesc>Creusa;Kreusa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/6">
+                        <catDesc>cross</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/3">
+                        <catDesc>Crux Decussata</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/4">
+                        <catDesc>Crux Gammata</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/5">
+                        <catDesc>Crux Immissa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/70">
+                        <catDesc>Cuadrado</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/96">
+                        <catDesc>Cuchillo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/91">
+                        <catDesc>Cuerno de la abundancia</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/90">
+                        <catDesc>Cuervo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/572">
+                        <catDesc>Daedalus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/101">
+                        <catDesc>Dardos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/103">
+                        <catDesc>Decoración compleja</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/102">
+                        <catDesc>Delfín</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/1">
+                        <catDesc>Desunt</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/105">
+                        <catDesc>Dextrarum iunctio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/106">
+                        <catDesc>Diener</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/189">
+                        <catDesc>Dintel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/107">
+                        <catDesc>Dioskuren</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/574">
+                        <catDesc>Dipti</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/108">
+                        <catDesc>Diptychon</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/112">
+                        <catDesc>Divinidad</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/109">
+                        <catDesc>Dolichenus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/110">
+                        <catDesc>Doppelknopffibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/111">
+                        <catDesc>Dosenortband</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/115">
+                        <catDesc>Einheimische Frau</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/576">
+                        <catDesc>Endymion</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/118">
+                        <catDesc>Entablamiento</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/119">
+                        <catDesc>Epona</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/121">
+                        <catDesc>Eroten</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/114">
+                        <catDesc>Escama</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/280">
+                        <catDesc>Escena de banquete</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/281">
+                        <catDesc>Escena de caza</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/283">
+                        <catDesc>Escena de sacrificio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/282">
+                        <catDesc>Escena familiar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/285">
+                        <catDesc>Escena funeraria</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/286">
+                        <catDesc>Escena militar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/287">
+                        <catDesc>Escena mitológica</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/288">
+                        <catDesc>Escena religiosa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/284">
+                        <catDesc>Escena triunfale</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/289">
+                        <catDesc>Escocia</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/120">
+                        <catDesc>Escuadra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/55">
+                        <catDesc>Escudo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/147">
+                        <catDesc>Espada</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/211">
+                        <catDesc>Espejo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/35">
+                        <catDesc>Espina de pescado</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/321">
+                        <catDesc>Espiral</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/122">
+                        <catDesc>Estandarte</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/123">
+                        <catDesc>Estrella</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/304">
+                        <catDesc>Estrígile</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/305">
+                        <catDesc>Esvástica</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/124">
+                        <catDesc>Exedra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/125">
+                        <catDesc>Falera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/127">
+                        <catDesc>Festón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/129">
+                        <catDesc>Fibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/130">
+                        <catDesc>Figura humana</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/131">
+                        <catDesc>Filete</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/133">
+                        <catDesc>Flecha</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/134">
+                        <catDesc>Flor</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/135">
+                        <catDesc>Florón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/137">
+                        <catDesc>Flügelfibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/138">
+                        <catDesc>Fortuna</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/142">
+                        <catDesc>Frontón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/143">
+                        <catDesc>Fruto</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/88">
+                        <catDesc>Gallo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/144">
+                        <catDesc>Ganymed</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/427">
+                        <catDesc>Ganymédes</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/79">
+                        <catDesc>Gato</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/145">
+                        <catDesc>Genius</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/148">
+                        <catDesc>Gorgoneion</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/152">
+                        <catDesc>Greca</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/151">
+                        <catDesc>Greif</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/153">
+                        <catDesc>Guirnalda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/154">
+                        <catDesc>Haube</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/583">
+                        <catDesc>Hector</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/155">
+                        <catDesc>Hedera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/156">
+                        <catDesc>Hekate</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/158">
+                        <catDesc>Helena</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/159">
+                        <catDesc>Hephaistos; Vulcanus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/162">
+                        <catDesc>Héra; Iuno</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/160">
+                        <catDesc>Herakles;Hercules</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/440">
+                        <catDesc>Hermés; Mercur</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/163">
+                        <catDesc>Heros</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/164">
+                        <catDesc>Hexágono</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/188">
+                        <catDesc>Hiedra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/165">
+                        <catDesc>Hippokamp; Seepferd</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/444">
+                        <catDesc>Hippolytos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/140">
+                        <catDesc>Hogar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/128">
+                        <catDesc>Hoja</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/167">
+                        <catDesc>Horuslocke</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/223">
+                        <catDesc>Huevo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/168">
+                        <catDesc>Hygeia</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/169">
+                        <catDesc>Ikarus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/170">
+                        <catDesc>Instrumento de música</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/171">
+                        <catDesc>Iphigenie</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/275">
+                        <catDesc>Jabalí</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/172">
+                        <catDesc>Jahreszeit</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/329">
+                        <catDesc>Jarrón</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/587">
+                        <catDesc>Jupiter; Juppiter; Zeus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/174">
+                        <catDesc>Kannelur</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/175">
+                        <catDesc>Kapitell</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/176">
+                        <catDesc>Kentaur</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/177">
+                        <catDesc>Kerberos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/178">
+                        <catDesc>Kline</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/179">
+                        <catDesc>Kniefibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/180">
+                        <catDesc>Kompositkapitell</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/181">
+                        <catDesc>Korinthisches Kapitell</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/457">
+                        <catDesc>Kybele;Magna Mater;Mater Deum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/184">
+                        <catDesc>Latobius</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/185">
+                        <catDesc>Leda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/183">
+                        <catDesc>Lengüeta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/186">
+                        <catDesc>Librarius</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/187">
+                        <catDesc>Lictor</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/191">
+                        <catDesc>Listel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/132">
+                        <catDesc>Llama</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/192">
+                        <catDesc>Lorica</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/193">
+                        <catDesc>Löwe</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/195">
+                        <catDesc>Luna</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/196">
+                        <catDesc>Lunula</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/202">
+                        <catDesc>Mänade</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/197">
+                        <catDesc>Mano</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/203">
+                        <catDesc>Mappa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/66">
+                        <catDesc>Marco</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/204">
+                        <catDesc>Mars;Ares</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/205">
+                        <catDesc>Marsyas</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/198">
+                        <catDesc>Martillo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/199">
+                        <catDesc>Máscara</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/200">
+                        <catDesc>Meandro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/201">
+                        <catDesc>medallion</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/206">
+                        <catDesc>Medea</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/207">
+                        <catDesc>Medusa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/208">
+                        <catDesc>Meerwesen</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/209">
+                        <catDesc>Menelaos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/306">
+                        <catDesc>Mesa</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/210">
+                        <catDesc>Minotaurus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/212">
+                        <catDesc>Mithras</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/215">
+                        <catDesc>Moldura</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/214">
+                        <catDesc>Molduración</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/213">
+                        <catDesc>Moneda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/13">
+                        <catDesc>Monogr. Christi cum Alpha et Omega</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/8">
+                        <catDesc>Monogr. Christi Decussatum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/9">
+                        <catDesc>Monogr. Christi in crucem transl. cum A e O</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/10">
+                        <catDesc>Monogr. Christi in crucem translatum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/12">
+                        <catDesc>Monogr. Christi radiatum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/11">
+                        <catDesc>Monogr. Christi radiatum cum Alpha et Omega</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/7">
+                        <catDesc>Monogr. Ἰη(σοῦς)</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/126">
+                        <catDesc>Mujer</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/217">
+                        <catDesc>Nemesis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/218">
+                        <catDesc>Nereide</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/219">
+                        <catDesc>Nicho</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/117">
+                        <catDesc>Niño</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/220">
+                        <catDesc>Nudo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/221">
+                        <catDesc>Ödipus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/222">
+                        <catDesc>Orpheus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/225">
+                        <catDesc>Oso</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/226">
+                        <catDesc>Ovalo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/227">
+                        <catDesc>Ovas</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/234">
+                        <catDesc>Paenula</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/224">
+                        <catDesc>Pájaro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/228">
+                        <catDesc>Palma</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/235">
+                        <catDesc>Pan; Faun</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/236">
+                        <catDesc>Panzer</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/230">
+                        <catDesc>Pátera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/246">
+                        <catDesc>Pedestal</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/231">
+                        <catDesc>Peine</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/232">
+                        <catDesc>Peltae</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/237">
+                        <catDesc>Pelzhut</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/54">
+                        <catDesc>Pendientes</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/233">
+                        <catDesc>Pentágono</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/238">
+                        <catDesc>Peplos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/239">
+                        <catDesc>Perla</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/240">
+                        <catDesc>Perseus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/241">
+                        <catDesc>Pétalo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/242">
+                        <catDesc>Phädra; Phaidra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/243">
+                        <catDesc>Phalera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/244">
+                        <catDesc>Phrygische Mütze</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/245">
+                        <catDesc>Pie</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/248">
+                        <catDesc>Pilar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/247">
+                        <catDesc>Pilastra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/249">
+                        <catDesc>Pilum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/252">
+                        <catDesc>Piña</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/250">
+                        <catDesc>Polos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/251">
+                        <catDesc>Polyptychon</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/255">
+                        <catDesc>Poseidon; Neptun</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/256">
+                        <catDesc>Priamos</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/257">
+                        <catDesc>Prisionero</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/258">
+                        <catDesc>Pteryges</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/253">
+                        <catDesc>Puerta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/59">
+                        <catDesc>Pulsera</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/259">
+                        <catDesc>Pyramidenstumpf</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/261">
+                        <catDesc>Queue d'aronde</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/262">
+                        <catDesc>Rahmenfeld</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/146">
+                        <catDesc>Rama</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/56">
+                        <catDesc>Ramo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/263">
+                        <catDesc>Raya</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/139">
+                        <catDesc>Rayo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/264">
+                        <catDesc>Rectángulo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/265">
+                        <catDesc>Regla graduada</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/254">
+                        <catDesc>Retrato</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/190">
+                        <catDesc>Ribete</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/267">
+                        <catDesc>Ringschnalle</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/136">
+                        <catDesc>Río</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/266">
+                        <catDesc>Róleo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/268">
+                        <catDesc>Rolle</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/194">
+                        <catDesc>Rombo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/269">
+                        <catDesc>Roseta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/270">
+                        <catDesc>Rostra</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/271">
+                        <catDesc>Rueda</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/272">
+                        <catDesc>Rueda radiada</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/274">
+                        <catDesc>Sagum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/277">
+                        <catDesc>Sarmiento</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/276">
+                        <catDesc>Satyr</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/278">
+                        <catDesc>Säule</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/279">
+                        <catDesc>Scheibenfibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/290">
+                        <catDesc>Schreibtafel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/291">
+                        <catDesc>Seitenwange</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/531">
+                        <catDesc>sella curulis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/292">
+                        <catDesc>Sella curulis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/104">
+                        <catDesc>Semicírculo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/293">
+                        <catDesc>Serapis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/294">
+                        <catDesc>Serpiente</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/74">
+                        <catDesc>Silla</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/295">
+                        <catDesc>Silvanus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/296">
+                        <catDesc>Sirene</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/297">
+                        <catDesc>Sockelbild</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/298">
+                        <catDesc>Soffitte</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/300">
+                        <catDesc>Sol</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/299">
+                        <catDesc>Soldado</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/301">
+                        <catDesc>Sphinx</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/302">
+                        <catDesc>Stilus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/303">
+                        <catDesc>Syrinx</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/307">
+                        <catDesc>Tabula Ansata</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/315">
+                        <catDesc>Tallo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/498">
+                        <catDesc>talpazat</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/308">
+                        <catDesc>Tänien</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/312">
+                        <catDesc>Teatro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/310">
+                        <catDesc>Templo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/313">
+                        <catDesc>Theseus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/314">
+                        <catDesc>Thyrsosstab</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/325">
+                        <catDesc>Tímpano</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/316">
+                        <catDesc>Toga</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/317">
+                        <catDesc>Toga contabulata</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/318">
+                        <catDesc>Tomba</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/320">
+                        <catDesc>Toque</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/309">
+                        <catDesc>Toro</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/811">
+                        <catDesc>Toro (archit)</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/322">
+                        <catDesc>Trenza</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/323">
+                        <catDesc>Triton</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/324">
+                        <catDesc>Tropaion</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/326">
+                        <catDesc>Tunica</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/327">
+                        <catDesc>Urceus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/328">
+                        <catDesc>Urna</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/150">
+                        <catDesc>Uva</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/330">
+                        <catDesc>Vexillum</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/331">
+                        <catDesc>Victoria</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/332">
+                        <catDesc>Volumen</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/333">
+                        <catDesc>Voluta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/260">
+                        <catDesc>Volutenpolster;Pulvinus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/334">
+                        <catDesc>Zigzag</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/335">
+                        <catDesc>Zwiebelknopffibel</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/815">
+                        <catDesc>crux immissa cum alpha et omega</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/900">
+                        <catDesc>cervus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/901">
+                        <catDesc>navis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/902">
+                        <catDesc>herma</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/903">
+                        <catDesc>homo</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/904">
+                        <catDesc>femina</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/905">
+                        <catDesc>vir</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/906">
+                        <catDesc>caput</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/907">
+                        <catDesc>gladiator</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/908">
+                        <catDesc>galea</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/909">
+                        <catDesc>athleta</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/910">
+                        <catDesc>canis</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/911">
+                        <catDesc>venatio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/912">
+                        <catDesc>eroticus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/913">
+                        <catDesc>camelus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/914">
+                        <catDesc>gallus</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/915">
+                        <catDesc>columna</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/decor/lod/916">
+                        <catDesc>planta</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <standOff>
+        <note/>
+    </standOff>
+</TEI>
