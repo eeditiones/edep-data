@@ -1,92 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vocabulary>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/73">
-        <name xml:lang="de">Akklamation</name>
-        <name xml:lang="en">acclamation</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/113">
-        <name xml:lang="de">Adnuntiatio</name>
-        <name xml:lang="en">adnuntiatio</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/116">
-        <name xml:lang="de">Assignationsinschrift</name>
-        <name xml:lang="en">assignation inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/115">
-        <name xml:lang="de">Aufschrift</name>
-        <name xml:lang="en">identification inscription
-</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/261">
-        <name xml:lang="de">Bau-/Stifterinschrift</name>
-        <name xml:lang="en">building/dedicatory inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/109">
-        <name xml:lang="de">Beischrift</name>
-        <name xml:lang="en">label inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/311">
-        <name xml:lang="de">Besitzer-/Herstellerinschrift</name>
-        <name xml:lang="en">owner/manufacturer inscription</name>
-    </term>
-    <term ref="[##im eagle-Vokabular bisher keine rdf-Referenzierung vorhanden## (FFG 11/4/22)]">
-        <name xml:lang="de">Brief</name>
-        <name xml:lang="en">letter</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/76">
-        <name xml:lang="de">Defixio</name>
-        <name xml:lang="en">defixio</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69">
-        <name xml:lang="de">Ehreninschrift</name>
-        <name xml:lang="en">honorific inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/70">
-        <name xml:lang="de">Elogium</name>
-        <name xml:lang="en">elogium</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/85">
-        <name xml:lang="de">Gebet</name>
-        <name xml:lang="en">prayer</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">
-        <name xml:lang="de">Grabinschrift</name>
-        <name xml:lang="en">funerary inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/293">
-        <name xml:lang="de">Grenzmarkierung</name>
-        <name xml:lang="en">boundary inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/3">
-        <name xml:lang="de">Kalender</name>
-        <name xml:lang="en">calendar</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/102">
-        <name xml:lang="de">Meilen-/Leugenstein</name>
-        <name xml:lang="en">mile-/leaguestone</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/91">
-        <name xml:lang="de">Militärdiplom</name>
-        <name xml:lang="en">military diploma</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/5">
-        <name xml:lang="de">Rechtliche Verfügung, öffentlich</name>
-        <name xml:lang="en">public legal inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/49">
-        <name xml:lang="de">Rechtliche Verfügung, privat</name>
-        <name xml:lang="en">private legal inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/111">
-        <name xml:lang="de">Sitzinschrift</name>
-        <name xml:lang="en">seat inscription</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/108">
-        <name xml:lang="de">Verzeichnis</name>
-        <name xml:lang="en">listing</name>
-    </term>
-    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80">
-        <name xml:lang="de">Weihinschrift</name>
-        <name xml:lang="en">votive inscription</name>
-    </term>
-</vocabulary>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomy of inscription types for EpiDoc profile</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Established in the scope of the EDEp project</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="inscription-type">
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/73">
+                        <catDesc xml:lang="de">Akklamation</catDesc>
+                        <catDesc xml:lang="en">acclamation</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/113">
+                        <catDesc xml:lang="de">Adnuntiatio</catDesc>
+                        <catDesc xml:lang="en">adnuntiatio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/116">
+                        <catDesc xml:lang="de">Assignationsinschrift</catDesc>
+                        <catDesc xml:lang="en">assignation inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/115">
+                        <catDesc xml:lang="de">Aufschrift</catDesc>
+                        <catDesc xml:lang="en">identification inscription </catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/261">
+                        <catDesc xml:lang="de">Bau-/Stifterinschrift</catDesc>
+                        <catDesc xml:lang="en">building/dedicatory inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/109">
+                        <catDesc xml:lang="de">Beischrift</catDesc>
+                        <catDesc xml:lang="en">label inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/311">
+                        <catDesc xml:lang="de">Besitzer-/Herstellerinschrift</catDesc>
+                        <catDesc xml:lang="en">owner/manufacturer inscription</catDesc>
+                    </category>
+                    <category corresp="edep-inscription-type-letter" ana="no-eagle-ref">
+                        <catDesc xml:lang="de">Brief</catDesc>
+                        <catDesc xml:lang="en">letter</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/76">
+                        <catDesc xml:lang="de">Defixio</catDesc>
+                        <catDesc xml:lang="en">defixio</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/69">
+                        <catDesc xml:lang="de">Ehreninschrift</catDesc>
+                        <catDesc xml:lang="en">honorific inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/70">
+                        <catDesc xml:lang="de">Elogium</catDesc>
+                        <catDesc xml:lang="en">elogium</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/85">
+                        <catDesc xml:lang="de">Gebet</catDesc>
+                        <catDesc xml:lang="en">prayer</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/92">
+                        <catDesc xml:lang="de">Grabinschrift</catDesc>
+                        <catDesc xml:lang="en">funerary inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/293">
+                        <catDesc xml:lang="de">Grenzmarkierung</catDesc>
+                        <catDesc xml:lang="en">boundary inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/3">
+                        <catDesc xml:lang="de">Kalender</catDesc>
+                        <catDesc xml:lang="en">calendar</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/102">
+                        <catDesc xml:lang="de">Meilen-/Leugenstein</catDesc>
+                        <catDesc xml:lang="en">mile-/leaguestone</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/91">
+                        <catDesc xml:lang="de">Militärdiplom</catDesc>
+                        <catDesc xml:lang="en">military diploma</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/5">
+                        <catDesc xml:lang="de">Rechtliche Verfügung, öffentlich</catDesc>
+                        <catDesc xml:lang="en">public legal inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/49">
+                        <catDesc xml:lang="de">Rechtliche Verfügung, privat</catDesc>
+                        <catDesc xml:lang="en">private legal inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/111">
+                        <catDesc xml:lang="de">Sitzinschrift</catDesc>
+                        <catDesc xml:lang="en">seat inscription</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/108">
+                        <catDesc xml:lang="de">Verzeichnis</catDesc>
+                        <catDesc xml:lang="en">listing</catDesc>
+                    </category>
+                    <category corresp="https://www.eagle-network.eu/voc/typeins/lod/80">
+                        <catDesc xml:lang="de">Weihinschrift</catDesc>
+                        <catDesc xml:lang="en">votive inscription</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <standOff>
+        <note/>
+    </standOff>
+</TEI>
