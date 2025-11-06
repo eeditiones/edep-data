@@ -1,14 +1,37 @@
-<vocabulary xml:id="editor-roles">
-    <term xml:id="">
-        <name xml:lang="de">original</name>
-        <name xml:lang="en">original</name>
-    </term>
-    <term xml:id="print">
-        <name xml:lang="de">print</name>
-        <name xml:lang="en">print</name>
-    </term>
-    <term xml:id="digital">
-        <name xml:lang="en">digital</name>
-        <name xml:lang="de">digital</name>
-    </term>
-</vocabulary>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomy of editorial roles for EpiDoc profile</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Established in the scope of the EDEp project</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="editor-roles">
+                    <category xml:id="original">
+                        <catDesc xml:lang="de">original</catDesc>
+                        <catDesc xml:lang="en">original</catDesc>
+                    </category>
+                    <category xml:id="print">
+                        <catDesc xml:lang="de">print</catDesc>
+                        <catDesc xml:lang="en">print</catDesc>
+                    </category>
+                    <category xml:id="digital">
+                        <catDesc xml:lang="en">digital</catDesc>
+                        <catDesc xml:lang="de">digital</catDesc>
+                    </category>
+                </taxonomy>
+
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <standOff>
+        <note/>
+    </standOff>
+</TEI>
