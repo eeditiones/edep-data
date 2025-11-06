@@ -13,7 +13,7 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy xml:id="editor-roles">
+                <taxonomy xml:id="country-names">
                     <category xml:id="ad">
                         <catDesc xml:lang="en">Andorra</catDesc>
                         <catDesc xml:lang="de">Andorra</catDesc>
