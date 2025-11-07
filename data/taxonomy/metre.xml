@@ -13,7 +13,7 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy xml:id="metric">
+                <taxonomy xml:id="metre">
                     <category xml:id="yes">
                         <catDesc xml:lang="de">Ja</catDesc>
                         <catDesc xml:lang="en">yes</catDesc>

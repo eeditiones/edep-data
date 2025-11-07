@@ -144,7 +144,7 @@
                                 <layoutDesc>
                                     <layout>
                                         <rs type="paleography"/>
-                                        <rs type="metric">no</rs>
+                                        <rs type="metre">no</rs>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>

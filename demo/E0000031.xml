@@ -315,7 +315,7 @@
                                 <layoutDesc>
                                     <layout>
                                         <rs type="paleography" ref="https://edep.adw.uni-heidelberg.de/paleography/quadrata https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged https://edep.adw.uni-heidelberg.de/paleography/capitalis">Puncta varie insculpta ubique fere adsunt aut pro iis lineola redacta est (ut in v. 1 inter Horodeonius et P). Litteras capitales quadratas versuum 1-2 sequuntur litterae partim oblongae; P ubique aperta est, O in v. 1-2 paene aut omnino rotunda.</rs>
-                                        <rs type="metric">no</rs>
+                                        <rs type="metre">no</rs>
                                         <ab>V. 1-2: 5; V. 3-4: 4; V. 5-6: 3,5-4; V. 7-8: 3 cm</ab>
                                     </layout>
                                 </layoutDesc>
