@@ -45,8 +45,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <note type="palaeography" corresp="#quadrata #letters-erodet"/>
-                                    <note type="metric">no</note>
+                                    <note type="paleography" corresp="#quadrata #letters-erodet"/>
+                                    <note type="metre">no</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>

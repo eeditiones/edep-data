@@ -42,8 +42,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="palaeography"/>
-                                    <rs type="metric"/>
+                                    <rs type="paleography"/>
+                                    <rs type="metre"/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
