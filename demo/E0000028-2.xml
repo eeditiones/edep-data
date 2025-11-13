@@ -47,8 +47,6 @@
                                         <height/>
                                         <depth>1,5</depth>
                                     </dimensions>
-                                    <note type="decoration"
-                                        corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                 </support>
                                 <condition>fragmentary</condition>
                             </supportDesc>
@@ -59,9 +57,17 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote><note type="ligature"/></handNote>
+                        <handDesc> 
+                            <handNote scope="ligature"></handNote>
+                            <handNote scope="letterHeight">
+                                <dimensions>
+                                    <height/>
+                                </dimensions>
+                            </handNote>
                         </handDesc>
+                        <decoDesc>
+                            <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <origin>

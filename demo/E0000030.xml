@@ -42,19 +42,17 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <note type="decoration" corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                                     <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257"/>
                                     <material ref="https://www.eagle-network.eu/voc/material/lod/131"/>
                                     <note><ref type="biblio" target="#Helbig"
                                         >HELBIG</ref>: “In argilla grezza rossastra [...] una pizza
-                                        ellittica (diametri 0,075 e 0,028), sul cui piano superiore
-                                        sorgono cinque oggetti piramidali; sull'inferiore poi si
-                                        legge un'arcaica iscrizione latina, graffita nell'argilla
-                                        già cotta.” <ref type="biblio" target="#Europe"
-                                        >NONNIS</ref>: “Una placchetta ovale d'incerta definizione
-                                        tipologica, in cui è forse possibile riconoscere un organo
-                                        intero (utero appiattito fortemente
-                                    stilizzato?).”</note>
+ellittica (diametri 0,075 e 0,028), sul cui piano superiore
+sorgono cinque oggetti piramidali; sull'inferiore poi si
+legge un'arcaica iscrizione latina, graffita nell'argilla
+già cotta.” <ref type="biblio" target="#Europe"
+>NONNIS</ref>: “Una placchetta ovale d'incerta definizione
+tipologica, in cui è forse possibile riconoscere un organo
+intero (utero appiattito fortemente stilizzato?).”</note>
                                 </support>
                                 <condition>complete</condition>
                             </supportDesc>
@@ -67,10 +65,15 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <note type="ligature">no</note>
+                            <handNote scope="ligature">no</handNote>
+                            <handNote scope="letterHeight">
+                                <locus></locus>
+                                <height></height>  
                             </handNote>
                         </handDesc>
+                        <decoDesc>
+                            <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                        </decoDesc>
                     </physDesc>
                     <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80">
                         <summary>Tituli sacri; Titulus Fortunae</summary>
@@ -78,16 +81,16 @@
                     <history>
                         <origin>
                             <origDate notBefore-custom="-300" notAfter-custom="-200"
-                                datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculo
-                                III a. Chr. n., potissimum medio, attribuit <ref type="biblio"
-                                    target="#Europe">NONNIS</ref>.</origDate>
+datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Saeculo
+III a. Chr. n., potissimum medio, attribuit <ref type="biblio"
+target="#Europe">NONNIS</ref>.</origDate>
                             <origPlace corresp="G003598"/>
                         </origin>
                         <provenance type="found" notAfter="1885"><note type="context">Inter res
-                                votivas in via degli Asini (nunc via dell’Asilo) prope portam
-                                Maggiore depositas [in fundo fratrum Colabucci <ref
-                                    type="biblio" target="#Helbig"
-                                    >HELBIG</ref>].</note></provenance>
+votivas in via degli Asini (nunc via dell’Asilo) prope portam
+Maggiore depositas [in fundo fratrum Colabucci <ref
+type="biblio" target="#Helbig">HELBIG</ref>].</note>
+                        </provenance>
                         <provenance type="history">Nuper cognitum est rem hanc votivam eandem
                             esse ac eam, quae exstat Monachii in Staatliche Antikensammlung,
                             inv. NI 6979.</provenance>
@@ -164,7 +167,7 @@
         <body>
             <div type="apparatus"/>
             <div type="translation" resp="Eibeck">
-                <ab>Alla Dea Fortuna.</ab>
+<ab>Alla Dea Fortuna.</ab>
             </div>
             <div type="edition">
                 <ab>
@@ -172,31 +175,22 @@
                 </ab>
             </div>
             <div type="commentary">
-                <ab>Cf. <ref type="biblio" target="#CifarelliRecinto">CIFARELLI, Recinto <seg
-                            type="citedRange">11-12 adn. 26</seg>
-                    </ref>; <ref type="biblio" target="#CifarelliAmbrosiniNonnisNuovidati">CIFARELLI - AMBROSINI - NONNIS,
-                        Nuovi dati <seg type="citedRange">249-250</seg>
-                    </ref>; <ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer <seg
-                            type="citedRange">191</seg>
-                    </ref>; <ref type="biblio" target="#BoosInexcelsissimoloco">BOOS, In excelsissimo loco <seg
-                            type="citedRange">27</seg>
-                    </ref>; <ref type="biblio" target="#Hamdorf">HAMDORF <seg type="citedRange"
-                            >622-623 n. E941</seg> cum im. phot.</ref>; <ref type="biblio"
-                        target="#Europe">NONNIS, Appunti <seg type="citedRange">360 n. [6]</seg>
-                        (im. phot. in <seg type="citedRange">p. 353</seg>)</ref>; <ref type="biblio"
-                        target="#CifarelliInstrumentum">CIFARELLI, Instrumentum <seg type="citedRange">713</seg>
-                    </ref>. Alii sulcum a dextra litteram I esse putaverunt, quod <ref type="biblio"
-                        target="#Europe">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
-                    divinitatis nomen casu potissimum dativo vel genetivo apparere exspectes.
-                    Itaque, si re vera Fortuna legendum est, de dativo in -a desinente agitur. <ref
-                        type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> perperam formam
-                    Fortunai casum nominativum pluralem esse interpretatus est. De hoc titulo
-                    cultuque <persName key="P000016">deae Fortunae</persName>, quam Signini in
-                    sacello probabiliter a meridie oppidi prope <placeName>portam
-                        Maggiore</placeName> sito iam aetate liberae rei publicae venerabantur
-                    (CIFARELLI, l. l.), cf. <ref type="biblio" target="#Champeaux">CHAMPEAUX <seg
-                            type="citedRange">185</seg>
-                    </ref>.</ab>
+                <ab>Cf. <ref type="biblio" target="#CifarelliRecinto">CIFARELLI, Recinto 
+<seg type="citedRange">11-12 adn. 26</seg></ref>; 
+<ref type="biblio" target="#CifarelliAmbrosiniNonnisNuovidati">CIFARELLI - AMBROSINI - NONNIS, Nuovi dati <seg type="citedRange">249-250</seg></ref>; 
+<ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer <seg type="citedRange">191</seg></ref>; 
+<ref type="biblio" target="#BoosInexcelsissimoloco">BOOS, In excelsissimo loco <seg type="citedRange">27</seg></ref>; 
+<ref type="biblio" target="#Hamdorf">HAMDORF <seg type="citedRange">622-623 n. E941</seg> cum im. phot.</ref>; 
+<ref type="biblio" target="#Europe">NONNIS, Appunti <seg type="citedRange">360 n. [6]</seg>(im. phot. in <seg type="citedRange">p. 353</seg>)</ref>; 
+<ref type="biblio" target="#CifarelliInstrumentum">CIFARELLI, Instrumentum <seg type="citedRange">713</seg></ref>. 
+Alii sulcum a dextra litteram I esse putaverunt, quod <ref type="biblio" target="#Europe">NONNIS</ref> negat. Utcumque se habet, in dedicatione sacra
+divinitatis nomen casu potissimum dativo vel genetivo apparere exspectes.
+Itaque, si re vera Fortuna legendum est, de dativo in -a desinente agitur. <ref type="biblio" target="#BoosHeiligtümer">BOOS, Heiligtümer</ref> perperam formam
+Fortunai casum nominativum pluralem esse interpretatus est. De hoc titulo
+cultuque <persName key="P000016">deae Fortunae</persName>, quam Signini in
+sacello probabiliter a meridie oppidi prope <placeName>portam
+Maggiore</placeName> sito iam aetate liberae rei publicae venerabantur (CIFARELLI, l. l.), cf. 
+<ref type="biblio" target="#Champeaux">CHAMPEAUX <seg type="citedRange">185</seg></ref>.</ab>
             </div>
         </body>
     </text>

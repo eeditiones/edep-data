@@ -44,8 +44,6 @@
                                         <height>50</height>
                                         <depth/>
                                     </dimensions>
-                                    <note type="decoration"
-                                        corresp="https://www.eagle-network.eu/voc/decor/lod/2000"/>
                                 </support>
                                 <condition>fragmentary</condition>
                             </supportDesc>
@@ -59,13 +57,29 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <dimensions type="letterHeight">
-                                    <height>V. 1: 5; V. 2-3: 3,5; V. 4-8: 3</height>
+                            <handNote scope="ligature">no</handNote>
+                            <handNote scope="letterHeight">
+                                <locus>V. 1</locus>
+                                <dimensions>
+                                    <height>5</height>
                                 </dimensions>
-                                <note type="ligature">no</note>
+                            </handNote>
+                            <handNote scope="letterHeight">
+                                <locus>V. 2-3</locus>
+                                <dimensions>
+                                    <height>3,5</height>
+                                </dimensions>
+                            </handNote>
+                            <handNote scope="letterHeight">
+                                <locus>V. 4-8</locus>
+                                <dimensions>
+                                    <height>3</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
+                        <decoDesc>
+                            <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/2000"/>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
