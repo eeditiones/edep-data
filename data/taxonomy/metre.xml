@@ -23,7 +23,7 @@
                         <catDesc xml:lang="en">no</catDesc>
                     </category>
                     <category xml:id="partim">
-                        <catDesc xml:lang="en">Partim</catDesc>
+                        <catDesc xml:lang="en">partim</catDesc>
                         <catDesc xml:lang="de">Partim</catDesc>
                     </category>
                 </taxonomy>
