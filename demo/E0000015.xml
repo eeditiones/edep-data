@@ -55,12 +55,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <dimensions type="letterHeight">
+                            <handNote scope="letterHeight">
+                                <dimensions>
+                                    <locus></locus>
                                     <height>2-2,7</height>
                                 </dimensions>
-                                <rs type="ligature">no</rs>
                             </handNote>
+                            <handNote scope="ligature">no</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
