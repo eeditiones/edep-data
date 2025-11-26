@@ -15,8 +15,8 @@
             <classDecl>
                 <taxonomy xml:id="material">
                     <category corresp="https://www.eagle-network.eu/voc/material/lod/137">
-                        <catDesc xml:lang="de">unbestimmt</catDesc>
-                        <catDesc xml:lang="en">indefinite</catDesc>
+                        <catDesc xml:lang="de"> unbestimmt</catDesc>
+                        <catDesc xml:lang="en"> indefinite</catDesc>
                     </category>
                     <category corresp="https://www.eagle-network.eu/voc/material/lod/2">
                         <catDesc xml:lang="de">Stein – unbestimmt</catDesc>
