@@ -97,7 +97,7 @@
                             Octavii Lauri”. UGHELLIUS: “olim in Cathedrali effossa…apud DD. Lauros.”
                             ANONYMUS: “nell'atrio della casa de' Sig.ri Lauri”.</provenance>
                     </history>
-                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/69">
+                    <msContents>
                         <summary>Tituli imperatorum domusque eorum. Titulus honorarius Imperatori
                             Antonino Pio.</summary>
                     </msContents>
@@ -263,6 +263,9 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/69"/>
+                </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <term/>
                 </keywords>

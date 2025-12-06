@@ -70,7 +70,7 @@
                             <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                         </decoDesc>
                     </physDesc>
-                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                    <msContents>
                         <summary>Tituli sacri; Titulus Bonae Deae; Titulus officiorum
                             cultu"</summary>
                     </msContents>
@@ -165,6 +165,9 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80"/>
+                </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <term ref="#pagan"/>
                 </keywords>

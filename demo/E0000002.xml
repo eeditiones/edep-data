@@ -62,7 +62,7 @@
                             <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
                         </decoDesc>
                     </physDesc>
-                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80"/>
+                    <msContents/>
                     <history>
                         <origin>
                             <origDate notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2./3. Jh.</origDate>
@@ -79,6 +79,13 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80"/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="#texttype1">Dedication</term>
+                    <term ref="#texttype2">Decree</term>
+                   </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <term ref="#pagan"/>
                 </keywords>
