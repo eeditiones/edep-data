@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" corresp="" type="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000003">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -78,7 +78,20 @@
                         <provenance type="history"/>
                     </history>
                 </msDesc>
-                <listBibl/>
+                <listBibl>
+                    <listBibl type="transmission">
+                        <bibl/>
+                    </listBibl>
+                    <listBibl type="previousEditions">
+                        <bibl/>
+                    </listBibl>
+                    <listBibl type="bibliography">
+                        <bibl/>
+                    </listBibl>
+                    <listBibl type="images">
+                        <bibl/>
+                    </listBibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -86,6 +99,9 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term/>
+                </keywords>
                 <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
                     <term/>
                 </keywords>
@@ -95,11 +111,12 @@
             </textClass>
             <langUsage>
                 <language ident="lat" ana="main"/>
+                <language ident="edep"/>
             </langUsage>
         </profileDesc>
         <revisionDesc status="draft">
             <change type="created" when="2025-12-04T15:39:14.315Z" who="edep"/>
-            <change type="changed" when="2025-12-04T16:57:08.84Z" who="edep"/>
+            <change type="changed" when="2025-12-11T12:28:09.598+01:00" who="edep"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -111,26 +128,29 @@
             <div type="edition">
                 <ab>
 <lb n="1"/>
-                    <supplied reason="lost">---</supplied> Sepstini<hi rend="apex">o</hi> <expan>M<ex>arci</ex>
-                    </expan> <expan>f<ex>ili</ex>
-                    </expan> <expan>Ser<ex>gia</ex>
-                    </expan> 
+  <persName key="P000005">
+                        <gap reason="lost" extent="unknown" unit="character"/> Sepstini<hi rend="apex">o</hi> <expan>M<ex>arci</ex>
+                        </expan> <expan>f<ex>ili</ex>
+                        </expan> <expan>Ser<ex>gia</ex>
+                        </expan> 
 <lb n="2"/>
-                    <supplied reason="lost">---</supplied> Caroni <expan>ann<ex>orum</ex>
+    <gap reason="lost" extent="unknown" unit="character"/> Caroni</persName> <expan>ann<ex>orum</ex>
                     </expan> XVIII 
 <lb n="3"/>
-                    <supplied reason="lost">eq</supplied>uom <expan>public<ex>um</ex>
+  <supplied reason="lost">eq</supplied>uom <expan>public<ex>um</ex>
                     </expan> habe<hi rend="ligature">nt</hi>i 
 <lb n="4"/>
-                    <supplied reason="lost">---</supplied>i<hi rend="ligature">ni</hi>a <expan>C<ex>ai</ex>
+<gap reason="lost" extent="unknown" unit="character"/>i<hi rend="ligature">ni</hi>a <expan>C<ex>ai</ex>
                     </expan> <expan>f<ex>ilia</ex>
                     </expan> P<hi rend="apex">o</hi>lla m<hi rend="apex">a</hi>ter 
 <lb n="5"/>
-                    <supplied reason="lost">e</supplied>iusdem memoriam 
+<supplied reason="lost">e</supplied>iusdem memoriam 
 <lb n="6"/>
-                    <supplied reason="lost">--- S</supplied>epsti<hi rend="ligature">ni</hi>us <expan>Ser<ex>gia</ex>
+<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">S</supplied>epsti<hi rend="ligature">ni</hi>us <expan>Ser<ex>gia</ex>
                     </expan> R<hi rend="apex">u</hi>fu<supplied reason="lost">s</supplied> 
-<lb n="7"/>Car<hi rend="apex">o</hi> pater <gap reason="lost" extent="unknown" unit="line"/>
+<lb n="7"/>Car<hi rend="apex">o</hi> pater <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/>
+                    <gap reason="lost" extent="unknown" unit="line"/>
 </ab>
             </div>
             <div type="apparatus"/>
