@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?teipublisher view="single"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="about">
    <teiHeader>
@@ -26,8 +26,9 @@
                   <item>Marietta Horster (project lead)</item>
                   <item>Francisca Feraudi-Gruénais (research assistant)</item>
                   <item>David Eibeck (research assistant)</item>
+                  <item>Magdalena Turska (IT, Jinntec GmbH)</item>
                   <item>Jörn Turner (IT, Jinntec GmbH)</item>
-                  <item>Worlgang Meier (IT, Jinntec GmbH)</item>
+                  <item>Wolfgang Meier (IT, Jinntec GmbH)</item>
                </list>
             </div>
             <div>
@@ -46,8 +47,9 @@
                   <item>Marietta Horster (Leiterin)</item>
                   <item>Francisca Feraudi-Gruénais (wiss. Mitarbeiterin)</item>
                   <item>David Eibeck (wiss. Mitarbeiter)</item>
+                  <item>Magdalena Turska (IT, Jinntec GmbH)</item>
                   <item>Jörn Turner (IT, Jinntec GmbH)</item>
-                  <item>Worlgang Meier (IT, Jinntec GmbH)</item>
+                  <item>Wolfgang Meier (IT, Jinntec GmbH)</item>
                </list>
             </div>
             <div>
