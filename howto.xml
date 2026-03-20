@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?teipublisher view="single"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="about">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Howto use EDEp</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="en">
+            <list rend="numbered">
+               <item n="1">
+                  Der Editor umfasst neben der <a href="index.html">Inschriftendatenbank</a> die
+                  <a href="orte">Geo-</a> und die <a href="personen">Personendatenbank</a>; die beiden
+                  letztgenannten dienen dazu, Geo- und Personen-IDs zu generieren, auf die in der
+                  Inschriftendatenbank referenziert werden kann, falls gewünscht (nicht zwingend notwendig).
+                  N.B.: Bibliographische Referenzen werden extern in Zotero generiert (s.u. Link in (i) neben
+                  Referenzen).
+               </item>
+               <item n="2">
+                  In jedem dieser drei Eintragstypen (Inschrift, Ort, Person) muss jeweils ein Feld zwingend ausgefüllt werden, um einen gültigen Datensatz zu generieren. Diese sind:
+                  <list rend="numbered">
+                     <item n="a">
+                        für einen Inschrifteneintrag „Titel“,
+                     </item>
+                     <item n="b">
+                        für einen Geodateneintrag „Fundort (modern)“ [NB: bisher fälschlich Fundstelle, muss von geändert werden],
+                     </item>
+                     <item n="c">
+                        für einen Personeneintrag eines der nomen-Felder (von ‚Gottheit‘ bis ‚Supernomen‘),
+                        alle übrigen Felder sind optional. Leer gelassene Felder werden nicht in der XML-Datei ausgegeben.
+                     </item>
+                  </list>
+               </item>
+               <item n="3">
+                  Die Inschriftendatenbank [Link] verfügt über unterschiedliche Feldtypen:
+                  <list rend="numbered">
+                     <item n="a">
+                        Felder mit kontrollierten Vokabularen (z.B. Inschriftträger),
+                     </item>
+                     <item n="b">
+                        Felder mit frei wählbaren (normierten) Einträgen,
+                     </item>
+                     <item n="c">
+                        Freie Textfelder mit Toolbar für EpiDoc-Markup.
+                     </item>
+                  </list>
+               </item>
+            </list>
+         </div>
+         <div xml:lang="de">
+            <list rend="numbered">
+               <item n="1">
+                  The editor includes, additionally to the <a href="index.html">inscription database</a>, <a href="orte">geo-</a>
+                  and <a href="personen">people-</a> databases; the purpose of the latter is to generate IDs for
+                  places and people that can be referenced in the inscription database if desired
+                  (not mandatory). N.B.: Bibliographic references are generated externally in Zotero
+                  (see link in (i) next to references below).
+               </item>
+               <item n="2">
+                  For each of these three kinds of entries (inscription, place, person)
+                  there is one box that needs necessarily to be filled in to generate
+                  valid data. These are:
+                  <list rend="numbered">
+                     <item n="a">
+                        for an inscription-entry ‘title’,
+                     </item>
+                     <item n="b">
+                        for a geodata-entry ‘Site (modern)’,
+                     </item>
+                     <item n="c">
+                        for a people-database-entry one of the nomen-boxes (from ‘deity’ to
+                        ‘supernomen’); all the remaining text boxes are optional.
+                        Those left empty will not be included in the XML-file.
+                     </item>
+                  </list>
+               </item>
+               <item n="3">
+                  Information can be entered in the inscription-database in three different ways:
+                  <list rend="numbered">
+                     <item n="a">
+                        boxes with controlled vocabularies (e.g., ‘Type of monument’),
+                     </item>
+                     <item n="b">
+                        boxes with freely selectable (standardised) entries,
+                     </item>
+                     <item n="c">
+                        free forms with a toolbar for EpiDoc-markup.
+                     </item>
+                  </list>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
