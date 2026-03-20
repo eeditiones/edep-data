@@ -19,7 +19,8 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:lang="en">
+         <div xml:lang="de">
+            <head>Anleitung</head>
             <list rend="numbered">
                <item n="1">
                   Der Editor umfasst neben der <a href="index.html">Inschriftendatenbank</a> die
@@ -60,7 +61,8 @@
                </item>
             </list>
          </div>
-         <div xml:lang="de">
+         <div xml:lang="en">
+            <head>Instructions</head>
             <list rend="numbered">
                <item n="1">
                   The editor includes, additionally to the <a href="index.html">inscription database</a>, <a href="orte">geo-</a>
