@@ -57,6 +57,7 @@
                 <exclude name="scripts/**" />
                 <exclude name=".vscode/**" />
                 <exclude name="expath-pkg.xml" />
+                <exclude name=".idea/**" />
             </fileset>
             <zipfileset dir="${build.dir}" includes="expath-pkg.xml" fullpath="expath-pkg.xml" />
         </zip>
