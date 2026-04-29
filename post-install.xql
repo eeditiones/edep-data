@@ -27,9 +27,8 @@ declare function local:mkcol($collection, $path) {
     local:mkcol-recursive($collection, tokenize($path, "/"))
 };
 
-local:mkcol($target, 'workspace'),
-sm:chgrp(xs:anyURI($target || "/workspace"), "tei"),
-sm:chown(xs:anyURI($target || "/workspace"), "edep"),
+sm:chgrp(xs:anyURI($target || "/data/workspace"), "tei"),
+sm:chown(xs:anyURI($target || "/data/workspace"), "tei"),
 (: store the collection configuration :)
 local:mkcol("/db/system/config", $target),
 xmldb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf")
