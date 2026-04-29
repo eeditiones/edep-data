@@ -1,4 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Version number is updated automatically by semantic versioning -->
-<package xmlns="http://expath.org/ns/pkg" name="https://jinntec.de/edep-data" abbrev="edep-data" version="0.1" spec="1.0">
+<package xmlns="http://expath.org/ns/pkg" name="https://jinntec.de/edep-data" abbrev="edep-data" version="1.0.0" spec="1.0">
     <title>Editionstools für eine digitale Epigraphik: Daten</title>
 </package>

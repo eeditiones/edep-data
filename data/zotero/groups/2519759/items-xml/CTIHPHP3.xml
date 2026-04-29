@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="CTIHPHP3">
+    <title>Inscriptiones Graecae V: Inscriptiones Laconiae Messeniae Arcadiae.</title>
+    <title type="short">IG_V</title>
+    <title level="s">Inscriptiones Graecae</title>
+    <editor>Gualtherus Kolbe</editor>
+    <editor>Fridericus Hiller de Gaertringen</editor>
+    <pubPlace>Berlin</pubPlace>
+    <publisher/>
+    <date>1913</date>
+    <date type="modified" when="2025-12-08T13:43:42Z"/>
+    <term>IG5.1</term>
+    <note type="display">&lt;div class="csl-bib-body" style="line-height: 1.35; padding-left: 1em; text-indent:-1em;"&gt;
+  &lt;div class="csl-entry"&gt;&lt;b&gt;Kolbe, Gualtherus&lt;/b&gt; / &lt;b&gt;Hiller de Gaertringen, Fridericus&lt;/b&gt; (eds.) (1913): &lt;i&gt;Inscriptiones Graecae V: Inscriptiones Laconiae Messeniae Arcadiae.&lt;/i&gt; (= Inscriptiones Graecae 5) Berlin.&lt;/div&gt;
+&lt;/div&gt;</note>
+</bibl>

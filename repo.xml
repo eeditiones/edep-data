@@ -9,5 +9,5 @@
     <type>application</type>
     <target>edep-data</target>
     <finish>post-install.xql</finish>
-    <permissions user="edep" group="tei" password="edep" mode="rw-rw-r--"/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="edep" user="edep" group="tei" mode="rw-rw-r--"/>
 </meta>

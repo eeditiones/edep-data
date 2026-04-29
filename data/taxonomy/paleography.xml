@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -26,8 +27,7 @@
                         <catDesc xml:lang="de">Kursivschrift</catDesc>
                         <catDesc xml:lang="en">cursive</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-prolonged">
                         <catDesc xml:lang="de">längliche Buchstaben</catDesc>
                         <catDesc xml:lang="en">elongated letters</catDesc>
                     </category>
@@ -51,18 +51,15 @@
                         <catDesc xml:lang="de">eng geschrieben</catDesc>
                         <catDesc xml:lang="en">tightly written</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/negligent-engraved">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/negligent-engraved">
                         <catDesc xml:lang="de">nachlässig gemeißelt</catDesc>
                         <catDesc xml:lang="en">carelessly carved</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/carefully-engraved">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/carefully-engraved">
                         <catDesc xml:lang="de">sorgfältig gemeißelt</catDesc>
                         <catDesc xml:lang="en">carefully carved</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/evenly-distributed">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/evenly-distributed">
                         <catDesc xml:lang="de">gleichmäßig angeordnet</catDesc>
                         <catDesc xml:lang="en">evenly arranged</catDesc>
                     </category>
@@ -78,43 +75,35 @@
                         <catDesc xml:lang="de">Mosaikinschrift</catDesc>
                         <catDesc xml:lang="en">mosaic inscription</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/litterae-aureae">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/litterae-aureae">
                         <catDesc xml:lang="de">litterae aureae</catDesc>
                         <catDesc xml:lang="en">litterae aureae</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-decreasing">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-decreasing">
                         <catDesc xml:lang="de">Buchstaben kleiner werdend</catDesc>
                         <catDesc xml:lang="en">letters getting smaller</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-increasing">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-increasing">
                         <catDesc xml:lang="de">Buchstaben größer werdend</catDesc>
                         <catDesc xml:lang="en">letters getting bigger</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-potruding">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-potruding">
                         <catDesc xml:lang="de">Longa Buchstaben</catDesc>
                         <catDesc xml:lang="en">longa letters</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-erased">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-erased">
                         <catDesc xml:lang="de">Buchstaben eradiert</catDesc>
                         <catDesc xml:lang="en">letters erased</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-rubbed">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-rubbed">
                         <catDesc xml:lang="de">Buchstaben abgerieben</catDesc>
                         <catDesc xml:lang="en">letters rubbed off</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-erodet">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-erodet">
                         <catDesc xml:lang="de">Buchstaben verwittert</catDesc>
                         <catDesc xml:lang="en">letters weathered</catDesc>
                     </category>
-                    <category
-                        corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-missing">
+                    <category corresp="https://edep.adw.uni-heidelberg.de/paleography/letters-missing">
                         <catDesc xml:lang="de">Buchstaben verschwunden</catDesc>
                         <catDesc xml:lang="en">letters disappeared</catDesc>
                     </category>

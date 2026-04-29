@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="HADJDTV2">
+    <title>Fontes Pannoniae antiquae in aetate Severorum</title>
+    <title type="short">Kovács_2007</title>
+    <editor>Péter Kovács</editor>
+    <pubPlace>Budapest</pubPlace>
+    <publisher/>
+    <date>2007</date>
+    <date type="modified" when="2025-11-10T12:50:42Z"/>
+    <term>Kovács</term>
+    <note type="display">&lt;div class="csl-bib-body" style="line-height: 1.35; padding-left: 1em; text-indent:-1em;"&gt;
+  &lt;div class="csl-entry"&gt;&lt;b&gt;Kov&amp;#xE1;cs, P&amp;#xE9;ter&lt;/b&gt; (ed.) (2007): &lt;i&gt;Fontes Pannoniae antiquae in aetate Severorum&lt;/i&gt;. Budapest.&lt;/div&gt;
+&lt;/div&gt;</note>
+</bibl>

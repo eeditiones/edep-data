@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="QHEEHAFJ">
+    <title>Keine Ahnung</title>
+    <title type="short">Mustermann_2000</title>
+    <author>Max Mustermann</author>
+    <pubPlace/>
+    <publisher/>
+    <date>2000</date>
+    <date type="modified" when="2025-11-18T15:55:25Z"/>
+    <term>Mustermann2000</term>
+    <note type="display">&lt;div class="csl-bib-body" style="line-height: 1.35; padding-left: 1em; text-indent:-1em;"&gt;
+  &lt;div class="csl-entry"&gt;&lt;b&gt;Mustermann, Max&lt;/b&gt; (2000): &lt;i&gt;Keine Ahnung&lt;/i&gt;.&lt;/div&gt;
+&lt;/div&gt;</note>
+</bibl>
