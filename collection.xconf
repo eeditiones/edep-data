@@ -21,6 +21,14 @@
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
             </text>
             <text qname="tei:head"/>
+             <text qname="tei:place">
+                <field name="name" expression="tei:placeName"/>
+                <field name="sort-name" expression="head((tei:placeName[@type='sort'], tei:placeName)) => normalize-unicode('NFD')     =&gt; replace('\p{IsCombiningDiacriticalMarks}', '')"/>
+            </text>
+            <text qname="tei:person">
+                <field name="name" expression="tei:persName"/>
+                <field name="sort-name" expression="head((tei:persName[@type='sort'], tei:persName))=> normalize-unicode('NFD')     =&gt; replace('\p{IsCombiningDiacriticalMarks}', '')"/>
+            </text>
             <text match="//tei:titleStmt/tei:title"/>
             <text match="//tei:msDesc/tei:head"/>
             <text match="//tei:listPlace/tei:place/tei:placeName"/>
