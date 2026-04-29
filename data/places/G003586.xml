@@ -8,7 +8,7 @@
     <country>de</country> <!-- modernes Land -->
     <location>
         <!-- Latitude/longitude durch space getrennt -->
-        <geo>50.00537647635367, 8.27048084595846</geo>
+        <geo>50.00537647635367 8.27048084595846</geo>
     </location>
     <ptr type="pleiades" target="">109169</ptr> <!-- Freitext -->
     <ptr type="geonames" target="">2874225</ptr> <!-- Freitext -->
