@@ -53,7 +53,7 @@
                <item n="Geodata">
                   <desc><ref target="places">Places</ref></desc>
                   <note>Registers of individuals and places mentioned in the corpus offer a point of entry into the intricate social and geographical network of that era.</note>
-                  <ptr type="image" target="resources/images/header-bg.jpg"/>
+                  <ptr type="image" target="resources/images/parthenon.jpg"/>
                   <list type="links">
                      <item><ref target="places">Explore</ref></item>
                   </list>
@@ -61,9 +61,17 @@
                <item n="People">
                   <desc><ref target="#">People</ref></desc>
                   <note>Facets are the fastest way to conduct your searches, simply ticking a box for e.g. the Place, Country or Period that interest you. Current search results will be constrained to show only entries that match exactly all your specified criteria.</note>
-                  <ptr type="image" target="resources/images/typewriter2.jpg"/>
+                  <ptr type="image" target="resources/images/socrates.jpg"/>
                   <list type="links">
                      <item><ref target="#">Explore</ref></item>
+                  </list>
+               </item>
+               <item n="How to">
+                  <desc><ref target="#">Instructions</ref></desc>
+                  <note>Facets are the fastest way to conduct your searches, simply ticking a box for e.g. the Place, Country or Period that interest you. Current search results will be constrained to show only entries that match exactly all your specified criteria.</note>
+                  <ptr type="image" target="resources/images/open-book.jpg"/>
+                  <list type="links">
+                     <item><ref target="howto">Explore</ref></item>
                   </list>
                </item>
             </list>
@@ -130,8 +138,8 @@
          </div>
          <div type="team" xml:lang="en" n="Core Team">
             <head>Team</head>
-            <p>The Jinks edition project is brought to life by a dedicated team of historians,
-               digital archivists, and designers passionate about Renaissance history</p>
+            <p>The EDEp project is brought to life by a dedicated team of epigraphers, digital archivists, software designers and editors passionate about standards-based, sustainable and interoperable digital scholarly resources.</p>
+
 
             <listPerson>
                <person n="Uni Mainz">
@@ -151,44 +159,21 @@
                </person>
                <person n="JinnTec">
                   <persName>Wolfgang Meier</persName>
-                  <occupation>IT lead</occupation>
+                  <occupation>technical lead</occupation>
                   <ptr type="avatar" target="resources/images/team/wolfgang.jpg"/>
                </person>
                <person n="JinnTec">
                   <persName>Jörn Turner</persName>
-                  <occupation>software developer</occupation>
-                  <ptr type="avatar" target="resources/images/team/joern.jpg"/>
+                  <occupation>technical editor</occupation>
+                  <ptr type="avatar" target="resources/images/team/jt.jpeg"/>
                </person>
                <person n="JinnTec">
                   <persName>Magdalena Turska</persName>
-                  <occupation>software developer</occupation>
-                  <ptr type="avatar" target="resources/images/team/magdalena.jpeg"/>
+                  <occupation>technical editor</occupation>
+                  <ptr type="avatar" target="resources/images/team/magdalena.png"/>
                </person>
             </listPerson>
-            <listOrg>
-               <org n="e-editiones">
-                  <orgName>e-editiones</orgName>
-                  <roleName>Scholarly society</roleName>
-                  <ptr type="logo" target="resources/images/e-editiones-logo-color.svg"/>
-                  <ptr type="email" target="mailto:info@e-editiones.org"/>
-                  <note><ref target="https://www.e-editiones.org/">e-editiones</ref> is an
-                     international non profit society bringing together edition projects, cultural
-                     heritage institutions, scholars, and developers to empower digital projects by
-                     promoting open standards and community collaboration – with the ultimate goal
-                     of helping to sustain editions far into the future.</note>
-               </org>
-               <org n="jinntec">
-                  <orgName>Jinntec GmbH</orgName>
-                  <roleName>Software solutions</roleName>
-                  <ptr type="logo" target="resources/images/jinntec.svg"/>
-                  <ptr type="email" target="mailto:info@jinntec.de"/>
-                  <note>Software solutions with a touch of magic: we believe in the importance of
-                     cultural heritage - our tools help to preserve and disseminate it with
-                     sustainable technologies based on Open Source software and Open Standard. From
-                     assisted production workflows and data curation to publishing online or in
-                     print - <ref target="https://www.jinntec.de/">we have you covered</ref>.</note>
-               </org>
-            </listOrg>
+            
          </div>
          <div type="team" xml:lang="de" n="Core Team">
             <head>Team</head>
@@ -213,51 +198,26 @@
                </person>
                <person n="JinnTec">
                   <persName>Wolfgang Meier</persName>
-                  <occupation>IT lead</occupation>
+                  <occupation>technical lead</occupation>
                   <ptr type="avatar" target="resources/images/team/wolfgang.jpg"/>
                </person>
                <person n="JinnTec">
                   <persName>Jörn Turner</persName>
-                  <occupation>software developer</occupation>
-                  <ptr type="avatar" target="resources/images/team/joern.jpg"/>
+                  <occupation>technical editor</occupation>
+                  <ptr type="avatar" target="resources/images/team/jt.jpeg"/>
                </person>
                <person n="JinnTec">
                   <persName>Magdalena Turska</persName>
-                  <occupation>software developer</occupation>
-                  <ptr type="avatar" target="resources/images/team/magdalena.jpeg"/>
+                  <occupation>technical editor</occupation>
+                  <ptr type="avatar" target="resources/images/team/magdalena.png"/>
                </person>
             </listPerson>
 
-            <listOrg>
-               <org n="e-editiones">
-                  <orgName>e-editiones</orgName>
-                  <roleName>Wissenschaftliche Gesellschaft</roleName>
-                  <ptr type="logo" target="resources/images/e-editiones-logo-color.svg"/>
-                  <ptr type="email" target="mailto:info@e-editiones.org"/>
-                  <note><ref target="https://www.e-editiones.org/">e-editiones</ref> ist eine
-                     internationale, gemeinnützige Gesellschaft, die Editionsprojekte, kulturelle
-                     Institutionen, Wissenschaftler:innen und Entwickler:innen zusammenbringt, um
-                     digitale Projekte zu unterstützen – durch die Förderung offener Standards und
-                     gemeinschaftlicher Zusammenarbeit, mit dem Ziel, Editionen langfristig zu
-                     erhalten.</note>
-               </org>
-               <org n="jinntec">
-                  <orgName>Jinntec GmbH</orgName>
-                  <roleName>Softwarelösungen</roleName>
-                  <ptr type="logo" target="resources/images/jinntec.svg"/>
-                  <ptr type="email" target="mailto:info@jinntec.de"/>
-                  <note>Softwarelösungen mit einem Hauch Magie: Wir glauben an die Bedeutung des
-                     kulturellen Erbes – unsere Werkzeuge helfen, es mithilfe nachhaltiger
-                     Technologien auf Basis von Open Source Software und offenen Standards zu
-                     bewahren und zu verbreiten. Von unterstützten Produktions-Workflows und
-                     Datenkurationsdiensten bis hin zur Online- oder Print-Publikation – <ref target="https://www.jinntec.de/">wir bieten für alles eine
-                     Lösung</ref>.</note>
-               </org>
-            </listOrg>
+            
          </div>
          <div type="partners" xml:lang="en" n="Partners">
             <head>Project Team &amp; Partners</head>
-            <p>The Jinks edition project is brought to life by a dedicated team of historians, digital archivists, and designers passionate about Renaissance history.</p>
+            <p>The EDEp project is brought to life by a dedicated team of epigraphers, digital archivists, software designers and editors passionate about standards-based, sustainable and interoperable digital scholarly resources.</p>
             <list rend="partner-logos">
                <item>
                   <ref type="uri" target="https://jinntec.de">
@@ -266,7 +226,7 @@
                </item>
                <item>
                   <ref type="uri" target="https://e-editiones.org">
-                     <graphic url="resources/images/e-editiones-logo-color.svg"/>
+                     <graphic url="resources/images/epidoc.jpg"/>
                   </ref>
                </item>
                <item>
