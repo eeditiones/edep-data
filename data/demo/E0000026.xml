@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000026">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Silvano (EEE 10)</title>
+                <editor>Kajava</editor>
+                <respStmt>
+                    <resp>autopsy</resp>
+                    <persName>Marini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>drawing</resp>
+                    <persName>Kajava</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno type="TM">538429</idno>
+                        <idno type="EDEp">E0000026</idno>
+                    </msIdentifier>
+                    <msContents class="https://www.eagle-network.eu/voc/typeins/lod/80">
+                        <summary>Tituli sacri; titulus Silvano.</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType/>
+                                    <material/>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="paleography"/>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="101" notAfter-custom="300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Est
+                                saeculi II vel III p. Chr. n.</origDate>
+                            <origPlace corresp="G003606"/>
+                        </origin>
+                        <provenance type="found" notAfter="1815">
+                            <note type="context">MOMMSEN: "Monte Fortino rep. nel Colle
+                                dell'Imperatore [qui pars est <placeName key="G003593">collis della
+                                    Maiorana</placeName>]"</note>
+                        </provenance>
+                        <provenance type="history">
+                            <ref target="#bibl-2">MOMMSEN</ref>: “Est in domo domini oppidi VERN.
+                            Frustra quaesivit STEVENSON.” Iam pridem periisse videtur.</provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <listBibl type="bibliography">
+
+                        <bibl type="public" xml:id="bibl-4">
+                            <ptr target="QuiliciCivitadiArtena"/>
+                            <citedRange>180</citedRange>
+                        </bibl>
+                        <bibl type="public" xml:id="bibl-5">
+                            <ptr target="Cult"/>
+                            <citedRange>159</citedRange>
+                        </bibl>
+                        <bibl type="public" xml:id="bibl-6">
+                            <ptr target="BoosInexcelsissimoloco"/>
+                            <citedRange>27</citedRange>
+                        </bibl>
+                        <bibl type="public" xml:id="bibl-7">
+                            <ptr target="DeFrancesco"/>
+                            <citedRange>141</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl type="transmission">
+
+                        <bibl type="public" xml:id="bibl-1">
+                            <ptr target="Caputi"/>
+                            <note>Epistula <date>a. 1879</date> STEVENSONIO missa </note>
+                        </bibl>
+                    </listBibl>
+                    <listBibl type="previousEditions">
+
+                        <bibl type="public" xml:id="bibl-2">
+                            <ptr target="CIL10.1"/>
+                            <note>de manuscripto Marinii, qui obtulit e Vernazza, qui non
+                                vidit;</note>
+                            <citedRange>5962</citedRange>
+                        </bibl>
+                        <bibl type="public" xml:id="bibl-3">
+                            <ptr target="Caputi"/>
+                            <note>in epistula <date>a. 1879</date> Stevensonio missa</note>
+                        </bibl>
+                    </listBibl>
+
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term ref="#social-economic-legal-history"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident=""/>
+                <language ident="lat" ana="main"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2025-01-17T19:23:32.951+01:00" who="edep"/>
+            <change type="changed" when="2025-03-24T16:26:45.308+01:00" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="apparatus"/>
+            <div type="translation" resp="Eibeck">
+                <ab>Dedicato a <persName key="P00027">Silvano</persName>. <persName key="P000028">Marco Giulio Marziale</persName> (glielo) donò.</ab>
+            </div>
+            <div type="edition">
+                <ab>
+                    <lb n="1"/>
+                    <persName key="P000027">Silvano</persName>
+                    <lb n="2"/>
+                    <expan>sacr<ex>um</ex>
+                    </expan>
+                    <lb n="3"/>
+                    <persName key="P000028">
+                        <expan>M<ex>arcus</ex>
+                        </expan> Iulius <lb n="4"/>Martialis</persName>
+                    <lb n="5"/>
+                    <expan>d<ex>ono</ex>
+                    </expan>
+                    <expan>d<ex>edit</ex>
+                    </expan>
+                </ab>
+            </div>
+            <div type="commentary">
+                <ab>Cf. <ref type="biblio" target="#bibl-4">QUILICI, Civita di Artena <seg type="citedRange" subtype="page">180</seg>
+                    </ref>; <ref type="biblio" target="#bibl-5">DORCEY <seg type="citedRange" subtype="page">159</seg>
+                    </ref>; <ref type="biblio" target="#bibl-6">BOOS, In excelsissimo loco <seg type="citedRange" subtype="page">27</seg>
+                    </ref>; <ref type="biblio" target="#bibl-8">DE FRANCESCO <seg type="citedRange" subtype="page">141</seg>
+                    </ref>. 3-4 <persName key="P000028">Martialis</persName>, quippe cum <persName key="P000027">Silvano</persName> deo donum daret, fuit fortasse aut colonus
+                    aut lignarius aut artifex alicuius generis (cf. <ref type="biblio" target="#bibl-5">DORCEY, l. l. <seg type="citedRange" subtype="page">119-120</seg>
+                    </ref>).</ab>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Type of text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                 <ab>
+                     <lb n="1"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Barbio <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> <hi rend="supraline"><num value="11">XI</num></hi> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan>
+<lb n="3"/>et Qu<hi rend="ligature">in</hi>tiae matri
+<lb n="4"/>Barbia Paulla <choice><orig><unclear>p</unclear>osit</orig><reg>posuit</reg></choice>
+<lb n="5"/>et Silvinae car<supplied reason="lost">i</supplied>ssima<add place="margin">e</add>.
+<lb n="6"/>Quod ego spera<choice><sic>r</sic><corr>b</corr></choice>a<choice><sic>n</sic><corr>m</corr></choice>
+<lb n="7"/><expan><abbr>Paula</abbr><ex>m</ex></expan> <expan><abbr>mi</abbr><ex>hi</ex></expan> Silvinam fac
+<lb n="8" break="no"/><expan><abbr>ctura</abbr><ex>m</ex></expan> ego feci Silvinae
+<lb n="9"/>delicatae <expan><abbr>ann</abbr><ex>orum</ex></expan> <num value="18">XVIII</num>
+<lb n="10"/>qu<add place="above">a</add>e est sepulta hic. Te
+<lb n="11"/>rogo qui legis <supplied reason="omitted">h</supplied>unc
+<lb n="12"/>titulum ut dicas: <q>Silvi
+<lb n="13" break="no"/>na, <w lemma="puella">puella</w> <w lemma="sum">sit</w> <w lemma="tu">tibi</w> <w lemma="terra">terra</w>
+<lb n="14"/>levis.</q>
+                 </ab>
+            </div>
+            <div type="apparatus">
+          
+                        <app><note>
+                            Die Edition beruht auf der Autopsie vom September 2023 im Archäologischen Museum Split. Die CIL-Edition umfasst nur Teile der Zeilen 5–14, die im Fragment 3882A überliefert sind. Lommatzsch gibt im CLE dieselbe Edition wie das CIL wieder. Im ILJug werden die Fragmente 5205A und 3882A+2823A getrennt</note></app>
+                <app loc="1">Silvina</app>
+                  
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                   <listBibl>
+                       <bibl><ptr target="#CIL"/><citedRange>03, 14855</citedRange></bibl>
+                       <bibl><ptr target="#CLE"/><citedRange>02218</citedRange></bibl>
+                       <bibl><ptr target="#ILJug"/><citedRange>2095</citedRange></bibl>
+                       <bibl><ref corresp="https://db.mappola.eu/r/Inscriptions/show/746">MPL00746</ref></bibl>
+                   </listBibl> 
+                
+            </div>
+        </body>
+    </text>
+</TEI>

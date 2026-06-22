@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000004"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titulus sacer Iano Patri</title>
+                <editor role="original">Kajava</editor>
+                
+                <respStmt>
+                    <resp when="1983"/>
+                    <persName>Kajava - Solin</persName>
+                </respStmt>
+            <editor role="digital">Eibeck</editor></titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="GND 1028776896">Museo Civico Archeologico Roger Lambrechts, Artena.</repository>                        
+                        <idno type="inventory">34</idno>
+                        <idno type="EDEp">E0000004</idno>
+                        
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><note>Saxum ex lapide calcario, in fronte levigatum, tam infra quam in marginimus sinistro et dextro imminutum, superne paullulum sic rotundatum, ut summum planum sit rectum.</note><dimensions><height>51</height></dimensions><dimensions><width>34</width></dimensions><dimensions><depth>25</depth></dimensions>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/67"/>
+                                    
+                                    
+                                </support>
+                                <condition>fragmentary</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><note type="metre">yes</note><note type="paleography">Litterae sunt librariae tenues et elegantes, puncta non cernuntur.</note>
+                                    
+                                    
+                                    
+                                    
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote scope="letterHeight"><locus>1-6</locus><dimensions><height min="1,2" max="1,5"/></dimensions></handNote>
+                            
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/2000">In planis adclivi ac declivi duo foramina reliquias uncorum ferreorum ad saxum adfingendum adhuc retinent</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history><origin><origPlace corresp="G003587"/></origin>
+                        <origin>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"><ref type="biblio" target="#Lebek_2004">LEBEK</ref> opinatus est carmen Kalendis Ianuariis a. 181 attribui posse (cf. v. 3 ex.).</origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance type="found" notAfter="1982"><note type="context">Rep. Artena in aratione inter rudera villae Romanae in loco dicto Colle dell'Imperatore (qui pars est collis Maiorana).</note>
+                            
+                            
+                        </provenance>
+                        <provenance type="history">Postea devectum in conventum olim Franciscanorum [ibi 1983].</provenance>
+                    </history>
+                </msDesc>
+                <listBibl><listBibl type="images"><bibl/></listBibl><listBibl type="bibliography"><bibl corresp="Quilici_1991" type="public"/><bibl type="public" corresp="Cugusi_2004">
+        
+        
+    </bibl><bibl type="public" corresp="Cugusi_2007">
+        
+        
+    </bibl><bibl type="public" corresp="DeFrancesco_2014">
+        
+        
+    </bibl><bibl type="public" corresp="Mattiacci_2017">
+        
+        
+    </bibl><bibl type="internal" corresp="Gnecchi_1912">
+        
+        
+    </bibl><bibl type="internal" corresp="Mattingly_1940">
+        
+        
+    </bibl><bibl type="internal" corresp="SEG_28">
+        
+        
+    </bibl><bibl type="internal" corresp="SEG_27">
+        
+        
+    </bibl><bibl type="internal" corresp="Kajava_1997">
+        
+        
+    </bibl><bibl type="internal" corresp="Kajava_2009">
+        
+        
+    </bibl><bibl type="internal" corresp="SEG_59">
+        
+        
+    </bibl><bibl type="internal" corresp="AE_1997">
+        
+        
+    </bibl><bibl type="internal" corresp="SEG_42">
+        
+        
+    </bibl><bibl type="public" corresp="Giovagnoli_EDR155370">
+        
+        
+    </bibl></listBibl><listBibl type="previousEditions"><bibl corresp="Quilici_1982"><citedRange>173-180</citedRange><note>cum im. phot. tab. CVI, 3</note></bibl><bibl type="public" corresp="Kajava_1996">
+        <note>cum im. phot. p. 77-78 fig. 1a-b (AE 1996, 370)</note>
+        <citedRange>76-94</citedRange>
+    </bibl><bibl type="public" corresp="Lebek_2004">
+        <note>cum im. phot. p. 69 (AE 2004, 385). </note>
+        
+    </bibl></listBibl><listBibl type="transmission"><bibl/></listBibl>
+                    
+                    
+                    
+                    
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass><keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type"><term ref="https://www.eagle-network.eu/voc/typeins/lod/80"/><term ref="https://www.eagle-network.eu/voc/typeins/lod/85"/></keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term ref="pagan"/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="edep"/>
+                <language ident="lat" ana="main"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="internal"><change type="created" when="2026-05-29T16:28:43.386+02:00" who="edep"/><change type="changed" when="2026-06-01T17:07:57.028+02:00" who="edep"/></revisionDesc>
+    </teiHeader><text>
+        <body><div type="edition"><ab>
+<lb n="1"/><l met="+-+-+-" real="++--+-"><supplied reason="lost">I</supplied><unclear>a</unclear>ne Pater, quì templa deum caelestia cl<supplied reason="lost">aue</supplied></l>
+<lb n="2"/><supplied reason="lost">cl</supplied><unclear>a</unclear>̣usa tua reseras et reserata ser<supplied reason="lost">as</supplied>,
+<lb n="3"/><supplied reason="lost">accipe</supplied> vota novis haec, quae tibi mando, <unclear>k</unclear><supplied reason="lost"><expan>al<ex>endis</ex></expan></supplied>
+<lb n="4"/><supplied reason="lost">et fa</supplied>ciles aditus da Iovis ad s<supplied reason="lost">olium</supplied>:
+<lb n="5"/><supplied reason="lost">qui re</supplied>m Romanam <expan>Latiumq<ex>ue</ex></expan> a<unclear>u</unclear><supplied reason="lost">gescere <expan>f<ex>ecit</ex></expan></supplied>,
+<lb n="6"/><supplied reason="lost">is</supplied> pacem stabilìtam et viridẹ<supplied reason="lost">m faciat</supplied>.
+</ab></div><div type="apparatus"><listApp>Supplevit LEBEK. <app loc="1"><note>1 <rdg source="#Quilici">ex. cl[audis] QUILICI, KAJAVA</rdg></note></app>; <app loc="3"><note>3 ex. l[ibis] QUILICI, ḷ[ibellis] KAJAVA</note></app>; <app loc="4"><note>4 ex. s[---] QUILICI, s[peciem] KAJAVA</note></app>; <app loc="5"><note>5 in. [gente]m QUILICI; 5 ex. av[---] QUILICI, aụ[gescere curet] KAJAVA</note></app>; <app loc="6"><note>6 in. [ad] QUILICI, [et] KAJAVA; ex. viride[m ---] QUILICI, viridẹ[m revocet] KAJAVA</note></app>.</listApp></div><div type="translation" resp="Lebek">Vater Ianus, der du den verschlossenen Himmelstempel der Götter mit deinem Schlüssel
+entriegelst und den entriegelten verriegelst,
+empfange am beginnenden Monatsersten dieses mein folgendes Gebet, das ich dir (zur Weiterleitung) anvertraue,
+und verschaffe (ihm) leichten Zugang zum Thron Iuppiters:
+„Er, der machte, daß die Macht Roms und Latium erstarkten,
+möge den Frieden zu einem gefestigten und lebenskräftigen machen!“ </div><div type="commentary">Cf. <ref type="biblio" target="#Quilici_1991">QUILICI, Via Latina <seg type="citedRange">215 adn. 26</seg></ref>; <ref type="biblio" target="#Cugusi_2004">CUGUSI, CLE e novellismo <seg type="citedRange">138-139</seg></ref>; <ref type="biblio" target="#Cugusi_2007">CUGUSI, Per un nuovo corpus <seg type="citedRange">152</seg>, <seg type="citedRange">169</seg> et <seg type="citedRange">175</seg></ref>; <ref type="biblio">DE FRANCESCO <seg type="citedRange">141</seg></ref>; <ref type="biblio">MATTIACCI <seg type="citedRange">223-224</seg></ref>.
+De supplementis lexicalibusque vide praesertim <ref type="biblio" target="#Lebek_2004">LEBEK l. l.</ref> et <ref type="biblio" target="#Kajava_2009">KAJAVA l. l.</ref>, qui amplissime pertractaverunt. 
+	Dici potest auctorem, qui aetate Antoninorum aut fortasse paulo post scripsit, ad carmen hoc componendum lingua stiloque tam vetustiore quam recentiore usum esse: versibus Ennii (cf. ann. 466: qui rem Romanam Latiumque augescere vultis), fortasse etiam Lucretii, formis figurisque dicendi poesis q. d. neotericae propriis (cf. Sept. Ser. carm. frg. 23, quod est invocatio Iani patris aequalis multisque modis nostro similis). 
+	Quam ob rem auctor huius carminis distichis tribus elegiacis compositi preces et vota Iano patri obtulerit, etsi in dubio manet, tamen titulus ad pericula quaedam Romae Latioque minantia referre videtur. Ianus pater, quem sacerdotes in caerimoniis sacrisque publicis saepius primum precari solebant, cum omnium esset principiorum ac finium auctor, in hoc quoque eventu invocabatur, quippe qui ianuis Gemini claudendis facultatem haberet belli componendi. Praeterea Ianus deus erat, per quem homines precantes aditum accessumque ad alios deos habere poterant. Eo enim interprete preces supplicum ad deos quoscumque transmittebantur. In nostro casu homo ille precans ab Iove voluit petere, ut periculis depulsis pacem stabilem inter cives componeret. Quod ex litteris carmen ad saec. II exiens aut III iniens adsignari potest, eventus qui civibus Romanis periculo fuerunt eodem fere tempore collocandi sunt. Preces huius carminis nisi imaginariae tantum iudicandae sunt, fortasse potissimum de aetate mortem imperatoris M. Aurelii (a. 180) sequente cogitare possis, cum barbaris devictis pax Romana iterum nata esset. Non sine momento esse videtur, quod Commodo imperante in nummis quibusdam renovatio temporum imagine Iani illustrata est (cf. etiam legendam TELLVS STABIL(ita) bullae cuiusdam imaginem bifrontem Commodi rappraesentantis: <ref type="biblio" target="#Gnecchi_1912">GNECCHI 66 n. 131</ref>). Iuppiter quoque, praesertim cum epitheto Latiaris colebatur, patronus Latii fuit, qui Latium salvum praestaret. At huc accedit, quod etiam Iuppiter reditum aetatis aureae comitabatur atque Latius appellatus est in nummis aetatis Antoninorum (cf. BMC Emp. 4, 262 n. 1632). LEBEK opinatus est carmen Kalendis Ianuariis a. 181 attribui posse (cf. v. 3 ex.).
+ 	Tamen haudquaquam excludi potest, quin carmen nostrum temporis aliquantum posterioris sit. Meminisse denique oportet alia quoque carmina aequalia eodem loco reperta esse, scil. tria Graece scripta (SEG XXVIII 793 = XXXII 1020 [cf. KAJAVA, New Poems 90-91]; KAJAVA, Greek Hymn [= SEG LIX 1172]; ID., Heracles 55-86 [= AE 1997, 278 = SEG XLVII 1517]) atque Latinum n. 74 infra.</div></body>
+    </text></TEI>

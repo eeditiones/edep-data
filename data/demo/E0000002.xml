@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E0000002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift für Serapis aus Panóias (Conventus Bracaraugustanus, HiC)</title>
+                <editor>Feraudi</editor>
+                <editor role="digital">David Eibeck</editor>
+                <respStmt>
+                    <resp when="1996">autopsy</resp>
+                    <persName/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the
+                        Creative Commons Attribution-ShareAlike 4.0 license. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>in situ</repository>
+                        <idno type="TM">227747</idno>
+                        <idno type="EDEp">E0000002</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210"/>
+                                    <material ref="https://www.eagle-network.eu/voc/material/lod/11"/>
+                                    <note>Felsblock mit ursprünglich insgesamt fünf Inschriften</note>
+                                    <dimensions>
+                                        <width>50</width>
+                                        <height>33</height>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition>complete</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <note type="paleography" corresp="#quadrata #letters-erodet"/>
+                                    <note type="metre">no</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="ligature">no</handNote>
+                            <handNote scope="letterHeight">
+                                <dimensions>
+                                    <locus/>
+                                    <height min="1" max="4.5">4,5-1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote corresp="https://www.eagle-network.eu/voc/decor/lod/1000"/>
+                        </decoDesc>
+                    </physDesc>
+                    <msContents/>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2./3. Jh.</origDate>
+                            <origPlace corresp="G003589"/>
+                        </origin>
+                        <provenance type="found" when="1721"/>
+                        <provenance type="history"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/80"/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/inscription-type">
+                    <term ref="#texttype1">Dedication</term>
+                    <term ref="#texttype2">Decree</term>
+                   </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/religion">
+                    <term ref="#pagan"/>
+                </keywords>
+                <keywords scheme="https://edh.ub.uni-heidelberg.de/edep/terms">
+                    <term/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident=""/>
+                <language ana="main" ident="lat"/>
+                <language ident="frc"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change type="created" when="2023-04-14T10:31:23.629Z" who="edep"/>
+            <change type="changed" when="2023-10-19T08:38:27.398Z" who="edep"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="1416487%3A764775"/>
+        <graphic url="1424639%3A772930"/>
+        <graphic url="1424640%3A772931"/>
+        <graphic url="1424644%3A772935"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="apparatus"><listApp><app><note>Z. 2/3, CIL II 2395c: σὺν μοίρᾳ καὶ μυστηρίοις.</note></app></listApp></div>
+            <div type="translation" resp="Feraudi"><ab>Dem höchsten Serapis (weiht diese Kultstätte) zusammen mit den gastra und Mysterien der Senator <persName key="P000004">Gaius C. Calpurnius</persName></ab>
+            </div>
+            <div type="edition">
+                <ab>
+<lb n="1"/> <foreign xml:lang="grc">Ὑψίστῳ Σερά
+<lb n="2" break="no"/>πιδι σὺν γάστ
+<lb n="3" break="no"/>ρᾳ καὶ μυστα
+<lb n="4" break="no"/>ρίοις</foreign>                    
+<lb n="5"/> <persName key="P00004"><expan>G<ex>aius</ex></expan> <abbr>C</abbr> <expan>Calp<ex>urnius</ex></expan> 
+<lb n="6"/>Rufinus</persName> <expan>v<ex>ir</ex></expan> <expan>c<ex>larissimus</ex></expan>
+</ab>   
+            </div>
+            <div type="commentary"/>
+        </body>
+    </text>
+</TEI>

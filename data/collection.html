@@ -1,0 +1,28 @@
+<div class="collection">
+    [# Disable pagination #]
+    [[ response:set-header("pb-total", "0") ]]
+    <ul class="documents thumbnails">
+        <li class="document card">
+            <a href="#" data-collection="demo">
+                <img class="thumbnail"
+                    src="[[$context-path]]/resources/images/inscription.png"/>
+            </a>
+            <div class="document-info">
+                <h3><a href="#" data-collection="demo">
+                    Demo
+                </a></h3>
+            </div>
+        </li>
+        <li class="document card">
+            <a href="#" data-collection="workspace">
+                <img class="thumbnail"
+                    src="[[$context-path]]/resources/images/inscription.png"/>
+            </a>
+            <div class="document-info">
+                <h3><a href="#" data-collection="workspace">
+                    Workspace
+                </a></h3>
+            </div>
+        </li>
+    </ul>
+</div>
